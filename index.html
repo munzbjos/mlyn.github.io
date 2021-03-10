@@ -48,9 +48,89 @@
 
 
 
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			var container, stats, clock, controls;
+			var camera, scene, renderer;
+			init();
+			animate();
+
+			function init() {
+				container = document.getElementById( 'container' );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -25, 20, 50 );
+				scene = new THREE.Scene();
+				scene.add(camera);
+        
+        clock = new THREE.Clock();
+        
+// collada
+
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 'ropice.dae', function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+
+//
+//				var gridHelper = new THREE.GridHelper( 10, 20 );
+//				scene.add( gridHelper );
+
+//
+
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				scene.add( ambientLight );
+
+				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+				directionalLight.position.set( 1, 1, 1 ).normalize();
+				camera.add( directionalLight );
+//        camera.add( directionalLight.target );
+
+//
+
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+renderer.setClearColor( 0xffffff );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+//
+
+				controls = new THREE.OrbitControls( camera, renderer.domElement );
+				controls.target.set( 0, 0, 0 );
+				controls.update();
+
+//
+
+//				stats = new Stats();
+//				container.appendChild( stats.dom );
+
+//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+//				stats.update();
+			}
+
+			function render() {
+				var delta = clock.getDelta();
+				renderer.render( scene, camera );
+			}
 
 		</script>
-</script><div><canvas width="1840" height="1056" style="width: 1840px; height: 1056px;"></canvas></div><div id="buttonbox" style="position: absolute; top: 300px; left: 80%; border: 5pt inset black; padding: 2pt 10pt; width: 10em; display: block;"><div id="choose" style="text-align: center; border: 3pt solid gold; margin-top: 2pt; margin-bottom: 2pt; background-color: grey; font-size: 1em; color: white;">Zobrazit/Skrýt</div><button id="ShowHidemyMeshesOne" style="background-color: green; display: block; width: 100%; font-size: 1.1em;">Střecha</button><button id="ShowHidemyMeshesTwo" style="background-color: green; display: block; width: 100%; font-size: 1.1em;">Příčky nahoře</button><button id="ShowHidemyMeshesThree" style="background-color: green; display: block; width: 100%; font-size: 1.1em;">Obvodové stěny</button><button id="ShowHidemyMeshesThree" style="background-color: green; display: block; width: 100%; font-size: 1.1em;">Příčky dole</button></div>
+
 	</body>
 
 </html>
