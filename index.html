@@ -24,20 +24,6 @@
 				overflow:hidden;
 			}
 
-			#info {
-				position: absolute;
-				top: 0px;
-				width: 100%;
-				color: #ffffff;
-				padding: 5px;
-				font-family:Monospace;
-				font-size:13px;
-				text-align:center;
-			}
-
-			a {
-				color: #ffffff;
-			}
 
 		</style>
 	</head>
@@ -49,66 +35,55 @@
 		<script>
 
 
-
-			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
-			var container, stats, clock, controls;
+var container, stats, clock, controls;
 			var camera, scene, renderer;
 			init();
 			animate();
 
 			function init() {
 				container = document.getElementById( 'container' );
-				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
-				camera.position.set( -25, 20, 50 );
-				scene = new THREE.Scene();
+        
+        //scene
+      	scene = new THREE.Scene();  
+        
+        //camera
+				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -100, -2, -0.5 );
 				scene.add(camera);
-        
-        clock = new THREE.Clock();
-        
-// collada
 
+        //lights   
+     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				scene.add( ambientLight );
+
+				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+				directionalLight.position.set( 1, 1, 1 ).normalize();
+				camera.add( directionalLight ); 
+        
+        
+        //collada loader
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
-				loader.load( "./mlyn.github.io/ropice.dae", function ( collada ) {
+				loader.load( 
+        "./ropice.dae", function ( collada ) 
+        {
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
 				} );
 
-//
-//				var gridHelper = new THREE.GridHelper( 10, 20 );
-//				scene.add( gridHelper );
 
-//
-
-				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
-				scene.add( ambientLight );
-
-				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
-				directionalLight.position.set( 1, 1, 1 ).normalize();
-				camera.add( directionalLight );
-//        camera.add( directionalLight.target );
-
-//
-
+        //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-renderer.setClearColor( 0xffffff );
+        renderer.setClearColor( 0xffffff  );
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
 				container.appendChild( renderer.domElement );
 
-//
-
+        //seting controls orbit
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				controls.update();
 
-//
-
-//				stats = new Stats();
-//				container.appendChild( stats.dom );
-
-//
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
@@ -117,17 +92,15 @@ renderer.setClearColor( 0xffffff );
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
-				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
 			}
 
 			function animate() {
 				requestAnimationFrame( animate );
 				render();
-//				stats.update();
 			}
 
 			function render() {
-				var delta = clock.getDelta();
 				renderer.render( scene, camera );
 			}
 
