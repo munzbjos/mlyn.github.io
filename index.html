@@ -2,11 +2,11 @@
 
 <html lang="en">
         	
-    <script src="js/three.js"></script>
-		<script src="js/ColladaLoader2.js"></script>
-		<script src="js/OrbitControls.js"></script>
-		<script src="js/Detector.js"></script>
-//		<script src="js/stats.min.js"></script>
+    <script src="./mlyn.github.io/js/three.js"></script>
+		<script src="./mlyn.github.io/js/ColladaLoader2.js"></script>
+		<script src="./mlyn.github.io/js/OrbitControls.js"></script>
+		<script src="./mlyn.github.io/js/Detector.js"></script>
+//		<script src="./mlyn.github.io/js/stats.min.js"></script>
 	<head>
 
 		<title>Ropice 3D model</title>
@@ -45,9 +45,6 @@
 		<div id="info">Ropice</div>
 
 		<script>
-
-
-
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 			var container, stats, clock, controls;
 			var camera, scene, renderer;
@@ -67,7 +64,7 @@
 
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
-				loader.load( 'ropice.dae', function ( collada ) {
+				loader.load( "./mlyn.github.io/mlyn.dae", function ( collada ) {
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
@@ -129,7 +126,8 @@ renderer.setClearColor( 0xffffff );
 				renderer.render( scene, camera );
 			}
 
-		</script>
+
+	</script>
 
 	</body>
 
