@@ -1,0 +1,391 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Petra Hejduková" />
+    <meta name="keywords" content="DP, web, Sedlec" />
+    <meta name="description" content="Webova stránka k diplové práci" />
+    <title>Vizualizace objektu Sedlec</title>
+    <script type="application/x-javascript">
+      addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false);
+      function hideURLbar() {window.scrollTo(0,1);}
+    </script>
+        
+        <script src="https://cdn.babylonjs.com/babylon.js"></script>
+        <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+        <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("./images/background.jpg")
+      }    
+     
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* .navbar div.logo {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        left: calc(100% - 50px);
+      }
+
+      .navbar div.logo img {
+        height: 100%;
+        top: 0;
+      } */
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .navbar a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: rgb(60, 190, 49);
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+
+      .footer img {
+        position: absolute;
+        height: 45px;
+        margin: 2.5px;
+        left: 0;
+      }
+
+      header {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+      }
+      
+      
+         #renderCanvas {
+                width: 100%;
+                height: 80%;
+                margin-bottom: 60px;
+                touch-action: manipulation;
+            }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="intro"><span>Vizualizace usedlosti Sedlec-Křešice</span></h1>
+    </header>
+    <div class="navbar">
+      <a href="./main.html">Hlavní stránka</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Historie
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./historie_sedlec.html"
+            >Historie obce Sedlec
+          </a>
+          <a href="./historie_usedlosti.html"
+            >Historie usedlosti</a
+          >
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Vizualizace DP
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./babylon.html">Babylon.js</a>
+          <a href="./three.html">Three.js - DAE</a>
+         <a href="./threeobj.html">Three.js - OBJ</a>
+        </div>
+      </div>
+      <a href="http://venkov.fsv.cvut.cz/projekt/index.html"
+        >Informace o projektu
+      </a>
+    </div>
+
+    <h3>Vizualizace modelu ve formátu OBJ v rozhraní Babylon.js </h3>
+    <canvas id="renderCanvas"></canvas>
+    <script>
+   
+        var canvas = document.getElementById("renderCanvas"); 
+        
+        
+       // scene 
+        var createScene = function () {
+        engine.enableOfflineSupport = false;
+        var scene = new BABYLON.Scene(engine);
+        scene.clearColor = new BABYLON.Color3(1, 1, 1); 
+    
+      
+            // camera
+            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(0, 0, 0.5), scene);
+            camera.attachControl(canvas, false);
+            camera.lowerRadiusLimit = 15;
+            camera.upperRadiusLimit = 100;
+            camera.wheelDeltaPercentage = 0.01; 
+            camera.setTarget(BABYLON.Vector3.Zero());    
+
+            
+            // light  
+            		var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
+                light.intensity = 1.35;
+            	  light.specular = new BABYLON.Color3(.0, .0, .0);    
+                       
+               	var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
+                light2.intensity = 0.9;
+            	  light2.specular = new BABYLON.Color3(0,0,0); 
+
+          
+        //  import all meshes
+          BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
+          BABYLON.SceneLoader.ImportMesh(
+          "",
+          "./obj/",
+          "krovy.obj",
+          scene,
+          function(myMeshesOne) {  
+            
+            BABYLON.SceneLoader.ImportMesh(
+              "",
+              "./obj/",
+              "komin.obj",
+              scene,
+              function(myMeshesTwo) {
+                    
+                BABYLON.SceneLoader.ImportMesh(
+                  "",
+                  "./obj/",
+                  "balkon.obj",
+                  scene,
+                  function(myMeshesThree) { 
+                    BABYLON.SceneLoader.ImportMesh(
+                      "",
+                      "./obj/",
+                      "dvere_okna.obj",
+                      scene,
+                      function(myMeshesFour) {
+                      
+                               console.log(myMeshesFour)
+                      
+                        // add buttons
+                        var buttonbox = document.createElement("div")
+                        buttonbox.id = "buttonbox"
+                        buttonbox.style.position = "absolute"
+                        buttonbox.style.top = "300px"
+                        buttonbox.style.left = "83%"
+                        buttonbox.style.border = "5pt inset black"
+                        buttonbox.style.padding = "2pt"
+                        buttonbox.style.paddingRight = "10pt"
+                        buttonbox.style.paddingLeft = "10pt"
+                        buttonbox.style.width = "10em"
+                        buttonbox.style.display = "block"
+                        document.body.appendChild(buttonbox)
+
+                        var tTag = document.createElement("div")
+                        tTag.id = "choose"
+                        tTag.textContent = "Zobrazit/Skrýt"
+                        tTag.style.textAlign = "center"
+                        tTag.style.border = "3pt solid gold"
+                        tTag.style.marginTop = "2pt"
+                        tTag.style.marginBottom = "2pt"
+                        tTag.style.backgroundColor = "grey"
+                        tTag.style.fontSize = "1.0em"
+                        tTag.style.color = "white"
+                        buttonbox.appendChild(tTag)
+
+                        var BT1 = document.createElement("button")
+                        BT1.id = "ShowHidemyMeshesOne"
+                        BT1.textContent = "Střecha"
+                        BT1.style.backgroundColor = "green"
+                        BT1.style.display = "block"
+                        BT1.style.width = "100%"
+                        BT1.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT1)
+                        BT1.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesOne) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT1.style.backgroundColor = enable ? "red" : "green"
+                        }
+
+                        var BT2 = document.createElement("button")
+                        BT2.id = "ShowHidemyMeshesTwo"
+                        BT2.textContent = "Příčky nahoře"
+                        BT2.style.backgroundColor = "green"
+                        BT2.style.display = "block"
+                        BT2.style.width = "100%"
+                        BT2.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT2)
+                        BT2.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesTwo) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT2.style.backgroundColor = enable ? "red" : "green"
+                        }
+
+                        var BT3 = document.createElement("button")
+                        BT3.id = "ShowHidemyMeshesThree"
+                        BT3.textContent = "Obvodové stěny"
+                        BT3.style.backgroundColor = "green"
+                        BT3.style.display = "block"
+                        BT3.style.width = "100%"
+                        BT3.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT3)
+                        BT3.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesThree) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT3.style.backgroundColor = enable ? "red" : "green"
+                        }
+
+                        var BT4 = document.createElement("button")
+                        BT4.id = "ShowHidemyMeshesThree"
+                        BT4.textContent = "Příčky dole"
+                        BT4.style.backgroundColor = "green"
+                        BT4.style.display = "block"
+                        BT4.style.width = "100%"
+                        BT4.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT4)
+                        BT4.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesFour) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+                        
+                          BT4.style.backgroundColor = enable ? "red" : "green"
+                        }
+              
+                      }    
+                    ) // end of MeshFour onSuccess area
+                  }
+                ) // end of MeshThree onSuccess area
+              }
+            ) // end of MeshTwo onSuccess area
+          }
+        ) // end of MeshOne onSuccess area
+
+        // Move the light with the camera
+        scene.registerBeforeRender(function() {
+          light.position = camera.position
+        
+        })
+        
+    // VR camera in scene
+    var vrHelper = scene.createDefaultVRExperience({createDeviceOrientationCamera:false});
+    vrHelper.enableTeleportation();
+     
+
+        return scene
+      }
+
+      var engine = new BABYLON.Engine(canvas, true, {
+        preserveDrawingBuffer: true,
+        stencil: true
+      })
+      var scene = createScene()
+       
+      engine.runRenderLoop(function() {   
+        if (scene) {
+          scene.render()
+        }
+      })
+
+      // Resize
+      window.addEventListener("resize", function() {
+        engine.resize()
+      })
+    </script>
+
+
+
+
+
+    <div class="footer">
+      <img src="cvut_white.png" alt="logo_cvut" />
+      <p>Vyhotovila Bc. Petra Hejduková v rámci diplomové práce 2019</p>
+    </div>
+  </body>
+</html>
