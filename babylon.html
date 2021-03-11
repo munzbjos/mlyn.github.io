@@ -61,8 +61,14 @@
 						"krovy.obj",
 						scene,
 						function(myMeshesOne){
-						// do something with the scene
-						});
+							BABYLON.SceneLoader.ImportMesh(
+							"",
+							"./obj/",
+							"komin.obj",
+							scene,
+							function(myMeshesTwo){
+							});
+							});
 
                         return scene;
 
