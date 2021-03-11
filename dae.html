@@ -1,10 +1,11 @@
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Petra Hejduková">
-    <meta name="keywords" content="DP, web, Sedlec">
-    <meta name="description" content="Webova stránka k diplové práci">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Petra Hejduková" />
+    <meta name="keywords" content="DP, web, Sedlec" />
+    <meta name="description" content="Webova stránka k diplové práci" />
     <title>Vizualizace objektu Sedlec</title>
     <script type="application/x-javascript">
       addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false);
@@ -12,12 +13,18 @@
     </script>
     
     
-        <script src="https://github.com/evafrommeltova/mlyn.github.io/tree/master/js/three.js"></script><style></style>
-		<script src="https://github.com/evafrommeltova/mlyn.github.io/tree/master/ColladaLoader2.js"></script>
-		<script src="https://github.com/evafrommeltova/mlyn.github.io/tree/master/js/OrbitControls.js"></script>
+        <script src="./js/three.js"></script>
+		<script src="./js/ColladaLoader2.js"></script>
+		<script src="./js/OrbitControls.js"></script>
 
 
   
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +52,6 @@
         background-color: red;
         left: calc(100% - 50px);
       }
-
       .navbar div.logo img {
         height: 100%;
         top: 0;
@@ -132,21 +138,25 @@
           }
       
     </style>
+  </head>
   <body>
     <header>     
       <h1 class="intro"><span>Vizualizace usedlosti Sedlec-Křešice</span></h1>
     </header>
     <div class="navbar">
-      <a href="https://hejdy.github.io/main.html">Hlavní stránka</a>
+      <a href="./main.html">Hlavní stránka</a>
       <div class="dropdown">
         <button class="dropbtn">
           Historie
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="https://hejdy.github.io/historie_sedlec.html">Historie obce Sedlec
+          <a href="./historie_sedlec.html"
+            >Historie obce Sedlec
           </a>
-          <a href="https://hejdy.github.io/historie_usedlosti.html">Historie usedlosti</a>
+          <a href="./historie_usedlosti.html"
+            >Historie usedlosti</a
+          >
         </div>
       </div>
       <div class="dropdown">
@@ -155,22 +165,23 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="https://hejdy.github.io/babylon.html">Babylon.js</a>
-          <a href="https://hejdy.github.io/three.html">Three.js - DAE</a>
-         <a href="https://hejdy.github.io/threeobj.html">Three.js - OBJ</a>
+          <a href="./babylon.html">Babylon.js</a>
+          <a href="./three.html">Three.js - DAE</a>
+         <a href="./threeobj.html">Three.js - OBJ</a>
         </div>
       </div>
-      <a href="http://venkov.fsv.cvut.cz/projekt/index.html">Informace o projektu
+      <a href="http://venkov.fsv.cvut.cz/projekt/index.html"
+        >Informace o projektu
       </a>
     </div>
     
     <h3>Vizualizace modelu ve formátu DAE v rozhraní Three.js</h3>
 
    
-		<div id="container"><canvas width="1840" height="1056" style="width: 1840px; height: 1056px;"></canvas></div> 
+		<div id="container"></div> 
 
     <div class="footer">
-      <img src="./Vizualizace objektu Sedlec_dae_files/cvut_white.png" alt="logo_cvut">
+      <img src="cvut_white.png" alt="logo_cvut" />
       <p>Vyhotovila Bc. Petra Hejduková v rámci diplomové práce 2019</p>
     </div>
     		<script>
@@ -205,7 +216,7 @@
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( 
-        "https://github.com/evafrommeltova/mlyn.github.io/tree/master/dae/mlyn.dae", function ( collada ) 
+        "./dae/mlyn.dae", function ( collada ) 
         {
 					var animations = collada.animations;
 					var avatar = collada.scene;
@@ -246,6 +257,5 @@
 			}
 
 		</script>
-  
-
-</body></html>
+  </body>
+</html>
