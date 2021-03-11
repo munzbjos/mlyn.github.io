@@ -51,18 +51,9 @@
                         camera.attachControl(canvas, true);
 
                         // Add lights to the scene
-                        //var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
-                        //var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
+                        var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
+                        var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 
-						BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
-						BABYLON.SceneLoader.ImportMesh(
-						"",
-						"./obj/",
-						"krovy.obj",
-						scene,
-						function(myMeshesOne){
-						// do something with the scene
-						});
 
                         return scene;
 
