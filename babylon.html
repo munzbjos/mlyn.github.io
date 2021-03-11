@@ -67,6 +67,72 @@
 							"komin.obj",
 							scene,
 							function(myMeshesTwo){
+							
+							console.log(myMeshesTwo)
+							
+							 // add buttons
+                        var buttonbox = document.createElement("div")
+                        buttonbox.id = "buttonbox"
+                        buttonbox.style.position = "absolute"
+                        buttonbox.style.top = "300px"
+                        buttonbox.style.left = "83%"
+                        buttonbox.style.border = "5pt inset black"
+                        buttonbox.style.padding = "2pt"
+                        buttonbox.style.paddingRight = "10pt"
+                        buttonbox.style.paddingLeft = "10pt"
+                        buttonbox.style.width = "10em"
+                        buttonbox.style.display = "block"
+                        document.body.appendChild(buttonbox)
+
+                        var tTag = document.createElement("div")
+                        tTag.id = "choose"
+                        tTag.textContent = "Zobrazit/Skrýt"
+                        tTag.style.textAlign = "center"
+                        tTag.style.border = "3pt solid gold"
+                        tTag.style.marginTop = "2pt"
+                        tTag.style.marginBottom = "2pt"
+                        tTag.style.backgroundColor = "grey"
+                        tTag.style.fontSize = "1.0em"
+                        tTag.style.color = "white"
+                        buttonbox.appendChild(tTag)
+
+                        var BT1 = document.createElement("button")
+                        BT1.id = "ShowHidemyMeshesOne"
+                        BT1.textContent = "Střecha"
+                        BT1.style.backgroundColor = "green"
+                        BT1.style.display = "block"
+                        BT1.style.width = "100%"
+                        BT1.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT1)
+                        BT1.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesOne) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT1.style.backgroundColor = enable ? "red" : "green"
+                        }
+
+                        var BT2 = document.createElement("button")
+                        BT2.id = "ShowHidemyMeshesTwo"
+                        BT2.textContent = "Příčky nahoře"
+                        BT2.style.backgroundColor = "green"
+                        BT2.style.display = "block"
+                        BT2.style.width = "100%"
+                        BT2.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT2)
+                        BT2.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesTwo) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT2.style.backgroundColor = enable ? "red" : "green"
+                        }
 							});
 							});
 
