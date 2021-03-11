@@ -1,0 +1,20 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl sandybrown
+Ka 0.000000 0.000000 0.000000
+Kd 0.956863 0.643137 0.376471
+Ks 0.330000 0.330000 0.330000
+
+newmtl lightgreen
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.933333 0.564706
+Ks 0.330000 0.330000 0.330000
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd teren/Cladding_Stucco_White.jpg
+

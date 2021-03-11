@@ -1,0 +1,38 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Modern_Siding
+Ka 0.000000 0.000000 0.000000
+Kd 0.305882 0.231373 0.168627
+Ks 0.330000 0.330000 0.330000
+map_Kd balkon/Modern_Siding.jpg
+
+newmtl _Wood_Lumber_ButtJoined_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Color_B08_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.098039 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Wood_Fence_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.266667 0.113725
+Ks 0.330000 0.330000 0.330000
+map_Kd balkon/_Wood_Fence_2.jpg
+
+newmtl Wood_Lumber_ButtJoined
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd balkon/Wood_Lumber_ButtJoined.jpg
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd balkon/Cladding_Stucco_White.jpg
+

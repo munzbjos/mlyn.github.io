@@ -1,0 +1,169 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _Brown_
+Ka 0.000000 0.000000 0.000000
+Kd 0.466667 0.345098 0.211765
+Ks 0.330000 0.330000 0.330000
+
+newmtl Vegetation_Bark_Maple
+Ka 0.000000 0.000000 0.000000
+Kd 0.894118 0.780392 0.607843
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Vegetation_Bark_Maple.jpg
+
+newmtl _auto_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.200000 0.200000 0.200000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Formica_Laminate_Dark
+Ka 0.000000 0.000000 0.000000
+Kd 0.196078 0.207843 0.235294
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Formica_Laminate_Dark.jpg
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Cladding_Stucco_White.jpg
+
+newmtl Metal_Seamed
+Ka 0.000000 0.000000 0.000000
+Kd 0.462745 0.466667 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Metal_Seamed.jpg
+
+newmtl Wood_Square_Tile_02
+Ka 0.000000 0.000000 0.000000
+Kd 0.066667 0.360784 0.133333
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Wood_Square_Tile_02.jpg
+
+newmtl Color_M08
+Ka 0.000000 0.000000 0.000000
+Kd 0.117647 0.117647 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Wood_Lumber_ButtJoined
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Wood_Lumber_ButtJoined.jpg
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Metal_Aluminum_Anodized.jpg
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.686275 0.619608 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_2.jpg
+
+newmtl rock1
+Ka 0.000000 0.000000 0.000000
+Kd 0.803922 0.784314 0.694118
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/rock1.jpg
+
+newmtl M_0042_Sienna
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.321569 0.176471
+Ks 0.330000 0.330000 0.330000
+
+newmtl _4
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.466667 0.396078
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_4.jpg
+
+newmtl Crushed_Rock_Gravel
+Ka 0.000000 0.000000 0.000000
+Kd 0.431373 0.427451 0.415686
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Crushed_Rock_Gravel.jpg
+
+newmtl Location_Snapshot
+Ka 0.000000 0.000000 0.000000
+Kd 0.192157 0.290196 0.188235
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Location_Snapshot.jpg
+
+newmtl _Wood_Lumber_ButtJoined_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_Wood_Lumber_ButtJoined_3.jpg
+
+newmtl _20
+Ka 0.000000 0.000000 0.000000
+Kd 0.819608 0.678431 0.537255
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_20.jpg
+
+newmtl _Wood_Lumber_ButtJoined_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Wood_Fence_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.435294 0.266667 0.113725
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_Wood_Fence_2.jpg
+
+newmtl Granite_Dark_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.270588 0.266667 0.266667
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Granite_Dark_Gray.jpg
+
+newmtl _Black_
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Gray6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.376471 0.376471 0.376471
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Wood_Lumber_ButtJoined_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.141176 0.113725
+Ks 0.330000 0.330000 0.330000
+
+newmtl Modern_Siding
+Ka 0.000000 0.000000 0.000000
+Kd 0.305882 0.231373 0.168627
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Modern_Siding.jpg
+
+newmtl _
+Ka 0.000000 0.000000 0.000000
+Kd 0.686275 0.619608 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/_.jpg
+
+newmtl Stone_Coursed_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.490196 0.419608
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Stone_Coursed_Rough.jpg
+
+newmtl Granite_Light_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.584314 0.580392 0.564706
+Ks 0.330000 0.330000 0.330000
+map_Kd steny_vnitrni_prizemi/Granite_Light_Gray.jpg
+
+newmtl Color_001
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.886275 0.886275
+Ks 0.330000 0.330000 0.330000
+

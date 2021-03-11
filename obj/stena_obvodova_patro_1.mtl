@@ -1,0 +1,33 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd stena_obvodova_patro_1/Cladding_Stucco_White.jpg
+
+newmtl Wood_Lumber_ButtJoined
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd stena_obvodova_patro_1/Wood_Lumber_ButtJoined.jpg
+
+newmtl _Wood_Lumber_ButtJoined_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Wood_Lumber_ButtJoined_5
+Ka 0.000000 0.000000 0.000000
+Kd 0.643137 0.596078 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd stena_obvodova_patro_1/_Wood_Lumber_ButtJoined_5.jpg
+
+newmtl _Wood_Lumber_ButtJoined_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd stena_obvodova_patro_1/_Wood_Lumber_ButtJoined_3.jpg
+

@@ -1,0 +1,63 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _Wood_Lumber_ButtJoined_4
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.466667 0.396078
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_Wood_Lumber_ButtJoined_4.jpg
+
+newmtl _4
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.466667 0.396078
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_4.jpg
+
+newmtl _Wood_Lumber_ButtJoined_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Wood_Lumber_ButtJoined
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/Wood_Lumber_ButtJoined.jpg
+
+newmtl _5
+Ka 0.000000 0.000000 0.000000
+Kd 0.188235 0.043137 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_5.jpg
+
+newmtl _Wood_Lumber_ButtJoined_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_Wood_Lumber_ButtJoined_3.jpg
+
+newmtl _3
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_3.jpg
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/Cladding_Stucco_White.jpg
+
+newmtl _20
+Ka 0.000000 0.000000 0.000000
+Kd 0.819608 0.678431 0.537255
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_20.jpg
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.686275 0.619608 0.482353
+Ks 0.330000 0.330000 0.330000
+map_Kd krovy/_2.jpg
+
