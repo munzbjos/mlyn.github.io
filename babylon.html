@@ -181,208 +181,30 @@
     <h3>Vizualizace modelu ve formátu OBJ v rozhraní Babylon.js </h3>
     <canvas id="renderCanvas"></canvas>
     <script>
-   
-        var canvas = document.getElementById("renderCanvas"); 
-        
-        
-       // scene 
-        var createScene = function () {
-        engine.enableOfflineSupport = false;
-        var scene = new BABYLON.Scene(engine);
-        scene.clearColor = new BABYLON.Color3(1, 1, 1); 
-    
-      
-            // camera
-            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(0, 0, 0.5), scene);
-            camera.attachControl(canvas, false);
-            camera.lowerRadiusLimit = 15;
-            camera.upperRadiusLimit = 100;
-            camera.wheelDeltaPercentage = 0.01; 
-            camera.setTarget(BABYLON.Vector3.Zero());    
+    var createScene = function () {
+    var scene = new BABYLON.Scene(engine);
 
-            
-            // light  
-            		var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
-                light.intensity = 1.35;
-            	  light.specular = new BABYLON.Color3(.0, .0, .0);    
-                       
-               	var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
-                light2.intensity = 0.9;
-            	  light2.specular = new BABYLON.Color3(0,0,0); 
+    //Adding a light
+    var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(20, 20, 100), scene);
 
-          
-        //  import all meshes
-          BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
-          BABYLON.SceneLoader.ImportMesh(
-          "",
-          "./obj/",
-          "krytiny.obj",
-          scene,
-          function(myMeshesOne) {  
-            
-            BABYLON.SceneLoader.ImportMesh(
-              "",
-              "./obj/",
-              "krovy.obj",
-              scene,
-              function(myMeshesTwo) {
-                    
-                BABYLON.SceneLoader.ImportMesh(
-                  "",
-                  "./obj/",
-                  "kominobj",
-                  scene,
-                  function(myMeshesThree) { 
-                    BABYLON.SceneLoader.ImportMesh(
-                      "",
-                      "./obj/",
-                      "steny_vnitrni_prizemi.obj",
-                      scene,
-                      function(myMeshesFour) {
-                      
-                               console.log(myMeshesFour)
-                      
-                        // add buttons
-                        var buttonbox = document.createElement("div")
-                        buttonbox.id = "buttonbox"
-                        buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "300px"
-                        buttonbox.style.left = "83%"
-                        buttonbox.style.border = "5pt inset black"
-                        buttonbox.style.padding = "2pt"
-                        buttonbox.style.paddingRight = "10pt"
-                        buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "10em"
-                        buttonbox.style.display = "block"
-                        document.body.appendChild(buttonbox)
+    //Adding an Arc Rotate Camera
+    var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0.8, 100, BABYLON.Vector3.Zero(), scene);
+    camera.attachControl(canvas, false);
 
-                        var tTag = document.createElement("div")
-                        tTag.id = "choose"
-                        tTag.textContent = "Zobrazit/Skrýt"
-                        tTag.style.textAlign = "center"
-                        tTag.style.border = "3pt solid gold"
-                        tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
-                        tTag.style.backgroundColor = "grey"
-                        tTag.style.fontSize = "1.0em"
-                        tTag.style.color = "white"
-                        buttonbox.appendChild(tTag)
+    // The first parameter can be used to specify which mesh to import. Here we import all meshes
+	BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
+    BABYLON.SceneLoader.ImportMesh("", "obj/", "balkon.obj", scene, function (newMeshes) {
+        // Set the target of the camera to the first imported mesh
+        camera.target = newMeshes[0];
+    });
 
-                        var BT1 = document.createElement("button")
-                        BT1.id = "ShowHidemyMeshesOne"
-                        BT1.textContent = "Střecha"
-                        BT1.style.backgroundColor = "green"
-                        BT1.style.display = "block"
-                        BT1.style.width = "100%"
-                        BT1.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT1)
-                        BT1.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesOne) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
+    // Move the light with the camera
+    scene.registerBeforeRender(function () {
+        light.position = camera.position;
+    });
 
-                          BT1.style.backgroundColor = enable ? "red" : "green"
-                        }
-
-                        var BT2 = document.createElement("button")
-                        BT2.id = "ShowHidemyMeshesTwo"
-                        BT2.textContent = "Příčky nahoře"
-                        BT2.style.backgroundColor = "green"
-                        BT2.style.display = "block"
-                        BT2.style.width = "100%"
-                        BT2.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT2.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesTwo) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT2.style.backgroundColor = enable ? "red" : "green"
-                        }
-
-                        var BT3 = document.createElement("button")
-                        BT3.id = "ShowHidemyMeshesThree"
-                        BT3.textContent = "Obvodové stěny"
-                        BT3.style.backgroundColor = "green"
-                        BT3.style.display = "block"
-                        BT3.style.width = "100%"
-                        BT3.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT3)
-                        BT3.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesThree) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT3.style.backgroundColor = enable ? "red" : "green"
-                        }
-
-                        var BT4 = document.createElement("button")
-                        BT4.id = "ShowHidemyMeshesThree"
-                        BT4.textContent = "Příčky dole"
-                        BT4.style.backgroundColor = "green"
-                        BT4.style.display = "block"
-                        BT4.style.width = "100%"
-                        BT4.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT4)
-                        BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesFour) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-                        
-                          BT4.style.backgroundColor = enable ? "red" : "green"
-                        }
-              
-                      }    
-                    ) // end of MeshFour onSuccess area
-                  }
-                ) // end of MeshThree onSuccess area
-              }
-            ) // end of MeshTwo onSuccess area
-          }
-        ) // end of MeshOne onSuccess area
-
-        // Move the light with the camera
-        scene.registerBeforeRender(function() {
-          light.position = camera.position
-        
-        })
-        
-    // VR camera in scene
-    var vrHelper = scene.createDefaultVRExperience({createDeviceOrientationCamera:false});
-    vrHelper.enableTeleportation();
-     
-
-        return scene
-      }
-
-      var engine = new BABYLON.Engine(canvas, true, {
-        preserveDrawingBuffer: true,
-        stencil: true
-      })
-      var scene = createScene()
-       
-      engine.runRenderLoop(function() {   
-        if (scene) {
-          scene.render()
-        }
-      })
-
-      // Resize
-      window.addEventListener("resize", function() {
-        engine.resize()
-      })
+    return scene;
+	}
     </script>
 
     <div class="footer">
