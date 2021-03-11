@@ -3,10 +3,10 @@
 <html lang="en">
         	
     <script src="./mlyn.github.io/js/three.js"></script>
-		<script src="./mlyn.github.io/js/ColladaLoader2.js"></script>
-		<script src="./mlyn.github.io/js/OrbitControls.js"></script>
-		<script src="./mlyn.github.io/js/Detector.js"></script>
-//		<script src="./mlyn.github.io/js/stats.min.js"></script>
+		<script src="./js/ColladaLoader2.js"></script>
+		<script src="./js/OrbitControls.js"></script>
+		<script src="./js/Detector.js"></script>
+//		<script src="./js/stats.min.js"></script>
 	<head>
 
 <head>
@@ -33,8 +33,6 @@
 		<div id="info">Ropice</div>
 
 		<script>
-
-
 var container, stats, clock, controls;
 			var camera, scene, renderer;
 			init();
@@ -64,7 +62,7 @@ var container, stats, clock, controls;
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( 
-        "./mlyn.github.io/dae/mlyn.dae", function ( collada ) 
+        "./dae/mlyn.dae", function ( collada ) 
         {
 					var animations = collada.animations;
 					var avatar = collada.scene;
@@ -105,7 +103,6 @@ var container, stats, clock, controls;
 			}
 
 		</script>
+  
 
-	</body>
-
-</html>
+</body></html>
