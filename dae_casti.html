@@ -213,13 +213,20 @@
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
         
-        
+        var ob1,ob2;
+		
         //collada loader
 		var colladaLoader1 = new THREE.ColladaLoader();
 		colladaLoader1.options.convertUpAxis = true;
 		colladaLoader1.load('./dae/krytiny.dae', function(colladaObj) {
-		//ob1=colladaObj;
-		scene.add(colladaObj.scene);
+							if ( ob1 ) {
+
+							scene.remove( ob1 );
+
+						}
+
+						ob1= colladaObj;
+		scene.add(ob1.scene);
 		//asset.position.copy(previewRoomPos);
 		});
 		
@@ -227,8 +234,14 @@
 		var colladaLoader2 = new THREE.ColladaLoader();
 		colladaLoader2.options.convertUpAxis = true;
 		colladaLoader2.load('./dae/komin.dae', function(colladaObj) {
-		//ob2=colladaObj;
-		scene.add(colladaObj.scene);
+									if ( ob2 ) {
+
+							scene.remove( ob2 );
+
+						}
+
+						ob2= colladaObj;
+		scene.add(ob2.scene);
 		//asset.position.copy(previewRoomPos);
 		});
 		
@@ -267,8 +280,8 @@
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
-                          (colladaLoader1.visible)?colladaLoader1.visible=false:colladaLoader1.visible=true
-                                         enable=colladaLoader1.visible
+                          (ob1.visible)?ob1.visible=false:ob1.visible=true
+                                         enable=ob1.visible
                           BT1.style.backgroundColor = enable ? "green" : "red"
                         }
 
@@ -282,10 +295,11 @@
                         buttonbox.appendChild(BT2)
                         BT2.onclick = function() {
                           // Show/Hide myMeshThree
-                        (colladaLoader2.visible)?colladaLoader2.visible=false:colladaLoader2.visible=true
-                                         enable=colladaLoader2.visible
+                        (ob2.visible)?ob2.visible=false:ob2.visible=true
+                                         enable=ob2.visible
                           BT2.style.backgroundColor = enable ? "green" : "red"
                         }
+						
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setClearColor( 0xffffff  );
