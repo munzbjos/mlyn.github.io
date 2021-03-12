@@ -215,7 +215,7 @@
         
         //var ob1,ob2;
 		var obj1Hidden = true;
-		var obj2Hidden = true;
+		//var obj2Hidden = true;
 		
         //collada loader
 		var colladaLoader = new THREE.ColladaLoader();
@@ -251,28 +251,7 @@
 		 //   scene.add(ob2.scene);
 		//asset.position.copy(previewRoomPos);
 		//});
-		
-		ob1.visible = false;
-		//ob2.visible = false;
-	
-		document.getElementById("hideShow").addEventListener("click", function(){
-			if(objHidden) {
-				objHidden = false;
-				// code to show object
-
-				object.visible = true;
-			} else {
-				objHidden = true;
-				// code to hide object
-				
-				object.visible = false;
-			}
-		});
-	},		
-);
-		
-
-						
+								
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setClearColor( 0xffffff  );
