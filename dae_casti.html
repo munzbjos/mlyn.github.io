@@ -193,10 +193,10 @@
 			init();
 			animate();
 
-			function init() {
-				container = document.getElementById( 'container' );
-				document.body.appendChild( container );
-				
+function init() {
+	container = document.createElement( 'div' );
+	document.body.appendChild( container );}
+	
         //scene
       	scene = new THREE.Scene();  
         
@@ -213,19 +213,18 @@
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
         
-        //var ob1,ob2;
-		var obj1Hidden = true;
-		//var obj2Hidden = true;
+        var colladaLoader = new THREE.ColladaLoader();
+			colladaLoader.options.convertUpAxis = true;
+			// load a resource
+			colladaLoader.load(
+			// resource URL
+	  './dae/krytiny.dae',
+	// called when resource is loaded
+	function ( object ) {
+		scene.add(object);		
 		
-        //collada loader
-		var colladaLoader = new THREE.ColladaLoader();
-		colladaLoader.options.convertUpAxis = true;
-		colladaLoader.load('./dae/krytiny.dae', function(ob1) {
-			//ob1= colladaObj;
-			scene.add(ob1.scene);
-		//asset.position.copy(previewRoomPos);
-		ob1.visible = false;
-		
+		object.visible = false;
+
 		document.getElementById("hideShow").addEventListener("click", function(){
 			if(objHidden) {
 				objHidden = false;
@@ -241,6 +240,7 @@
 		});
 	},		
 );
+
 	
 		
 		        //collada loader
