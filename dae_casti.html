@@ -218,7 +218,7 @@
 		var colladaLoader = new THREE.ColladaLoader();
 		colladaLoader.options.convertUpAxis = true;
 		colladaLoader.load('./dae/krytiny.dae', function(colladaObj) {
-		ob1=colladaObj
+		ob1=colladaObj;
 		scene.add(colladaObj.scene);
 		//asset.position.copy(previewRoomPos);
 		});
@@ -227,7 +227,7 @@
 		var colladaLoader = new THREE.ColladaLoader();
 		colladaLoader.options.convertUpAxis = true;
 		colladaLoader.load('./dae/komin.dae', function(colladaObj) {
-		ob2=colladaObj
+		ob2=colladaObj;
 		scene.add(colladaObj.scene);
 		//asset.position.copy(previewRoomPos);
 		});
