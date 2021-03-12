@@ -189,13 +189,8 @@
 
 			var container, stats, clock, controls;
 			var camera, scene, renderer;
-			//var ob1,ob2;
 			init();
 			animate();
-
-          			function init() {
-				container = document.createElement( 'div' );
-				document.body.appendChild( container );
 	
         //scene
       	scene = new THREE.Scene();  
@@ -219,13 +214,14 @@
 		colladaLoader.load('./dae/krytiny.dae', function(ob1) {
 		
 				scene.add(ob1)
+				});
 				
-				var colladaLoader2 = new THREE.ColladaLoader2();
-				colladaLoader2.options.convertUpAxis = true;
-				colladaLoader2.load('./dae/komin.dae', function(ob2) {
-		        scene.add(ob2);		
-		});
-		});	
+		var colladaLoader2 = new THREE.ColladaLoader2();
+		colladaLoader2.options.convertUpAxis = true;
+		colladaLoader2.load('./dae/komin.dae', function(ob2) {
+				scene.add(ob2);		
+		
+			});	
 								
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
