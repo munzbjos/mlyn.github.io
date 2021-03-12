@@ -222,16 +222,6 @@
 
 		});
 
-		var colladaLoader = new THREE.ColladaLoader();
-		colladaLoader.options.convertUpAxis = true;
-		colladaLoader.load('./dae/komin.dae', function(colladaObj) {
-
-		scene.add(colladaObj.scene);
-    //asset.position.copy(previewRoomPos);
-
-		});
-		}
-
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setClearColor( 0xffffff  );
