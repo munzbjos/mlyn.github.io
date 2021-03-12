@@ -213,23 +213,28 @@
         
         
         //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/krytiny.dae", function ( collada ) 
-        {
-					var model = colladaModel.scene;
-					var animations = collada.animations;
-					scene.add(model);
-				} );
+		load('/dae/krytiny.dae');
+		load("/dae/komin.dae");
+		//load("/path/yetAnotherColladaModel.dae");
 
-				loader.load( 
-        "./dae/komin.dae", function ( collada ) 
-        {
-					var model = colladaModel.scene;
-					var animations = collada.animations;
-					scene.add(model);
-				} );
+		function load(daeLocation){
+		var manager = new THREE.LoadingManager();
+		manager.onProgress = function(item, loaded, total) {
+        console.log(item, loaded, total);
+		};
+
+    var loader = new THREE.ColladaLoader(manager);
+    loader.options.convertUpAxis = true;
+
+    loader.load(daeLocation, function(collada) {
+            dae = collada.scene;
+            dae.position.set(0, 0, 0); 
+            scene.add(dae);
+            render();
+        }, function(progress) {
+            // show some progress
+    });
+}
 
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
