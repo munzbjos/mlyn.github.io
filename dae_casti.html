@@ -205,13 +205,16 @@
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
 		
-		//collada loader
-		var colladaLoader = new THREE.ColladaLoader();
-		colladaLoader.options.convertUpAxis = true;
-		colladaLoader.load('./dae/krytiny.dae', function(ob1) {
-		
-				scene.add(ob1)
-				});
+        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+                "./dae/krytiny.dae", function ( collada ) 
+               {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
 				
 		//var colladaLoader = new THREE.ColladaLoader();
 		//colladaLoader.options.convertUpAxis = true;
