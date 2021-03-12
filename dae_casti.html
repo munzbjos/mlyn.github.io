@@ -224,61 +224,6 @@
 				colladaLoader2.options.convertUpAxis = true;
 				colladaLoader2.load('./dae/komin.dae', function(ob2) {
 		        scene.add(ob2);		
-				
-		var buttonbox = document.createElement("div")
-                        buttonbox.id = "buttonbox"
-                        buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "300px"
-                        buttonbox.style.left = "80%"
-                        //buttonbox.style.border = "5pt inset black"
-                        buttonbox.style.padding = "2pt"
-                        buttonbox.style.paddingRight = "10pt"
-                        buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "20em"
-                        buttonbox.style.display = "block"
-                        document.body.appendChild(buttonbox)
-
-               var tTag = document.createElement("div")
-                        tTag.id = "choose"
-                        tTag.textContent = "Zobrazit/Skrýt"
-                        tTag.style.textAlign = "center"
-                        tTag.style.border = "3pt solid gold"
-                        tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
-                        tTag.style.backgroundColor = "grey"
-                        tTag.style.fontSize = "1.0em"
-                        tTag.style.color = "white"
-                        buttonbox.appendChild(tTag)
-
-               var BT1 = document.createElement("button")
-                        BT1.id = "ShowHidemyMeshesOne"
-                        BT1.textContent = "Střecha"
-                        BT1.style.backgroundColor = "green"
-                        BT1.style.display = "block"
-                        BT1.style.width = "100%"
-                        BT1.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT1)
-                        BT1.onclick = function() {
-                          // Show/Hide myMeshThree
-                          (ob1.visible)?ob1.visible=false:ob1.visible=true
-                                         enable=ob1.visible
-                          BT1.style.backgroundColor = enable ? "green" : "red"
-                        }
-
-                var BT2 = document.createElement("button")
-                        BT2.id = "ShowHidemyMeshesTwo"
-                        BT2.textContent = "Krovy"
-                        BT2.style.backgroundColor = "green"
-                        BT2.style.display = "block"
-                        BT2.style.width = "100%"
-                        BT2.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT2.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob2.visible)?ob2.visible=false:ob2.visible=true
-                                         enable=ob2.visible
-                          BT2.style.backgroundColor = enable ? "green" : "red"
-                        }
 		});
 		});	
 								
