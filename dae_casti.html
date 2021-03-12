@@ -16,9 +16,6 @@
         <script src="./js/three.js"></script>
 		<script src="./js/ColladaLoader2.js"></script>
 		<script src="./js/OrbitControls.js"></script>
-
-
-  
     
     <link
       rel="stylesheet"
@@ -191,14 +188,7 @@
 			var camera, scene, renderer;
 			init();
 			animate();
-<<<<<<< HEAD
-	
-=======
 
-			function init() {
-				container = document.getElementById( 'container' );
-        
->>>>>>> parent of f6bd83b (6)
         //scene
       	scene = new THREE.Scene();  
         
@@ -223,11 +213,10 @@
 				scene.add(ob1)
 				});
 				
-		var colladaLoader2 = new THREE.ColladaLoader2();
-		colladaLoader2.options.convertUpAxis = true;
-		colladaLoader2.load('./dae/komin.dae', function(ob2) {
-				scene.add(ob2);		
-		
+		var colladaLoader = new THREE.ColladaLoader();
+		colladaLoader.options.convertUpAxis = true;
+		colladaLoader.load('./dae/komin.dae', function(ob2) {
+				scene.add(ob2);				
 			});	
 								
         //rendering 
