@@ -189,7 +189,7 @@
 
 			var container, stats, clock, controls;
 			var camera, scene, renderer;
-			var ob1,ob2;
+			//var ob1,ob2;
 			init();
 			animate();
 
@@ -213,37 +213,30 @@
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
         
-        var ob1,ob2;
+        //var ob1,ob2;
+		var obj1Hidden = true;
+		var obj2Hidden = true;
 		
         //collada loader
 		var colladaLoader1 = new THREE.ColladaLoader();
 		colladaLoader1.options.convertUpAxis = true;
-		colladaLoader1.load('./dae/krytiny.dae', function(colladaObj) {
-							if ( ob1 ) {
-
-							scene.remove( ob1 );
-
-						}
-
-						ob1= colladaObj;
-		scene.add(ob1.scene);
+		colladaLoader1.load('./dae/krytiny.dae', function(ob1) {
+			//ob1= colladaObj;
+			scene.add(ob1.scene);
 		//asset.position.copy(previewRoomPos);
 		});
 		
 		        //collada loader
 		var colladaLoader2 = new THREE.ColladaLoader();
 		colladaLoader2.options.convertUpAxis = true;
-		colladaLoader2.load('./dae/komin.dae', function(colladaObj) {
-									if ( ob2 ) {
-
-							scene.remove( ob2 );
-
-						}
-
-						ob2= colladaObj;
-		scene.add(ob2.scene);
+		colladaLoader2.load('./dae/komin.dae', function(ob2) {
+			//ob2= colladaObj;
+		    scene.add(ob2.scene);
 		//asset.position.copy(previewRoomPos);
 		});
+		
+		ob1.visible = false;
+		ob2.visible = false;
 		
 		var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
@@ -269,7 +262,7 @@
                         tTag.style.fontSize = "1.0em"
                         tTag.style.color = "white"
                         buttonbox.appendChild(tTag)
-
+				
                var BT1 = document.createElement("button")
                         BT1.id = "ShowHidemyMeshesOne"
                         BT1.textContent = "Střecha"
@@ -280,9 +273,16 @@
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
-                          (ob1.visible)?ob1.visible=false:ob1.visible=true
-                                         enable=ob1.visible
-                          BT1.style.backgroundColor = enable ? "green" : "red"
+										if(obj1Hidden) {
+				obj1Hidden = false;
+				// code to show object
+
+				ob1.visible = true;
+			} else {
+				obj1Hidden = true;
+				// code to hide object
+				
+				ob1.visible = false;
                         }
 
                 var BT2 = document.createElement("button")
