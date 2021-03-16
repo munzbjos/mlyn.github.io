@@ -3,7 +3,7 @@
 
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <title>Babylon Template 1</title>
+      <title>Babylon Template</title>
 
       <style>
         html, body {
@@ -35,23 +35,50 @@
 
     <script>
 
-	var delayCreateScene = function () {
-    // Create a scene.
-    var scene = new BABYLON.Scene(engine);
+            var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
 
-    // Append glTF model to scene.
-    BABYLON.SceneLoader.Append("./gltf/", "mlyn.gltf", scene, function (scene) {
-        // Create a default arc rotate camera and light.
-        scene.createDefaultCameraOrLight(true, true, true);
+            var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
 
-        // The default camera looks at the back of the asset.
-        // Rotate the camera by 180 degrees to the front of the asset.
-        scene.activeCamera.alpha += Math.PI;
-    });
 
-    return scene;
-};
- 
+            /******* Add the create scene function ******/
+            var createScene = function () {
+
+                        // Create the scene space
+                        var scene = new BABYLON.Scene(engine);
+
+                        // Add a camera to the scene and attach it to the canvas
+                        var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 15 * Math.PI / 32, 25, BABYLON.Vector3.Zero(), scene);
+                        camera.attachControl(canvas, true);
+
+                        // Add lights to the scene
+                        var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
+                        var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
+
+						BABYLON.SceneLoader.Append("mlyn.github.io/gltf/", "mlyn.gltf", scene, function (scene) {
+						// Create a default arc rotate camera and light.
+						scene.createDefaultCameraOrLight(true, true, true);
+
+						// The default camera looks at the back of the asset.
+						// Rotate the camera by 180 degrees to the front of the asset.
+						scene.activeCamera.alpha += Math.PI;
+						});
+
+                        return scene;
+
+                };
+
+                /******* End of the create scene function ******/    
+
+                var scene = createScene(); //Call the createScene function
+
+            engine.runRenderLoop(function () { // Register a render loop to repeatedly render the scene
+                    scene.render();
+            });
+
+
+            window.addEventListener("resize", function () { // Watch for browser/canvas resize events
+                    engine.resize();
+            });
     </script>
 
    </body>
