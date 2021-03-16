@@ -268,13 +268,13 @@
 
 				new THREE.MTLLoader()
 					.setPath( './obj/' )
-					.load( 'stena_vnitrni_prizemi.mtl', function ( materials )
+					.load( 'steny_vnitrni_prizemi.mtl', function ( materials )
            {
 						materials.preload();
 						new THREE.OBJLoader()
 							.setMaterials( materials )
 							.setPath( './obj/' )
-							.load( 'stena_vnitrni_prizemi.obj', function ( object )
+							.load( 'steny_vnitrni_prizemi.obj', function ( object )
                { 
 								object.position.y = 0;
                 ob4=object   
@@ -438,7 +438,7 @@
 
                var BT1 = document.createElement("button")
                         BT1.id = "ShowHidemyMeshesOne"
-                        BT1.textContent = "Střecha"
+                        BT1.textContent = "krytiny"
                         BT1.style.backgroundColor = "green"
                         BT1.style.display = "block"
                         BT1.style.width = "100%"
@@ -453,7 +453,7 @@
 
                 var BT2 = document.createElement("button")
                         BT2.id = "ShowHidemyMeshesTwo"
-                        BT2.textContent = "Příčky nahoře"
+                        BT2.textContent = "krovy"
                         BT2.style.backgroundColor = "green"
                         BT2.style.display = "block"
                         BT2.style.width = "100%"
@@ -468,7 +468,7 @@
 
                var BT3 = document.createElement("button")
                         BT3.id = "ShowHidemyMeshesThree"
-                        BT3.textContent = "Obvodové stěny"
+                        BT3.textContent = "komin"
                         BT3.style.backgroundColor = "green"
                         BT3.style.display = "block"
                         BT3.style.width = "100%"
@@ -481,23 +481,9 @@
                           BT3.style.backgroundColor = enable ? "green" : "red"
                         }
 
-                var BT4 = document.createElement("button")
-                        BT4.id = "ShowHidemyMeshesThree"
-                        BT4.textContent = "Příčky dole"
-                        BT4.style.backgroundColor = "green"
-                        BT4.style.display = "block"
-                        BT4.style.width = "100%"
-                        BT4.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT4)
-                        BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                            (ob4.visible)?ob4.visible=false:ob4.visible=true
-                                          enable=ob4.visible
-                          BT4.style.backgroundColor = enable ? "green" : "red"
-                        }    
                  var BT5 = document.createElement("button")
-                        BT5.id = "ShowHidemyMeshesThree"
-                        BT5.textContent = "Příčky dole"
+                        BT5.id = "ShowHidemyMeshesFive"
+                        BT5.textContent = "podlaha 1.patro"
                         BT5.style.backgroundColor = "green"
                         BT5.style.display = "block"
                         BT5.style.width = "100%"
@@ -511,8 +497,8 @@
                         }  
 
                 var BT6 = document.createElement("button")
-                        BT6.id = "ShowHidemyMeshesThree"
-                        BT6.textContent = "Příčky dole"
+                        BT6.id = "ShowHidemyMeshesSix"
+                        BT6.textContent = "podlaha pudy"
                         BT6.style.backgroundColor = "green"
                         BT6.style.display = "block"
                         BT6.style.width = "100%"
@@ -526,8 +512,8 @@
                         }  							
                 
                 var BT7 = document.createElement("button")
-                        BT7.id = "ShowHidemyMeshesThree"
-                        BT7.textContent = "Příčky dole"
+                        BT7.id = "ShowHidemyMeshesSeven"
+                        BT7.textContent = "schodiste"
                         BT7.style.backgroundColor = "green"
                         BT7.style.display = "block"
                         BT7.style.width = "100%"
@@ -543,8 +529,8 @@
 
 
                 var BT8 = document.createElement("button")
-                        BT8.id = "ShowHidemyMeshesThree"
-                        BT8.textContent = "Příčky dole"
+                        BT8.id = "ShowHidemyMeshesEight"
+                        BT8.textContent = "stena_obvodova_patro_1"
                         BT8.style.backgroundColor = "green"
                         BT8.style.display = "block"
                         BT8.style.width = "100%"
@@ -558,8 +544,8 @@
                         }  	
 						
                 var BT9 = document.createElement("button")
-                        BT9.id = "ShowHidemyMeshesThree"
-                        BT9.textContent = "Příčky dole"
+                        BT9.id = "ShowHidemyMeshesNine"
+                        BT9.textContent = "stena_obvodova_prizemi"
                         BT9.style.backgroundColor = "green"
                         BT9.style.display = "block"
                         BT9.style.width = "100%"
@@ -573,8 +559,8 @@
                         }  		
 
                 var BT10 = document.createElement("button")
-                        BT10.id = "ShowHidemyMeshesThree"
-                        BT10.textContent = "Příčky dole"
+                        BT10.id = "ShowHidemyMeshesTen"
+                        BT10.textContent = "teren"
                         BT10.style.backgroundColor = "green"
                         BT10.style.display = "block"
                         BT10.style.width = "100%"
@@ -588,7 +574,7 @@
                         } 
 						
 				var BT11 = document.createElement("button")
-                        BT11.id = "ShowHidemyMeshesThree"
+                        BT11.id = "ShowHidemyMeshesEleven"
                         BT11.textContent = "Příčky dole"
                         BT11.style.backgroundColor = "green"
                         BT11.style.display = "block"
@@ -603,7 +589,7 @@
                         } 
 				
 				var BT12 = document.createElement("button")
-                        BT12.id = "ShowHidemyMeshesThree"
+                        BT12.id = "ShowHidemyMeshesTwelve"
                         BT12.textContent = "Příčky dole"
                         BT12.style.backgroundColor = "green"
                         BT12.style.display = "block"
