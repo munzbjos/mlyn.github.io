@@ -54,7 +54,7 @@
                         var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 
-						BABYLON.SceneLoader.Append("mlyn.github.io/gltf/", "mlyn.gltf", scene, function (scene) {
+						BABYLON.SceneLoader.ImportMesh("","mlyn.github.io/gltf/", "mlyn.gltf", scene, function (scene) {
 						// Create a default arc rotate camera and light.
 						scene.createDefaultCameraOrLight(true, true, true);
 
