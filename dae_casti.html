@@ -226,14 +226,14 @@
 				} );
 
         //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
+				var loader2 = new THREE.ColladaLoader();
+				loader2.options.convertUpAxis = true;
+				loader2.load( 
         "./dae/komin.dae", function (objekt) 
         {
 					var animations = collada.animations;
 					var avatar = collada.scene;
-					ob2=avatar;
+					//ob2=avatar;
 					scene.add(avatar);
 				} );
 		
