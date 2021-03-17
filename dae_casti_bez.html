@@ -1,0 +1,271 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="DP, web, Sedlec" />
+    <meta name="description" content="Webova stránka k diplové práci" />
+    <title>Vizualizace objektu Sedlec</title>
+    <script type="application/x-javascript">
+      addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false);
+      function hideURLbar() {window.scrollTo(0,1);}
+    </script>
+    
+    
+        <script src="./js/three.js"></script>
+		<script src="./js/ColladaLoader2.js"></script>
+		<script src="./js/OrbitControls.js"></script>
+
+
+  
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("./images/background.jpg")
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* .navbar div.logo {
+        position: relative;
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        left: calc(100% - 50px);
+      }
+      .navbar div.logo img {
+        height: 100%;
+        top: 0;
+      } */
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .navbar a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: rgb(60, 190, 49);
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;  
+      }
+
+      .footer img {
+        position: absolute;
+        height: 45px;
+        margin: 2.5px;
+        left: 0;
+      }
+
+      header {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+      }     
+   
+          div#container canvas{
+          position: relative;
+          width: 80%;
+      height: 80%;
+          
+          }
+      
+    </style>
+  </head>
+  <body>
+    <header>     
+      <h1 class="intro"><span>Vizualizace </span></h1>
+    </header>
+    <div class="navbar">
+      <a href="./main.html">Hlavní stránka</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Historie
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./historie_sedlec.html"
+            >Historie obce Sedlec
+          </a>
+          <a href="./historie_usedlosti.html"
+            >Historie usedlosti</a
+          >
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Vizualizace DP
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./babylon.html">Babylon.js</a>
+          <a href="./three.html">Three.js - DAE</a>
+         <a href="./threeobj.html">Three.js - OBJ</a>
+        </div>
+      </div>
+      <a href="http://venkov.fsv.cvut.cz/projekt/index.html"
+        >Informace o projektu
+      </a>
+    </div>
+    
+    <h3>Vizualizace modelu ve formátu DAE v rozhraní Three.js</h3>
+
+   
+		<div id="container"></div> 
+
+    <div class="footer">
+      <img src="cvut_white.png" alt="logo_cvut" />
+      <p>Vyhotovila </p>
+    </div>
+    		<script>
+
+
+			var container, stats, clock, controls;
+			var camera, scene, renderer;
+			init();
+			animate();
+
+			function init() {
+				container = document.getElementById( 'container' );
+        
+        //scene
+      	scene = new THREE.Scene();  
+        
+        //camera
+				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -100, -2, -0.5 );
+				scene.add(camera);
+
+        //lights   
+     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				scene.add( ambientLight );
+
+				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+				directionalLight.position.set( 1, 1, 1 ).normalize();
+				camera.add( directionalLight ); 
+        
+        
+        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/krytiny.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add(avatar);
+				} );
+
+        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/komin.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add(avatar);
+				} );
+						
+        //rendering 
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setClearColor( 0xffffff  );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+        //seting controls orbit
+				controls = new THREE.OrbitControls( camera, renderer.domElement );
+				controls.target.set( 0, 0, 0 );
+				controls.update();
+
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
+			}
+
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+			}
+
+			function render() {
+				renderer.render( scene, camera );
+			}
+
+		</script>
+  </body>
+</html>
