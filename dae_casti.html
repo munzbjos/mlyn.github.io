@@ -217,12 +217,12 @@
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( 
-        "./dae/krytiny.dae", function (objekt) 
+        "./dae/krytiny.dae", function (collada) 
         {
-					var animations = objekt.animations;
-					var avatar1 = objekt.scene;
-					ob1=objekt;
-					scene.add(avatar1);
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob1=avatar;
+					scene.add(avatar);
 				} );
 
         //collada loader
@@ -232,9 +232,9 @@
         "./dae/komin.dae", function (objekt) 
         {
 					var animations = collada.animations;
-					var avatar2 = collada.scene;
-					ob2=objekt;
-					scene.add(avatar2);
+					var avatar = collada.scene;
+					ob2=avatar;
+					scene.add(avatar);
 				} );
 		
 		var buttonbox = document.createElement("div")
