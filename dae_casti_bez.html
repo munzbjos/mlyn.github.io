@@ -216,14 +216,24 @@
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( 
-        "./dae/mlyn.dae", function ( collada ) 
+        "./dae/krytiny.dae", function (collada) 
         {
 					var animations = collada.animations;
 					var avatar = collada.scene;
-					scene.add( avatar );
+					scene.add(avatar);
 				} );
 
-
+        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/komin.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add(avatar);
+				} );
+						
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
         renderer.setClearColor( 0xffffff  );
