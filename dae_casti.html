@@ -384,7 +384,7 @@
                           BT12.style.backgroundColor = enable ? "green" : "red"
                         }	
 						
-						        //collada loader
+				//collada loader
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( 
@@ -417,6 +417,7 @@
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					ob3=avatar;
+					ob3.visible=false;
 					scene.add(avatar);
 				} );
 				
