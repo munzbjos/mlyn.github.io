@@ -237,7 +237,7 @@
 				var BT3 = document.createElement("button")
                         BT3.id = "ShowHidemyMeshesThree"
                         BT3.textContent = "Krovy"
-                        BT3.style.backgroundColor = "green"
+                        BT3.style.backgroundColor = "red"
                         BT3.style.display = "block"
                         BT3.style.width = "100%"
                         BT3.style.fontSize = "1.1em"
@@ -282,7 +282,7 @@
 				var BT6 = document.createElement("button")
                         BT6.id = "ShowHidemyMeshesSix"
                         BT6.textContent = "Schodiště"
-                        BT6.style.backgroundColor = "green"
+                        BT6.style.backgroundColor = "red"
                         BT6.style.display = "block"
                         BT6.style.width = "100%"
                         BT6.style.fontSize = "1.1em"
@@ -297,7 +297,7 @@
 				var BT7 = document.createElement("button")
                         BT7.id = "ShowHidemyMeshesSeven"
                         BT7.textContent = "Strop ve světnici"
-                        BT7.style.backgroundColor = "green"
+                        BT7.style.backgroundColor = "red"
                         BT7.style.display = "block"
                         BT7.style.width = "100%"
                         BT7.style.fontSize = "1.1em"
@@ -327,7 +327,7 @@
 					var BT9 = document.createElement("button")
                         BT9.id = "ShowHidemyMeshesNine"
                         BT9.textContent = "Stěny vnitřní"
-                        BT9.style.backgroundColor = "green"
+                        BT9.style.backgroundColor = "red"
                         BT9.style.display = "block"
                         BT9.style.width = "100%"
                         BT9.style.fontSize = "1.1em"
@@ -342,7 +342,7 @@
 					var BT10 = document.createElement("button")
                         BT10.id = "ShowHidemyMeshesTen"
                         BT10.textContent = "Pec a patro mlýnice"
-                        BT10.style.backgroundColor = "green"
+                        BT10.style.backgroundColor = "red"
                         BT10.style.display = "block"
                         BT10.style.width = "100%"
                         BT10.style.fontSize = "1.1em"
@@ -466,6 +466,7 @@
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					ob7=avatar;
+					ob7.visible=false;
 					scene.add(avatar);
 				} );
 				
@@ -478,6 +479,7 @@
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					ob8=avatar;
+					ob8.visible=false;
 					scene.add(avatar);
 				} );	
 				
@@ -490,6 +492,7 @@
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					ob9=avatar;
+					ob9.visible=false;
 					scene.add(avatar);
 				} );
 				
@@ -502,6 +505,7 @@
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					ob10=avatar;
+					ob10.visible=false;
 					scene.add(avatar);
 				} );
 				
