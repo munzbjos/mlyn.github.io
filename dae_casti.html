@@ -16,6 +16,7 @@
         <script src="./js/three.js"></script>
 		<script src="./js/ColladaLoader2.js"></script>
 		<script src="./js/OrbitControls.js"></script>
+		<script src="./js/VRButton.js"></script>
   
     <link
       rel="stylesheet"
@@ -162,6 +163,7 @@
 			function init() {
 				container = document.getElementById( 'container' );
         
+		
         //scene
       	scene = new THREE.Scene();  
         
@@ -564,7 +566,17 @@
 			function render() {
 				renderer.render( scene, camera );
 			}
+			
+		// VR Button
+		document.body.appendChild( VRButton.createButton( renderer ) );
+		
+		renderer.xr.enabled = true;
+		
+		renderer.setAnimationLoop( function () {
 
+			renderer.render( scene, camera );
+
+		} );
 		</script>
   </body>
 </html>
