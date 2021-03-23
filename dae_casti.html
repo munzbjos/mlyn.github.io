@@ -178,157 +178,13 @@
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
         
-        
-        //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/krytiny.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob1=avatar;
-					scene.add(avatar);
-				} );
-
-        //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/komin.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob2=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/krovy.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob3=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/podlahy_pud.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob4=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_obvodove.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob5=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/teren.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob6=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_vnitrni.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob7=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/strop_svetnice.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob8=avatar;
-					scene.add(avatar);
-				} );	
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/schodiste.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob9=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/pec.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob10=avatar;
-					scene.add(avatar);
-				} );
-				
-							//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/podlahy_prizemi.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob11=avatar;
-					scene.add(avatar);
-				} );
-				
-										//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_1_patro.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob12=avatar;
-					scene.add(avatar);
-				} );
-				
+			
 		var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "300px"
+                        buttonbox.style.top = "50px"
                         buttonbox.style.left = "80%"
-                        buttonbox.style.border = "5pt inset black"
+                        //buttonbox.style.border = "5pt inset black"
                         buttonbox.style.padding = "2pt"
                         buttonbox.style.paddingRight = "10pt"
                         buttonbox.style.paddingLeft = "10pt"
@@ -340,9 +196,9 @@
                         tTag.id = "choose"
                         tTag.textContent = "Zobrazit/Skrýt"
                         tTag.style.textAlign = "center"
-                        tTag.style.border = "3pt solid gold"
+                        tTag.style.border = "3pt inset black"
                         tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
+                        tTag.style.marginBottom = "5pt"
                         tTag.style.backgroundColor = "grey"
                         tTag.style.fontSize = "1.0em"
                         tTag.style.color = "white"
@@ -527,6 +383,150 @@
                                          enable=ob6.visible
                           BT12.style.backgroundColor = enable ? "green" : "red"
                         }	
+						
+						        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/krytiny.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob1=avatar;
+					scene.add(avatar);
+				} );
+
+        //collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/komin.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob2=avatar;
+					scene.add(avatar);
+				} );
+		
+		//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/krovy.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob3=avatar;
+					scene.add(avatar);
+				} );
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/podlahy_pud.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob4=avatar;
+					scene.add(avatar);
+				} );
+		
+		//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/steny_obvodove.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob5=avatar;
+					scene.add(avatar);
+				} );
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/teren.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob6=avatar;
+					scene.add(avatar);
+				} );
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/steny_vnitrni.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob7=avatar;
+					scene.add(avatar);
+				} );
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/strop_svetnice.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob8=avatar;
+					scene.add(avatar);
+				} );	
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/schodiste.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob9=avatar;
+					scene.add(avatar);
+				} );
+				
+				//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/pec.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob10=avatar;
+					scene.add(avatar);
+				} );
+				
+							//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/podlahy_prizemi.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob11=avatar;
+					scene.add(avatar);
+				} );
+				
+										//collada loader
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 
+        "./dae/steny_1_patro.dae", function (collada) 
+        {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					ob12=avatar;
+					scene.add(avatar);
+				} );
 						
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
