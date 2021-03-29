@@ -54,35 +54,23 @@
                         var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 
-						//BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
+						BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
 						BABYLON.SceneLoader.ImportMesh(
 						"",
 						"./babylon/",
-						"krytiny.babylon",
+						"krovy.babylon",
 						scene,
 						function(myMeshesOne){
-								BABYLON.SceneLoader.ImportMesh(
-								"",
-								"./babylon/",
-								"krovy.babylon",
-								scene,
-								function(myMeshesTwo){
-										BABYLON.SceneLoader.ImportMesh(
-										"",
-										"./babylon/",
-										"komin.babylon",
-										scene,
-										function(myMeshesThree){
-												BABYLON.SceneLoader.ImportMesh(
-												"",
-												"./babylon/",
-												"pec.babylon",
-												scene,
-												function(myMeshesFour){
-												
-												console.log(myMeshesFour)
-						
-						// add buttons
+							BABYLON.SceneLoader.ImportMesh(
+							"",
+							"./babylon/",
+							"komin.babylon",
+							scene,
+							function(myMeshesTwo){
+							
+							console.log(myMeshesTwo)
+							
+							 // add buttons
                         var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
@@ -145,56 +133,8 @@
 
                           BT2.style.backgroundColor = enable ? "red" : "green"
                         }
-
-						var BT3 = document.createElement("button")
-                        BT3.id = "ShowHidemyMeshesTwo"
-                        BT3.textContent = "Příčky nahoře"
-                        BT3.style.backgroundColor = "green"
-                        BT3.style.display = "block"
-                        BT3.style.width = "100%"
-                        BT3.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT3.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesThree) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT3.style.backgroundColor = enable ? "red" : "green"
-                        }
-						
-						var BT4 = document.createElement("button")
-                        BT4.id = "ShowHidemyMeshesTwo"
-                        BT4.textContent = "Příčky nahoře"
-                        BT4.style.backgroundColor = "green"
-                        BT4.style.display = "block"
-                        BT4.style.width = "100%"
-                        BT4.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesFour) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT4.style.backgroundColor = enable ? "red" : "green"
-                        }
-						
 							});
-							
-
 							});
-							
-
-							});
-							
-
-							});
-							
 
                         return scene;
 
