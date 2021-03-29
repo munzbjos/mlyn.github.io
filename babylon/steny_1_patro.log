@@ -1,0 +1,3813 @@
+Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  SketchUp
+		processing begun of material:  Cladding_Stucco_White
+			processing texture Cladding_Stucco_White
+				texture type:  diffuseTexture, mapped using: "ID1436"
+		num positions      :  2927
+		num normals        :  2927
+		num tangents       :  0
+		num uvs            :  5854
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1476
+	processing begun of mesh:  SketchUp.001
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+			processing texture Wood_Lumber_ButtJoined
+				texture type:  diffuseTexture, mapped using: "ID1444"
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#0
+		num positions      :  387
+		num normals        :  387
+		num tangents       :  0
+		num uvs            :  774
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  170
+	processing begun of mesh:  SketchUp.002
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#1
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.003
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#2
+		num positions      :  552
+		num normals        :  552
+		num tangents       :  0
+		num uvs            :  1104
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  318
+	processing begun of mesh:  SketchUp.004
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#3
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.005
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#4
+		num positions      :  127
+		num normals        :  127
+		num tangents       :  0
+		num uvs            :  254
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  SketchUp.006
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+			processing texture Wood_Lumber_ButtJoined_3
+				texture type:  diffuseTexture, mapped using: "ID1489"
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#5
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.007
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#6
+		num positions      :  46
+		num normals        :  46
+		num tangents       :  0
+		num uvs            :  92
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.008
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#7
+		num positions      :  135
+		num normals        :  135
+		num tangents       :  0
+		num uvs            :  270
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  66
+	processing begun of mesh:  SketchUp.009
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.010
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#8
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  SketchUp.011
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#9
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.012
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#10
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.013
+		processing begun of material:  __Color_B08_1
+		processing begun of material:  Laura_Belt1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#11
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.014
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#12
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.015
+		processing begun of material:  __Color_B08_1
+		processing begun of material:  Laura_Belt1
+		registered as also a user of material:  __Color_B08_1
+		registered as also a user of material:  Laura_Belt1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#13
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.016
+		processing begun of material:  __Color_B08_1
+		processing begun of material:  Laura_Belt1
+		registered as also a user of material:  __Color_B08_1
+		registered as also a user of material:  Laura_Belt1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#14
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.017
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#15
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.018
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#16
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.019
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#17
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.020
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#18
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.021
+		processing begun of material:  material
+		processing begun of material:  material_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#19
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.022
+		processing begun of material:  material
+		processing begun of material:  material_1
+		registered as also a user of material:  material
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#20
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.023
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#21
+		num positions      :  272
+		num normals        :  272
+		num tangents       :  0
+		num uvs            :  544
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  136
+	processing begun of mesh:  SketchUp.024
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#22
+		num positions      :  80
+		num normals        :  80
+		num tangents       :  0
+		num uvs            :  160
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  SketchUp.025
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.026
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#23
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.027
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#24
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  SketchUp.028
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  14
+		num normals        :  14
+		num tangents       :  0
+		num uvs            :  28
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  SketchUp.029
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#25
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.030
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#26
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.031
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#27
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  0
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  SketchUp.032
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#28
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.033
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#29
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  16
+	processing begun of mesh:  SketchUp.034
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#30
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.035
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#31
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.036
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#32
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.037
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#33
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.038
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#34
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.039
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.040
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#35
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.041
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#36
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26
+	processing begun of mesh:  SketchUp.042
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#37
+		num positions      :  392
+		num normals        :  392
+		num tangents       :  0
+		num uvs            :  784
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  228
+	processing begun of mesh:  SketchUp.043
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#38
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  SketchUp.044
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.045
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  material_5
+		registered as also a user of material:  Cladding_Stucco_White
+			processing texture material_5
+				texture type:  diffuseTexture, mapped using: "ID1794"
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#39
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.046
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#40
+		num positions      :  39
+		num normals        :  39
+		num tangents       :  0
+		num uvs            :  78
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  SketchUp.047
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#41
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.048
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#42
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.049
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#43
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.050
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  166
+		num normals        :  166
+		num tangents       :  0
+		num uvs            :  332
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  SketchUp.051
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#44
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.052
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#45
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.053
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#46
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.054
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#47
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.055
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#48
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.056
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.057
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#49
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.058
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#50
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.059
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#51
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.060
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  material_5
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#52
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.061
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  52
+		num normals        :  52
+		num tangents       :  0
+		num uvs            :  104
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  SketchUp.062
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  strecha
+		registered as also a user of material:  Cladding_Stucco_White
+			processing texture strecha
+				texture type:  diffuseTexture, mapped using: "ID1930"
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#53
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.063
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  material_5
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#54
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.110
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#55
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.111
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  material_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#56
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.112
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#57
+		num positions      :  33
+		num normals        :  33
+		num tangents       :  0
+		num uvs            :  66
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  SketchUp.113
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#58
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.114
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#59
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.115
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#60
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.116
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_5
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#61
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  SketchUp.117
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.118
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#62
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.119
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#63
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  SketchUp.120
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.121
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#64
+		num positions      :  37
+		num normals        :  37
+		num tangents       :  0
+		num uvs            :  74
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  SketchUp.122
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#65
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.123
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.124
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.125
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#66
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.126
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#67
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.127
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.128
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Laura_Belt1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Laura_Belt1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#68
+		num positions      :  152
+		num normals        :  152
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  80
+	processing begun of mesh:  SketchUp.129
+		processing begun of material:  __Color_B08_1
+		processing begun of material:  Laura_Belt1
+		registered as also a user of material:  __Color_B08_1
+		registered as also a user of material:  Laura_Belt1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#69
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.130
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.131
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.132
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#70
+		num positions      :  36
+		num normals        :  36
+		num tangents       :  0
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.133
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26
+	processing begun of mesh:  SketchUp.134
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  34
+		num normals        :  34
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  SketchUp.135
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#71
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  16
+	processing begun of mesh:  SketchUp.136
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#72
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.137
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.138
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#73
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.139
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.140
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  19
+		num normals        :  19
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.141
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.142
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#74
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.143
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#75
+		num positions      :  44
+		num normals        :  44
+		num tangents       :  0
+		num uvs            :  88
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  SketchUp.144
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#76
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.145
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#77
+		num positions      :  19
+		num normals        :  19
+		num tangents       :  0
+		num uvs            :  38
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  SketchUp.146
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  material_5
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#78
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.147
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.148
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.149
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#79
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.150
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#80
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.151
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#81
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.152
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#82
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.153
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#83
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.154
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#84
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.155
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#85
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  instance_0
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+			processing texture Modern_Siding
+				texture type:  diffuseTexture, mapped using: "ID14"
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#86
+		num positions      :  3385
+		num normals        :  3385
+		num tangents       :  0
+		num uvs            :  6770
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1980
+	processing begun of mesh:  instance_0.001
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#87
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.002
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#88
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.003
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#89
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  instance_0.004
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#90
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.005
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.006
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#91
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.007
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.008
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#92
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.009
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.010
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  instance_0.011
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  Modern_Siding
+			processing texture Modern_Siding_0
+				texture type:  diffuseTexture, mapped using: "ID107"
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#93
+		num positions      :  33
+		num normals        :  33
+		num tangents       :  0
+		num uvs            :  66
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  instance_0.012
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#94
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.013
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.014
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.015
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  instance_0.016
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.017
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  101
+		num normals        :  101
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  instance_0.018
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#95
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.019
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.020
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#96
+		num positions      :  1006
+		num normals        :  1006
+		num tangents       :  0
+		num uvs            :  2012
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  478
+	processing begun of mesh:  instance_0.021
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.022
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.023
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.024
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.025
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.026
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.027
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.028
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.029
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.030
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#97
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.031
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.032
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#98
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.033
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#99
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.034
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.035
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.036
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#100
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.037
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.038
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#101
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.039
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#102
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.040
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#103
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.041
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.042
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.043
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#104
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.044
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#105
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.045
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#106
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.046
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#107
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.047
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.048
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#108
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.049
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#109
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.050
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.051
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#110
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.052
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#111
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.053
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#112
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.054
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#113
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.055
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#114
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.056
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#115
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.057
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#116
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.058
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#117
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.059
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.060
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#118
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.061
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#119
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.062
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.063
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.064
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#120
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.065
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#121
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.066
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#122
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.067
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.068
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#123
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.069
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#124
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.070
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.071
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.072
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#125
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.073
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.074
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#126
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.075
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#127
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.076
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#128
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.077
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#129
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.078
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#130
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  30
+	processing begun of mesh:  instance_0.079
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#131
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.080
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Color_B08_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Color_B08_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#132
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.081
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#133
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.082
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#134
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.083
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#135
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.084
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#136
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.085
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#137
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.086
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#138
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.087
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#139
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.088
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.089
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#140
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.090
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#141
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.091
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#142
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.092
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#143
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.093
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#144
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.094
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#145
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.095
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#146
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.096
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#147
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.097
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.098
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.099
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  instance_0.100
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#148
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.101
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.102
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#149
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.103
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.104
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.105
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#150
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.106
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#151
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.107
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#152
+		num positions      :  38
+		num normals        :  38
+		num tangents       :  0
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  30
+	processing begun of mesh:  instance_0.108
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  268
+		num normals        :  268
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  136
+	processing begun of mesh:  instance_0.109
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#153
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.110
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#154
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.111
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#155
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.112
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#156
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.113
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  __Wood_Fence_2
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+			processing texture Wood_Fence_2
+				texture type:  diffuseTexture, mapped using: "ID909"
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#157
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.114
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#158
+		num positions      :  327
+		num normals        :  327
+		num tangents       :  0
+		num uvs            :  654
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  162
+	processing begun of mesh:  instance_0.115
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#159
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.116
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#160
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.117
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.118
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.119
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#161
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.120
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#162
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.121
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#163
+		num positions      :  97
+		num normals        :  97
+		num tangents       :  0
+		num uvs            :  194
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  instance_0.122
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#164
+		num positions      :  42
+		num normals        :  42
+		num tangents       :  0
+		num uvs            :  84
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  instance_0.123
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.124
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#165
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.125
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.126
+		processing begun of material:  Modern_Siding_0
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding_0
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#166
+		num positions      :  114
+		num normals        :  114
+		num tangents       :  0
+		num uvs            :  228
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  68
+	processing begun of mesh:  instance_0.127
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#167
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.128
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#168
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  instance_0.129
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#169
+		num positions      :  14
+		num normals        :  14
+		num tangents       :  0
+		num uvs            :  28
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.130
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#170
+		num positions      :  46
+		num normals        :  46
+		num tangents       :  0
+		num uvs            :  92
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  26
+	processing begun of mesh:  instance_0.131
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#171
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.132
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#172
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.133
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#173
+		num positions      :  152
+		num normals        :  152
+		num tangents       :  0
+		num uvs            :  304
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  74
+	processing begun of mesh:  instance_0.134
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#174
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.135
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#175
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.136
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#176
+		num positions      :  50
+		num normals        :  50
+		num tangents       :  0
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  30
+	processing begun of mesh:  instance_0.137
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.138
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  Modern_Siding_0
+		num positions      :  28
+		num normals        :  28
+		num tangents       :  0
+		num uvs            :  56
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  16
+	processing begun of mesh:  instance_0.139
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#177
+		num positions      :  37
+		num normals        :  37
+		num tangents       :  0
+		num uvs            :  74
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.140
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#178
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.141
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#179
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.142
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#180
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.143
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.144
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#181
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.145
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#182
+		num positions      :  58
+		num normals        :  58
+		num tangents       :  0
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  instance_0.146
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#183
+		num positions      :  84
+		num normals        :  84
+		num tangents       :  0
+		num uvs            :  168
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  instance_0.147
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#184
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.148
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.149
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.150
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.151
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#185
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.152
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  14
+		num normals        :  14
+		num tangents       :  0
+		num uvs            :  28
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.153
+		processing begun of material:  Modern_Siding_0
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding_0
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#186
+		num positions      :  54
+		num normals        :  54
+		num tangents       :  0
+		num uvs            :  108
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  instance_0.154
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#187
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.155
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.156
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#188
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  instance_0.157
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  14
+	processing begun of mesh:  instance_0.158
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#189
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.159
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.160
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#190
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.161
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#191
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.162
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#192
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.163
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#193
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.164
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#194
+		num positions      :  112
+		num normals        :  112
+		num tangents       :  0
+		num uvs            :  224
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  instance_0.165
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.166
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  instance_0.167
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  28
+		num normals        :  28
+		num tangents       :  0
+		num uvs            :  56
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  instance_0.168
+		processing begun of material:  Modern_Siding_0
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding_0
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#195
+		num positions      :  51
+		num normals        :  51
+		num tangents       :  0
+		num uvs            :  102
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  instance_0.169
+		processing begun of material:  Modern_Siding
+		registered as also a user of material:  Modern_Siding
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  instance_0.170
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#196
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.171
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#197
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  instance_0.172
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#198
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  instance_0.173
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#199
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  instance_0.174
+		processing begun of material:  Modern_Siding
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#200
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  instance_0.175
+		processing begun of material:  Modern_Siding_0
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Modern_Siding_0
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#201
+		num positions      :  36
+		num normals        :  36
+		num tangents       :  0
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  instance_0.176
+		processing begun of material:  Modern_Siding
+		processing begun of material:  __Wood_Fence_2
+		registered as also a user of material:  Modern_Siding
+		registered as also a user of material:  __Wood_Fence_2
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#202
+		num positions      :  71
+		num normals        :  71
+		num tangents       :  0
+		num uvs            :  142
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  instance_0.177
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  Modern_Siding_0
+		num positions      :  236
+		num normals        :  236
+		num tangents       :  0
+		num uvs            :  472
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  140
+	processing begun of mesh:  instance_0.178
+		processing begun of material:  __Wood_Lumber_ButtJoined_1
+		processing begun of material:  Modern_Siding_0
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
+		registered as also a user of material:  Modern_Siding_0
+		processing begun of multimaterial:  steny_1_patro.Multimaterial#203
+		num positions      :  40
+		num normals        :  40
+		num tangents       :  0
+		num uvs            :  80
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  SketchUp
+	writing mesh:  SketchUp.001
+	writing mesh:  SketchUp.002
+	writing mesh:  SketchUp.003
+	writing mesh:  SketchUp.004
+	writing mesh:  SketchUp.005
+	writing mesh:  SketchUp.006
+	writing mesh:  SketchUp.007
+	writing mesh:  SketchUp.008
+	writing mesh:  SketchUp.009
+	writing mesh:  SketchUp.010
+	writing mesh:  SketchUp.011
+	writing mesh:  SketchUp.012
+	writing mesh:  SketchUp.013
+	writing mesh:  SketchUp.014
+	writing mesh:  SketchUp.015
+	writing mesh:  SketchUp.016
+	writing mesh:  SketchUp.017
+	writing mesh:  SketchUp.018
+	writing mesh:  SketchUp.019
+	writing mesh:  SketchUp.020
+	writing mesh:  SketchUp.021
+	writing mesh:  SketchUp.022
+	writing mesh:  SketchUp.023
+	writing mesh:  SketchUp.024
+	writing mesh:  SketchUp.025
+	writing mesh:  SketchUp.026
+	writing mesh:  SketchUp.027
+	writing mesh:  SketchUp.028
+	writing mesh:  SketchUp.029
+	writing mesh:  SketchUp.030
+	writing mesh:  SketchUp.031
+	writing mesh:  SketchUp.032
+	writing mesh:  SketchUp.033
+	writing mesh:  SketchUp.034
+	writing mesh:  SketchUp.035
+	writing mesh:  SketchUp.036
+	writing mesh:  SketchUp.037
+	writing mesh:  SketchUp.038
+	writing mesh:  SketchUp.039
+	writing mesh:  SketchUp.040
+	writing mesh:  SketchUp.041
+	writing mesh:  SketchUp.042
+	writing mesh:  SketchUp.043
+	writing mesh:  SketchUp.044
+	writing mesh:  SketchUp.045
+	writing mesh:  SketchUp.046
+	writing mesh:  SketchUp.047
+	writing mesh:  SketchUp.048
+	writing mesh:  SketchUp.049
+	writing mesh:  SketchUp.050
+	writing mesh:  SketchUp.051
+	writing mesh:  SketchUp.052
+	writing mesh:  SketchUp.053
+	writing mesh:  SketchUp.054
+	writing mesh:  SketchUp.055
+	writing mesh:  SketchUp.056
+	writing mesh:  SketchUp.057
+	writing mesh:  SketchUp.058
+	writing mesh:  SketchUp.059
+	writing mesh:  SketchUp.060
+	writing mesh:  SketchUp.061
+	writing mesh:  SketchUp.062
+	writing mesh:  SketchUp.063
+	writing mesh:  SketchUp.110
+	writing mesh:  SketchUp.111
+	writing mesh:  SketchUp.112
+	writing mesh:  SketchUp.113
+	writing mesh:  SketchUp.114
+	writing mesh:  SketchUp.115
+	writing mesh:  SketchUp.116
+	writing mesh:  SketchUp.117
+	writing mesh:  SketchUp.118
+	writing mesh:  SketchUp.119
+	writing mesh:  SketchUp.120
+	writing mesh:  SketchUp.121
+	writing mesh:  SketchUp.122
+	writing mesh:  SketchUp.123
+	writing mesh:  SketchUp.124
+	writing mesh:  SketchUp.125
+	writing mesh:  SketchUp.126
+	writing mesh:  SketchUp.127
+	writing mesh:  SketchUp.128
+	writing mesh:  SketchUp.129
+	writing mesh:  SketchUp.130
+	writing mesh:  SketchUp.131
+	writing mesh:  SketchUp.132
+	writing mesh:  SketchUp.133
+	writing mesh:  SketchUp.134
+	writing mesh:  SketchUp.135
+	writing mesh:  SketchUp.136
+	writing mesh:  SketchUp.137
+	writing mesh:  SketchUp.138
+	writing mesh:  SketchUp.139
+	writing mesh:  SketchUp.140
+	writing mesh:  SketchUp.141
+	writing mesh:  SketchUp.142
+	writing mesh:  SketchUp.143
+	writing mesh:  SketchUp.144
+	writing mesh:  SketchUp.145
+	writing mesh:  SketchUp.146
+	writing mesh:  SketchUp.147
+	writing mesh:  SketchUp.148
+	writing mesh:  SketchUp.149
+	writing mesh:  SketchUp.150
+	writing mesh:  SketchUp.151
+	writing mesh:  SketchUp.152
+	writing mesh:  SketchUp.153
+	writing mesh:  SketchUp.154
+	writing mesh:  SketchUp.155
+	writing mesh:  instance_0
+	writing mesh:  instance_0.001
+	writing mesh:  instance_0.002
+	writing mesh:  instance_0.003
+	writing mesh:  instance_0.004
+	writing mesh:  instance_0.005
+	writing mesh:  instance_0.006
+	writing mesh:  instance_0.007
+	writing mesh:  instance_0.008
+	writing mesh:  instance_0.009
+	writing mesh:  instance_0.010
+	writing mesh:  instance_0.011
+	writing mesh:  instance_0.012
+	writing mesh:  instance_0.013
+	writing mesh:  instance_0.014
+	writing mesh:  instance_0.015
+	writing mesh:  instance_0.016
+	writing mesh:  instance_0.017
+	writing mesh:  instance_0.018
+	writing mesh:  instance_0.019
+	writing mesh:  instance_0.020
+	writing mesh:  instance_0.021
+	writing mesh:  instance_0.022
+	writing mesh:  instance_0.023
+	writing mesh:  instance_0.024
+	writing mesh:  instance_0.025
+	writing mesh:  instance_0.026
+	writing mesh:  instance_0.027
+	writing mesh:  instance_0.028
+	writing mesh:  instance_0.029
+	writing mesh:  instance_0.030
+	writing mesh:  instance_0.031
+	writing mesh:  instance_0.032
+	writing mesh:  instance_0.033
+	writing mesh:  instance_0.034
+	writing mesh:  instance_0.035
+	writing mesh:  instance_0.036
+	writing mesh:  instance_0.037
+	writing mesh:  instance_0.038
+	writing mesh:  instance_0.039
+	writing mesh:  instance_0.040
+	writing mesh:  instance_0.041
+	writing mesh:  instance_0.042
+	writing mesh:  instance_0.043
+	writing mesh:  instance_0.044
+	writing mesh:  instance_0.045
+	writing mesh:  instance_0.046
+	writing mesh:  instance_0.047
+	writing mesh:  instance_0.048
+	writing mesh:  instance_0.049
+	writing mesh:  instance_0.050
+	writing mesh:  instance_0.051
+	writing mesh:  instance_0.052
+	writing mesh:  instance_0.053
+	writing mesh:  instance_0.054
+	writing mesh:  instance_0.055
+	writing mesh:  instance_0.056
+	writing mesh:  instance_0.057
+	writing mesh:  instance_0.058
+	writing mesh:  instance_0.059
+	writing mesh:  instance_0.060
+	writing mesh:  instance_0.061
+	writing mesh:  instance_0.062
+	writing mesh:  instance_0.063
+	writing mesh:  instance_0.064
+	writing mesh:  instance_0.065
+	writing mesh:  instance_0.066
+	writing mesh:  instance_0.067
+	writing mesh:  instance_0.068
+	writing mesh:  instance_0.069
+	writing mesh:  instance_0.070
+	writing mesh:  instance_0.071
+	writing mesh:  instance_0.072
+	writing mesh:  instance_0.073
+	writing mesh:  instance_0.074
+	writing mesh:  instance_0.075
+	writing mesh:  instance_0.076
+	writing mesh:  instance_0.077
+	writing mesh:  instance_0.078
+	writing mesh:  instance_0.079
+	writing mesh:  instance_0.080
+	writing mesh:  instance_0.081
+	writing mesh:  instance_0.082
+	writing mesh:  instance_0.083
+	writing mesh:  instance_0.084
+	writing mesh:  instance_0.085
+	writing mesh:  instance_0.086
+	writing mesh:  instance_0.087
+	writing mesh:  instance_0.088
+	writing mesh:  instance_0.089
+	writing mesh:  instance_0.090
+	writing mesh:  instance_0.091
+	writing mesh:  instance_0.092
+	writing mesh:  instance_0.093
+	writing mesh:  instance_0.094
+	writing mesh:  instance_0.095
+	writing mesh:  instance_0.096
+	writing mesh:  instance_0.097
+	writing mesh:  instance_0.098
+	writing mesh:  instance_0.099
+	writing mesh:  instance_0.100
+	writing mesh:  instance_0.101
+	writing mesh:  instance_0.102
+	writing mesh:  instance_0.103
+	writing mesh:  instance_0.104
+	writing mesh:  instance_0.105
+	writing mesh:  instance_0.106
+	writing mesh:  instance_0.107
+	writing mesh:  instance_0.108
+	writing mesh:  instance_0.109
+	writing mesh:  instance_0.110
+	writing mesh:  instance_0.111
+	writing mesh:  instance_0.112
+	writing mesh:  instance_0.113
+	writing mesh:  instance_0.114
+	writing mesh:  instance_0.115
+	writing mesh:  instance_0.116
+	writing mesh:  instance_0.117
+	writing mesh:  instance_0.118
+	writing mesh:  instance_0.119
+	writing mesh:  instance_0.120
+	writing mesh:  instance_0.121
+	writing mesh:  instance_0.122
+	writing mesh:  instance_0.123
+	writing mesh:  instance_0.124
+	writing mesh:  instance_0.125
+	writing mesh:  instance_0.126
+	writing mesh:  instance_0.127
+	writing mesh:  instance_0.128
+	writing mesh:  instance_0.129
+	writing mesh:  instance_0.130
+	writing mesh:  instance_0.131
+	writing mesh:  instance_0.132
+	writing mesh:  instance_0.133
+	writing mesh:  instance_0.134
+	writing mesh:  instance_0.135
+	writing mesh:  instance_0.136
+	writing mesh:  instance_0.137
+	writing mesh:  instance_0.138
+	writing mesh:  instance_0.139
+	writing mesh:  instance_0.140
+	writing mesh:  instance_0.141
+	writing mesh:  instance_0.142
+	writing mesh:  instance_0.143
+	writing mesh:  instance_0.144
+	writing mesh:  instance_0.145
+	writing mesh:  instance_0.146
+	writing mesh:  instance_0.147
+	writing mesh:  instance_0.148
+	writing mesh:  instance_0.149
+	writing mesh:  instance_0.150
+	writing mesh:  instance_0.151
+	writing mesh:  instance_0.152
+	writing mesh:  instance_0.153
+	writing mesh:  instance_0.154
+	writing mesh:  instance_0.155
+	writing mesh:  instance_0.156
+	writing mesh:  instance_0.157
+	writing mesh:  instance_0.158
+	writing mesh:  instance_0.159
+	writing mesh:  instance_0.160
+	writing mesh:  instance_0.161
+	writing mesh:  instance_0.162
+	writing mesh:  instance_0.163
+	writing mesh:  instance_0.164
+	writing mesh:  instance_0.165
+	writing mesh:  instance_0.166
+	writing mesh:  instance_0.167
+	writing mesh:  instance_0.168
+	writing mesh:  instance_0.169
+	writing mesh:  instance_0.170
+	writing mesh:  instance_0.171
+	writing mesh:  instance_0.172
+	writing mesh:  instance_0.173
+	writing mesh:  instance_0.174
+	writing mesh:  instance_0.175
+	writing mesh:  instance_0.176
+	writing mesh:  instance_0.177
+	writing mesh:  instance_0.178
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.608 secs

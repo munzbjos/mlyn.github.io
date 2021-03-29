@@ -1,0 +1,2463 @@
+Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  SketchUp
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  material_3
+			processing texture Cladding_Stucco_White
+				texture type:  diffuseTexture, mapped using: "ID1091"
+			processing texture material_3
+				texture type:  diffuseTexture, mapped using: "ID1091"
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#0
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+			processing texture Wood_Lumber_ButtJoined
+				texture type:  diffuseTexture, mapped using: "ID1099"
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#1
+		num positions      :  179
+		num normals        :  179
+		num tangents       :  0
+		num uvs            :  358
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  114
+	processing begun of mesh:  SketchUp.002
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#2
+		num positions      :  101
+		num normals        :  101
+		num tangents       :  0
+		num uvs            :  202
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  SketchUp.003
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  137
+		num normals        :  137
+		num tangents       :  0
+		num uvs            :  274
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  82
+	processing begun of mesh:  SketchUp.004
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  material_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  material_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#3
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.005
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  material_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  material_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#4
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.006
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#5
+		num positions      :  250
+		num normals        :  250
+		num tangents       :  0
+		num uvs            :  500
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  SketchUp.007
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+			processing texture Wood_Lumber_ButtJoined_3
+				texture type:  diffuseTexture, mapped using: "ID1152"
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#6
+		num positions      :  16
+		num normals        :  16
+		num tangents       :  0
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.008
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  89
+		num normals        :  89
+		num tangents       :  0
+		num uvs            :  178
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  34
+	processing begun of mesh:  SketchUp.009
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#7
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  SketchUp.010
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#8
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.011
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.012
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#9
+		num positions      :  46
+		num normals        :  46
+		num tangents       :  0
+		num uvs            :  92
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  SketchUp.013
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#10
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.014
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#11
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.015
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#12
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.016
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  1750
+		num normals        :  1750
+		num tangents       :  0
+		num uvs            :  3500
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  934
+	processing begun of mesh:  SketchUp.017
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#13
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.018
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#14
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.019
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#15
+		num positions      :  465
+		num normals        :  465
+		num tangents       :  0
+		num uvs            :  930
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  270
+	processing begun of mesh:  SketchUp.020
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#16
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.021
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#17
+		num positions      :  501
+		num normals        :  501
+		num tangents       :  0
+		num uvs            :  1002
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  284
+	processing begun of mesh:  SketchUp.022
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#18
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.023
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  42
+		num normals        :  42
+		num tangents       :  0
+		num uvs            :  84
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.024
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  SketchUp.025
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#19
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.026
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#20
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.027
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#21
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.028
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#22
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.029
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#23
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.030
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#24
+		num positions      :  92
+		num normals        :  92
+		num tangents       :  0
+		num uvs            :  184
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  56
+	processing begun of mesh:  SketchUp.031
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  551
+		num normals        :  551
+		num tangents       :  0
+		num uvs            :  1102
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  304
+	processing begun of mesh:  SketchUp.032
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#25
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.033
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#26
+		num positions      :  182
+		num normals        :  182
+		num tangents       :  0
+		num uvs            :  364
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  102
+	processing begun of mesh:  SketchUp.034
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#27
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.035
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#28
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.036
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  301
+		num normals        :  301
+		num tangents       :  0
+		num uvs            :  602
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  152
+	processing begun of mesh:  SketchUp.037
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  672
+		num normals        :  672
+		num tangents       :  0
+		num uvs            :  1344
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  354
+	processing begun of mesh:  SketchUp.038
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.039
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.040
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.041
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.042
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  15
+		num normals        :  15
+		num tangents       :  0
+		num uvs            :  30
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  SketchUp.043
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.044
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  177
+		num normals        :  177
+		num tangents       :  0
+		num uvs            :  354
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  72
+	processing begun of mesh:  SketchUp.045
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.046
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.047
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.048
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#29
+		num positions      :  93
+		num normals        :  93
+		num tangents       :  0
+		num uvs            :  186
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  50
+	processing begun of mesh:  SketchUp.049
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.050
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.051
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.052
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.053
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.054
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#30
+		num positions      :  184
+		num normals        :  184
+		num tangents       :  0
+		num uvs            :  368
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  110
+	processing begun of mesh:  SketchUp.055
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.056
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#31
+		num positions      :  145
+		num normals        :  145
+		num tangents       :  0
+		num uvs            :  290
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  72
+	processing begun of mesh:  SketchUp.057
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  329
+		num normals        :  329
+		num tangents       :  0
+		num uvs            :  658
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  174
+	processing begun of mesh:  SketchUp.058
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#32
+		num positions      :  102
+		num normals        :  102
+		num tangents       :  0
+		num uvs            :  204
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.059
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  material
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#33
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.060
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#34
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.061
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#35
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.062
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#36
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.063
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#37
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.077
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#38
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.078
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  SketchUp.079
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#39
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.080
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#40
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.081
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#41
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.082
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#42
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.083
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#43
+		num positions      :  53
+		num normals        :  53
+		num tangents       :  0
+		num uvs            :  106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  38
+	processing begun of mesh:  SketchUp.084
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#44
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.085
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#45
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.086
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.087
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#46
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.088
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  __Wood_Lumber_ButtJoined_3
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  __Wood_Lumber_ButtJoined_3
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#47
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  SketchUp.089
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  group_0
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_0.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_1
+	processing begun of node:  group_2
+	processing begun of mesh:  group_3
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#48
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5
+	processing begun of mesh:  group_3.002
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.003
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#49
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.002
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.003
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_6
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_6.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_7
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_7.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#50
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of node:  group_8
+	processing begun of mesh:  group_3.004
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.005
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#51
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.004
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.005
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_9
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_9.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_10
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_10.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#52
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_11
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_11.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#53
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of node:  group_12
+	processing begun of node:  group_13
+	processing begun of node:  group_2.001
+	processing begun of mesh:  group_3.006
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.007
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#54
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.006
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.007
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.001
+	processing begun of mesh:  group_3.008
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.009
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#55
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.008
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.009
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_14
+	processing begun of node:  group_2.002
+	processing begun of mesh:  group_3.010
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.011
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#56
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.010
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.011
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.002
+	processing begun of mesh:  group_3.012
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.013
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#57
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.012
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.013
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_15
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_15.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_16
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_16.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#58
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_17
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_17.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_18
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_18.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_19
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_19.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_20
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_20.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_21
+	processing begun of node:  group_2.003
+	processing begun of mesh:  group_3.014
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.015
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#59
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.014
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.015
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.003
+	processing begun of mesh:  group_3.016
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.017
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#60
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.016
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.017
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_22
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_22.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_23
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_23.001
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#61
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of node:  group_24
+	processing begun of node:  group_13.001
+	processing begun of node:  group_2.004
+	processing begun of mesh:  group_3.018
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.019
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#62
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.018
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.019
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.004
+	processing begun of mesh:  group_3.020
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.021
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#63
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.020
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.021
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_14.001
+	processing begun of node:  group_2.005
+	processing begun of mesh:  group_3.022
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.023
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#64
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.022
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.023
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.005
+	processing begun of mesh:  group_3.024
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.025
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#65
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.024
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.025
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_25
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_25.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_26
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_26.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_27
+	processing begun of mesh:  group_3.026
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.027
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#66
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.026
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.027
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_28
+	processing begun of node:  group_13.002
+	processing begun of node:  group_2.006
+	processing begun of mesh:  group_3.028
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.029
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#67
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.028
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.029
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.006
+	processing begun of mesh:  group_3.030
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.031
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#68
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.030
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.031
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_14.002
+	processing begun of node:  group_2.007
+	processing begun of mesh:  group_3.032
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.033
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#69
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.032
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.033
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.007
+	processing begun of mesh:  group_3.034
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.035
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#70
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.034
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.035
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_29
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_29.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_30
+	processing begun of node:  group_2.008
+	processing begun of mesh:  group_3.036
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.037
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#71
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.036
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.037
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  group_5.008
+	processing begun of mesh:  group_3.038
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		num positions      :  259
+		num normals        :  259
+		num tangents       :  0
+		num uvs            :  518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  148
+	processing begun of mesh:  group_3.039
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  strop_svetnice.Multimaterial#72
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  54
+	processing begun of mesh:  group_4.038
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_4.039
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_31
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_31.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_32
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_32.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_33
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_33.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_34
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  group_34.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  SketchUp
+	writing mesh:  SketchUp.001
+	writing mesh:  SketchUp.002
+	writing mesh:  SketchUp.003
+	writing mesh:  SketchUp.004
+	writing mesh:  SketchUp.005
+	writing mesh:  SketchUp.006
+	writing mesh:  SketchUp.007
+	writing mesh:  SketchUp.008
+	writing mesh:  SketchUp.009
+	writing mesh:  SketchUp.010
+	writing mesh:  SketchUp.011
+	writing mesh:  SketchUp.012
+	writing mesh:  SketchUp.013
+	writing mesh:  SketchUp.014
+	writing mesh:  SketchUp.015
+	writing mesh:  SketchUp.016
+	writing mesh:  SketchUp.017
+	writing mesh:  SketchUp.018
+	writing mesh:  SketchUp.019
+	writing mesh:  SketchUp.020
+	writing mesh:  SketchUp.021
+	writing mesh:  SketchUp.022
+	writing mesh:  SketchUp.023
+	writing mesh:  SketchUp.024
+	writing mesh:  SketchUp.025
+	writing mesh:  SketchUp.026
+	writing mesh:  SketchUp.027
+	writing mesh:  SketchUp.028
+	writing mesh:  SketchUp.029
+	writing mesh:  SketchUp.030
+	writing mesh:  SketchUp.031
+	writing mesh:  SketchUp.032
+	writing mesh:  SketchUp.033
+	writing mesh:  SketchUp.034
+	writing mesh:  SketchUp.035
+	writing mesh:  SketchUp.036
+	writing mesh:  SketchUp.037
+	writing mesh:  SketchUp.038
+	writing mesh:  SketchUp.039
+	writing mesh:  SketchUp.040
+	writing mesh:  SketchUp.041
+	writing mesh:  SketchUp.042
+	writing mesh:  SketchUp.043
+	writing mesh:  SketchUp.044
+	writing mesh:  SketchUp.045
+	writing mesh:  SketchUp.046
+	writing mesh:  SketchUp.047
+	writing mesh:  SketchUp.048
+	writing mesh:  SketchUp.049
+	writing mesh:  SketchUp.050
+	writing mesh:  SketchUp.051
+	writing mesh:  SketchUp.052
+	writing mesh:  SketchUp.053
+	writing mesh:  SketchUp.054
+	writing mesh:  SketchUp.055
+	writing mesh:  SketchUp.056
+	writing mesh:  SketchUp.057
+	writing mesh:  SketchUp.058
+	writing mesh:  SketchUp.059
+	writing mesh:  SketchUp.060
+	writing mesh:  SketchUp.061
+	writing mesh:  SketchUp.062
+	writing mesh:  SketchUp.063
+	writing mesh:  SketchUp.077
+	writing mesh:  SketchUp.078
+	writing mesh:  SketchUp.079
+	writing mesh:  SketchUp.080
+	writing mesh:  SketchUp.081
+	writing mesh:  SketchUp.082
+	writing mesh:  SketchUp.083
+	writing mesh:  SketchUp.084
+	writing mesh:  SketchUp.085
+	writing mesh:  SketchUp.086
+	writing mesh:  SketchUp.087
+	writing mesh:  SketchUp.088
+	writing mesh:  SketchUp.089
+	writing mesh:  group_0
+	writing mesh:  group_0.001
+	writing mesh:  group_3
+	writing mesh:  group_3.001
+	writing mesh:  group_4
+	writing mesh:  group_4.001
+	writing mesh:  group_3.002
+	writing mesh:  group_3.003
+	writing mesh:  group_4.002
+	writing mesh:  group_4.003
+	writing mesh:  group_6
+	writing mesh:  group_6.001
+	writing mesh:  group_7
+	writing mesh:  group_7.001
+	writing mesh:  group_3.004
+	writing mesh:  group_3.005
+	writing mesh:  group_4.004
+	writing mesh:  group_4.005
+	writing mesh:  group_9
+	writing mesh:  group_9.001
+	writing mesh:  group_10
+	writing mesh:  group_10.001
+	writing mesh:  group_11
+	writing mesh:  group_11.001
+	writing mesh:  group_3.006
+	writing mesh:  group_3.007
+	writing mesh:  group_4.006
+	writing mesh:  group_4.007
+	writing mesh:  group_3.008
+	writing mesh:  group_3.009
+	writing mesh:  group_4.008
+	writing mesh:  group_4.009
+	writing mesh:  group_3.010
+	writing mesh:  group_3.011
+	writing mesh:  group_4.010
+	writing mesh:  group_4.011
+	writing mesh:  group_3.012
+	writing mesh:  group_3.013
+	writing mesh:  group_4.012
+	writing mesh:  group_4.013
+	writing mesh:  group_15
+	writing mesh:  group_15.001
+	writing mesh:  group_16
+	writing mesh:  group_16.001
+	writing mesh:  group_17
+	writing mesh:  group_17.001
+	writing mesh:  group_18
+	writing mesh:  group_18.001
+	writing mesh:  group_19
+	writing mesh:  group_19.001
+	writing mesh:  group_20
+	writing mesh:  group_20.001
+	writing mesh:  group_3.014
+	writing mesh:  group_3.015
+	writing mesh:  group_4.014
+	writing mesh:  group_4.015
+	writing mesh:  group_3.016
+	writing mesh:  group_3.017
+	writing mesh:  group_4.016
+	writing mesh:  group_4.017
+	writing mesh:  group_22
+	writing mesh:  group_22.001
+	writing mesh:  group_23
+	writing mesh:  group_23.001
+	writing mesh:  group_3.018
+	writing mesh:  group_3.019
+	writing mesh:  group_4.018
+	writing mesh:  group_4.019
+	writing mesh:  group_3.020
+	writing mesh:  group_3.021
+	writing mesh:  group_4.020
+	writing mesh:  group_4.021
+	writing mesh:  group_3.022
+	writing mesh:  group_3.023
+	writing mesh:  group_4.022
+	writing mesh:  group_4.023
+	writing mesh:  group_3.024
+	writing mesh:  group_3.025
+	writing mesh:  group_4.024
+	writing mesh:  group_4.025
+	writing mesh:  group_25
+	writing mesh:  group_25.001
+	writing mesh:  group_26
+	writing mesh:  group_26.001
+	writing mesh:  group_3.026
+	writing mesh:  group_3.027
+	writing mesh:  group_4.026
+	writing mesh:  group_4.027
+	writing mesh:  group_3.028
+	writing mesh:  group_3.029
+	writing mesh:  group_4.028
+	writing mesh:  group_4.029
+	writing mesh:  group_3.030
+	writing mesh:  group_3.031
+	writing mesh:  group_4.030
+	writing mesh:  group_4.031
+	writing mesh:  group_3.032
+	writing mesh:  group_3.033
+	writing mesh:  group_4.032
+	writing mesh:  group_4.033
+	writing mesh:  group_3.034
+	writing mesh:  group_3.035
+	writing mesh:  group_4.034
+	writing mesh:  group_4.035
+	writing mesh:  group_29
+	writing mesh:  group_29.001
+	writing mesh:  group_3.036
+	writing mesh:  group_3.037
+	writing mesh:  group_4.036
+	writing mesh:  group_4.037
+	writing mesh:  group_3.038
+	writing mesh:  group_3.039
+	writing mesh:  group_4.038
+	writing mesh:  group_4.039
+	writing mesh:  group_31
+	writing mesh:  group_31.001
+	writing mesh:  group_32
+	writing mesh:  group_32.001
+	writing mesh:  group_33
+	writing mesh:  group_33.001
+	writing mesh:  group_34
+	writing mesh:  group_34.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.6243 secs

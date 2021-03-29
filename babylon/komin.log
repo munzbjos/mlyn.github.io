@@ -1,0 +1,66 @@
+Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  SketchUp
+		processing begun of material:  Cladding_Stucco_White_0
+			processing texture Cladding_Stucco_White_0
+				texture type:  diffuseTexture, mapped using: "ID43"
+		num positions      :  90
+		num normals        :  90
+		num tangents       :  0
+		num uvs            :  180
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  instance_0
+		processing begun of material:  Cladding_Stucco_White
+			processing texture Cladding_Stucco_White
+				texture type:  diffuseTexture, mapped using: "ID14"
+		num positions      :  110
+		num normals        :  110
+		num tangents       :  0
+		num uvs            :  220
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  instance_0.001
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  instance_0.002
+		processing begun of material:  Cladding_Stucco_White
+		registered as also a user of material:  Cladding_Stucco_White
+		num positions      :  230
+		num normals        :  230
+		num tangents       :  0
+		num uvs            :  460
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  132
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  SketchUp
+	writing mesh:  instance_0
+	writing mesh:  instance_0.001
+	writing mesh:  instance_0.002
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0369 secs
