@@ -73,8 +73,62 @@
 								"krytiny.babylon",
 								scene,
 								function(myMeshesThree){
-								
-							    console.log(myMeshesThree)
+									BABYLON.SceneLoader.ImportMesh(
+									"",
+									"./babylon/",
+									"pec.babylon",
+									scene,
+									function(myMeshesFour){
+										BABYLON.SceneLoader.ImportMesh(
+										"",
+										"./babylon/",
+										"podlahy_pud.babylon",
+										scene,
+										function(myMeshesFive){
+											BABYLON.SceneLoader.ImportMesh(
+											"",
+											"./babylon/",
+											"podlahy_prizemi.babylon",
+											scene,
+											function(myMeshesSix){
+												BABYLON.SceneLoader.ImportMesh(
+												"",
+												"./babylon/",
+												"steny_obvodove.babylon",
+												scene,
+												function(myMeshesSeven){
+													BABYLON.SceneLoader.ImportMesh(
+													"",
+													"./babylon/",
+													"steny_vnitrni.babylon",
+													scene,
+													function(myMeshesEight){
+														BABYLON.SceneLoader.ImportMesh(
+														"",
+														"./babylon/",
+														"steny_1_patro.babylon",
+														scene,
+														function(myMeshesNine){
+														 	BABYLON.SceneLoader.ImportMesh(
+															"",
+															"./babylon/",
+															"strop_svetnice.babylon",
+															scene,
+														function(myMeshesTen){
+														 	BABYLON.SceneLoader.ImportMesh(
+															"",
+															"./babylon/",
+															"schodiste.babylon",
+															scene,
+														function(myMeshesEvelen){
+														     BABYLON.SceneLoader.ImportMesh(
+															"",
+															"./babylon/",
+															"teren.babylon",
+															scene,
+															function(myMeshesTwelve){
+															
+															console.log(myMeshesTwelve)
 							
 							 // add buttons
                         var buttonbox = document.createElement("div")
@@ -158,6 +212,186 @@
 
                           BT3.style.backgroundColor = enable ? "red" : "green"
                         }
+						
+						var BT4 = document.createElement("button")
+                        BT4.id = "ShowHidemyMeshesFour"
+                        BT4.textContent = "Příčky nahoře"
+                        BT4.style.backgroundColor = "green"
+                        BT4.style.display = "block"
+                        BT4.style.width = "100%"
+                        BT4.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT4)
+                        BT4.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesFour) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT4.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT5 = document.createElement("button")
+                        BT5.id = "ShowHidemyMeshesFive"
+                        BT5.textContent = "Příčky nahoře"
+                        BT5.style.backgroundColor = "green"
+                        BT5.style.display = "block"
+                        BT5.style.width = "100%"
+                        BT5.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT5)
+                        BT5.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesFive) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT5.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT6 = document.createElement("button")
+                        BT6.id = "ShowHidemyMeshesSix"
+                        BT6.textContent = "Příčky nahoře"
+                        BT6.style.backgroundColor = "green"
+                        BT6.style.display = "block"
+                        BT6.style.width = "100%"
+                        BT6.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT6)
+                        BT6.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesSix) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT6.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT7 = document.createElement("button")
+                        BT7.id = "ShowHidemyMeshesSeven"
+                        BT7.textContent = "Příčky nahoře"
+                        BT7.style.backgroundColor = "green"
+                        BT7.style.display = "block"
+                        BT7.style.width = "100%"
+                        BT7.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT7)
+                        BT7.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesSeven) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT7.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT8 = document.createElement("button")
+                        BT8.id = "ShowHidemyMeshesEight"
+                        BT8.textContent = "Příčky nahoře"
+                        BT8.style.backgroundColor = "green"
+                        BT8.style.display = "block"
+                        BT8.style.width = "100%"
+                        BT8.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT8)
+                        BT8.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesEight) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT8.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT9 = document.createElement("button")
+                        BT9.id = "ShowHidemyMesheNine"
+                        BT9.textContent = "Příčky nahoře"
+                        BT9.style.backgroundColor = "green"
+                        BT9.style.display = "block"
+                        BT9.style.width = "100%"
+                        BT9.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT9)
+                        BT9.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesNine) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT9.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT10 = document.createElement("button")
+                        BT10.id = "ShowHidemyMesheTen"
+                        BT10.textContent = "Příčky nahoře"
+                        BT10.style.backgroundColor = "green"
+                        BT10.style.display = "block"
+                        BT10.style.width = "100%"
+                        BT10.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT10)
+                        BT10.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesTen) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT10.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT11 = document.createElement("button")
+                        BT11.id = "ShowHidemyMesheEleven"
+                        BT11.textContent = "Příčky nahoře"
+                        BT11.style.backgroundColor = "green"
+                        BT11.style.display = "block"
+                        BT11.style.width = "100%"
+                        BT11.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT11)
+                        BT11.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesEleven) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT11.style.backgroundColor = enable ? "red" : "green"
+                        }
+						
+						var BT12 = document.createElement("button")
+                        BT12.id = "ShowHidemyMesheTwelve"
+                        BT12.textContent = "Příčky nahoře"
+                        BT12.style.backgroundColor = "green"
+                        BT12.style.display = "block"
+                        BT12.style.width = "100%"
+                        BT12.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT12)
+                        BT12.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesTwelve) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT12.style.backgroundColor = enable ? "red" : "green"
+                        }
+							});
+							});
+							});
+							});
+							});
+							});
+							});
+							});
+							});
 							});
 							});
 							});
