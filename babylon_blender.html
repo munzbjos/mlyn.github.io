@@ -35,55 +35,35 @@
 
     <script>
 
-            var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
+            <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var engine = new BABYLON.Engine(canvas, true);
+        var scene = new BABYLON.Scene(engine);
+        // ArcRotateCamera doc, you can use FreeCamera if you prefer:
+        // http://doc.babylonjs.com/api/classes/babylon.arcrotatecamera#constructor
+        var arcRotCam = new BABYLON.ArcRotateCamera(
+            "arcRotateCamera", 1, 1, 4,
+            new BABYLON.Vector3(0, 1, 0),
+            scene
+        );
+        arcRotCam.attachControl(canvas, true);
 
-            var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+        // SceneLoader doc :
+        // http://doc.babylonjs.com/api/classes/babylon.sceneloader#append
+        BABYLON.SceneLoader.Append(
+            "babylon/",
+            "mlyn.babylon",
+            scene
+        );
 
+        engine.runRenderLoop(function () {
+            scene.render();
+        });
 
-            /******* Add the create scene function ******/
-            var createScene = function () {
-
-                        // Create the scene space
-                        var scene = new BABYLON.Scene(engine);
-
-                        // Add a camera to the scene and attach it to the canvas
-                        var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 15 * Math.PI / 32, 25, BABYLON.Vector3.Zero(), scene);
-                        camera.attachControl(canvas, true);
-
-                        // Add lights to the scene
-                        var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
-                        var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
-
-						
-						var loader = BABYLON.SceneLoader.Append("",
-						"./babylon/",
-						"mlyn.babylon",
-						scene,
-						
-						
-							
-
-							);
-							
-
-                        return scene;
-
-                };
-
-                /******* End of the create scene function ******/    
-
-                var scene = createScene(); //Call the createScene function
-
-            engine.runRenderLoop(function () { // Register a render loop to repeatedly render the scene
-                    scene.render();
-            });
-
-
-            window.addEventListener("resize", function () { // Watch for browser/canvas resize events
-                    engine.resize();
-            });
+        window.addEventListener("resize", function () {
+            engine.resize();
+        });
     </script>
-
-   </body>
-
+</body>
 </html>
