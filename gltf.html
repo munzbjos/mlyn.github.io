@@ -67,8 +67,14 @@
 							"komin.babylon",
 							scene,
 							function(myMeshesTwo){
-							
-							console.log(myMeshesTwo)
+								BABYLON.SceneLoader.ImportMesh(
+								"",
+								"./babylon/",
+								"kritiny.babylon",
+								scene,
+								function(myMeshesThree){
+								
+							    console.log(myMeshesTwo)
 							
 							 // add buttons
                         var buttonbox = document.createElement("div")
@@ -133,6 +139,26 @@
 
                           BT2.style.backgroundColor = enable ? "red" : "green"
                         }
+						
+						var BT3 = document.createElement("button")
+                        BT3.id = "ShowHidemyMeshesTwo"
+                        BT3.textContent = "Příčky nahoře"
+                        BT3.style.backgroundColor = "green"
+                        BT3.style.display = "block"
+                        BT3.style.width = "100%"
+                        BT3.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT2)
+                        BT2.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesThree) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                          }
+
+                          BT3.style.backgroundColor = enable ? "red" : "green"
+                        }
+							});
 							});
 							});
 
