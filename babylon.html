@@ -166,13 +166,12 @@
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesOne) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+						for (mesh of myMeshesOne)
+							mesh.setEnabled((mesh.isEnabled() ? false : true));
+							BT1.style.backgroundColor = enable ? "red" : "green"							
                           }
 
-                          BT1.style.backgroundColor = enable ? "green" : "red"
+                          BT1.style.backgroundColor = enable ? "red" : "green"
                         }
 
                         var BT2 = document.createElement("button")
