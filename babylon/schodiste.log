@@ -9,16 +9,16 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti_nove\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  SketchUp
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Cladding_Stucco_White
 			processing texture Modern_Siding
-				texture type:  diffuseTexture, mapped using: "ID12"
+				texture type:  diffuseTexture, mapped using: "ID437"
 			processing texture Cladding_Stucco_White
-				texture type:  diffuseTexture, mapped using: "ID12"
+				texture type:  diffuseTexture, mapped using: "ID437"
 		processing begun of multimaterial:  schodiste.Multimaterial#0
 		num positions      :  213
 		num normals        :  213
@@ -205,7 +205,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Crushed_Rock_Gravel
 		registered as also a user of material:  Cladding_Stucco_White
 			processing texture Crushed_Rock_Gravel
-				texture type:  diffuseTexture, mapped using: "ID152"
+				texture type:  diffuseTexture, mapped using: "ID577"
 		processing begun of multimaterial:  schodiste.Multimaterial#9
 		num positions      :  8
 		num normals        :  8
@@ -240,7 +240,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  SketchUp.019
 		processing begun of material:  material_2
 			processing texture material_2
-				texture type:  diffuseTexture, mapped using: "ID181"
+				texture type:  diffuseTexture, mapped using: "ID606"
 		num positions      :  2436
 		num normals        :  2436
 		num tangents       :  0
@@ -253,7 +253,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  rock1
 		registered as also a user of material:  material_2
 			processing texture rock1
-				texture type:  diffuseTexture, mapped using: "ID194"
+				texture type:  diffuseTexture, mapped using: "ID619"
 		processing begun of multimaterial:  schodiste.Multimaterial#11
 		num positions      :  22
 		num normals        :  22
@@ -353,12 +353,12 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  16
 	processing begun of mesh:  SketchUp.028
-		processing begun of material:  material_5
 		processing begun of material:  Wood_Board_Cork
-			processing texture material_5
-				texture type:  diffuseTexture, mapped using: "ID265"
+		processing begun of material:  material_5
 			processing texture Wood_Board_Cork
-				texture type:  diffuseTexture, mapped using: "ID265"
+				texture type:  diffuseTexture, mapped using: "ID685"
+			processing texture material_5
+				texture type:  diffuseTexture, mapped using: "ID685"
 		processing begun of multimaterial:  schodiste.Multimaterial#19
 		num positions      :  66
 		num normals        :  66
@@ -394,7 +394,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Board_Cork
 			processing texture Wood_Lumber_ButtJoined
-				texture type:  diffuseTexture, mapped using: "ID301"
+				texture type:  diffuseTexture, mapped using: "ID709"
 		processing begun of multimaterial:  schodiste.Multimaterial#21
 		num positions      :  12
 		num normals        :  12
@@ -453,10 +453,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  56
 	processing begun of mesh:  SketchUp.036
-		processing begun of material:  material_5
 		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  material_5
+		processing begun of material:  material_5
 		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  material_5
 		processing begun of multimaterial:  schodiste.Multimaterial#25
 		num positions      :  44
 		num normals        :  44
@@ -466,10 +466,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.037
-		processing begun of material:  noir_satin
 		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  noir_satin
+		processing begun of material:  noir_satin
 		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  noir_satin
 		processing begun of multimaterial:  schodiste.Multimaterial#26
 		num positions      :  8
 		num normals        :  8
@@ -483,7 +483,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 			processing texture Wood__Floor
-				texture type:  diffuseTexture, mapped using: "ID357"
+				texture type:  diffuseTexture, mapped using: "ID765"
 		processing begun of multimaterial:  schodiste.Multimaterial#27
 		num positions      :  64
 		num normals        :  64
@@ -497,7 +497,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 			processing texture material_4
-				texture type:  diffuseTexture, mapped using: "ID375"
+				texture type:  diffuseTexture, mapped using: "ID773"
 		processing begun of multimaterial:  schodiste.Multimaterial#28
 		num positions      :  148
 		num normals        :  148
@@ -520,11 +520,11 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.041
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 			processing texture bois1
-				texture type:  diffuseTexture, mapped using: "ID396"
+				texture type:  diffuseTexture, mapped using: "ID789"
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#30
 		num positions      :  75
 		num normals        :  75
@@ -560,10 +560,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.044
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#33
 		num positions      :  75
 		num normals        :  75
@@ -612,10 +612,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.048
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#37
 		num positions      :  75
 		num normals        :  75
@@ -651,10 +651,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.051
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#40
 		num positions      :  72
 		num normals        :  72
@@ -690,10 +690,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.054
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#43
 		num positions      :  69
 		num normals        :  69
@@ -716,10 +716,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.056
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#45
 		num positions      :  84
 		num normals        :  84
@@ -755,10 +755,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.059
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#48
 		num positions      :  70
 		num normals        :  70
@@ -781,10 +781,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.061
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#50
 		num positions      :  69
 		num normals        :  69
@@ -820,10 +820,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.126
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#53
 		num positions      :  69
 		num normals        :  69
@@ -859,10 +859,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.129
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#56
 		num positions      :  77
 		num normals        :  77
@@ -898,10 +898,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.132
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#59
 		num positions      :  79
 		num normals        :  79
@@ -924,10 +924,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.134
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#61
 		num positions      :  76
 		num normals        :  76
@@ -976,10 +976,10 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.138
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#65
 		num positions      :  83
 		num normals        :  83
@@ -989,135 +989,11 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  32
 	processing begun of mesh:  SketchUp.139
-		processing begun of material:  Wood_Board_Cork
-		processing begun of material:  noir_satin
-		registered as also a user of material:  Wood_Board_Cork
-		registered as also a user of material:  noir_satin
-		processing begun of multimaterial:  schodiste.Multimaterial#66
-		num positions      :  20
-		num normals        :  20
-		num tangents       :  0
-		num uvs            :  40
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  12
-	processing begun of mesh:  SketchUp.140
-		processing begun of material:  material_5
-		processing begun of material:  Wood_Board_Cork
-		registered as also a user of material:  material_5
-		registered as also a user of material:  Wood_Board_Cork
-		processing begun of multimaterial:  schodiste.Multimaterial#67
-		num positions      :  56
-		num normals        :  56
-		num tangents       :  0
-		num uvs            :  112
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  36
-	processing begun of mesh:  SketchUp.141
-		processing begun of material:  Wood_Board_Cork
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood_Board_Cork
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		processing begun of multimaterial:  schodiste.Multimaterial#68
-		num positions      :  12
-		num normals        :  12
-		num tangents       :  0
-		num uvs            :  24
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  8
-	processing begun of mesh:  SketchUp.142
-		processing begun of material:  Wood_Board_Cork
-		registered as also a user of material:  Wood_Board_Cork
-		num positions      :  48
-		num normals        :  48
-		num tangents       :  0
-		num uvs            :  96
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  20
-	processing begun of mesh:  SketchUp.143
-		processing begun of material:  Wood_Board_Cork
-		processing begun of material:  noir_satin
-		registered as also a user of material:  Wood_Board_Cork
-		registered as also a user of material:  noir_satin
-		processing begun of multimaterial:  schodiste.Multimaterial#69
-		num positions      :  8
-		num normals        :  8
-		num tangents       :  0
-		num uvs            :  16
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  4
-	processing begun of mesh:  SketchUp.144
-		processing begun of material:  Wood_Board_Cork
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood_Board_Cork
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		processing begun of multimaterial:  schodiste.Multimaterial#70
-		num positions      :  8
-		num normals        :  8
-		num tangents       :  0
-		num uvs            :  16
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  4
-	processing begun of mesh:  SketchUp.145
-		processing begun of material:  Wood_Board_Cork
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood_Board_Cork
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		processing begun of multimaterial:  schodiste.Multimaterial#71
-		num positions      :  8
-		num normals        :  8
-		num tangents       :  0
-		num uvs            :  16
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  4
-	processing begun of mesh:  SketchUp.146
-		processing begun of material:  material_5
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  material_5
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		processing begun of multimaterial:  schodiste.Multimaterial#72
-		num positions      :  48
-		num normals        :  48
-		num tangents       :  0
-		num uvs            :  96
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  32
-	processing begun of mesh:  SketchUp.147
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		num positions      :  108
-		num normals        :  108
-		num tangents       :  0
-		num uvs            :  216
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  56
-	processing begun of mesh:  SketchUp.148
-		processing begun of material:  noir_satin
-		processing begun of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  noir_satin
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		processing begun of multimaterial:  schodiste.Multimaterial#73
-		num positions      :  12
-		num normals        :  12
-		num tangents       :  0
-		num uvs            :  24
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  4
-	processing begun of mesh:  SketchUp.149
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#74
+		processing begun of multimaterial:  schodiste.Multimaterial#66
 		num positions      :  148
 		num normals        :  148
 		num tangents       :  0
@@ -1125,20 +1001,124 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  60
-	processing begun of mesh:  SketchUp.150
-		processing begun of material:  Wood__Floor
+	processing begun of mesh:  SketchUp.140
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#75
-		num positions      :  74
-		num normals        :  74
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#67
+		num positions      :  77
+		num normals        :  77
 		num tangents       :  0
-		num uvs            :  148
+		num uvs            :  154
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  SketchUp.151
+	processing begun of mesh:  SketchUp.141
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#68
+		num positions      :  69
+		num normals        :  69
+		num tangents       :  0
+		num uvs            :  138
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.142
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#69
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.143
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#70
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.144
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#71
+		num positions      :  73
+		num normals        :  73
+		num tangents       :  0
+		num uvs            :  146
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.145
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#72
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.146
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#73
+		num positions      :  82
+		num normals        :  82
+		num tangents       :  0
+		num uvs            :  164
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.147
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#74
+		num positions      :  75
+		num normals        :  75
+		num tangents       :  0
+		num uvs            :  150
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.148
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#75
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.149
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
@@ -1151,29 +1131,55 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  60
-	processing begun of mesh:  SketchUp.152
+	processing begun of mesh:  SketchUp.150
 		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#77
-		num positions      :  68
-		num normals        :  68
+		num positions      :  71
+		num normals        :  71
 		num tangents       :  0
-		num uvs            :  136
+		num uvs            :  142
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.151
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#78
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.152
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#79
+		num positions      :  74
+		num normals        :  74
+		num tangents       :  0
+		num uvs            :  148
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.153
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#78
-		num positions      :  75
-		num normals        :  75
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#80
+		num positions      :  84
+		num normals        :  84
 		num tangents       :  0
-		num uvs            :  150
+		num uvs            :  168
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
@@ -1182,7 +1188,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#79
+		processing begun of multimaterial:  schodiste.Multimaterial#81
 		num positions      :  148
 		num normals        :  148
 		num tangents       :  0
@@ -1195,33 +1201,33 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#80
-		num positions      :  65
-		num normals        :  65
+		processing begun of multimaterial:  schodiste.Multimaterial#82
+		num positions      :  71
+		num normals        :  71
 		num tangents       :  0
-		num uvs            :  130
+		num uvs            :  142
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  SketchUp.156
+		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#81
-		num positions      :  72
-		num normals        :  72
+		processing begun of multimaterial:  schodiste.Multimaterial#83
+		num positions      :  67
+		num normals        :  67
 		num tangents       :  0
-		num uvs            :  144
+		num uvs            :  134
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  32
+		num triangles      :  28
 	processing begun of mesh:  SketchUp.157
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#82
+		processing begun of multimaterial:  schodiste.Multimaterial#84
 		num positions      :  148
 		num normals        :  148
 		num tangents       :  0
@@ -1230,24 +1236,37 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  60
 	processing begun of mesh:  SketchUp.158
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#83
-		num positions      :  84
-		num normals        :  84
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#85
+		num positions      :  79
+		num normals        :  79
 		num tangents       :  0
-		num uvs            :  168
+		num uvs            :  158
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
 	processing begun of mesh:  SketchUp.159
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#86
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.160
 		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#84
+		processing begun of multimaterial:  schodiste.Multimaterial#87
 		num positions      :  69
 		num normals        :  69
 		num tangents       :  0
@@ -1255,85 +1274,46 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
-	processing begun of mesh:  SketchUp.160
-		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#85
-		num positions      :  148
-		num normals        :  148
-		num tangents       :  0
-		num uvs            :  296
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
 	processing begun of mesh:  SketchUp.161
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#86
-		num positions      :  78
-		num normals        :  78
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#88
+		num positions      :  73
+		num normals        :  73
 		num tangents       :  0
-		num uvs            :  156
+		num uvs            :  146
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
 	processing begun of mesh:  SketchUp.162
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#87
-		num positions      :  72
-		num normals        :  72
-		num tangents       :  0
-		num uvs            :  144
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.163
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#88
-		num positions      :  64
-		num normals        :  64
-		num tangents       :  0
-		num uvs            :  128
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.164
-		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#89
-		num positions      :  148
-		num normals        :  148
-		num tangents       :  0
-		num uvs            :  296
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  SketchUp.165
-		processing begun of material:  Wood__Floor
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#90
-		num positions      :  77
-		num normals        :  77
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#89
+		num positions      :  79
+		num normals        :  79
 		num tangents       :  0
-		num uvs            :  154
+		num uvs            :  158
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  SketchUp.166
+	processing begun of mesh:  SketchUp.163
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#90
+		num positions      :  81
+		num normals        :  81
+		num tangents       :  0
+		num uvs            :  162
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.164
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
@@ -1346,12 +1326,116 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  60
-	processing begun of mesh:  SketchUp.167
+	processing begun of mesh:  SketchUp.165
+		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
 		processing begun of multimaterial:  schodiste.Multimaterial#92
+		num positions      :  74
+		num normals        :  74
+		num tangents       :  0
+		num uvs            :  148
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.166
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#93
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.167
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#94
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.168
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#95
+		num positions      :  69
+		num normals        :  69
+		num tangents       :  0
+		num uvs            :  138
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.169
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#96
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.170
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#97
+		num positions      :  74
+		num normals        :  74
+		num tangents       :  0
+		num uvs            :  148
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  SketchUp.171
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#98
+		num positions      :  70
+		num normals        :  70
+		num tangents       :  0
+		num uvs            :  140
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.172
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#99
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  SketchUp.173
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#100
 		num positions      :  82
 		num normals        :  82
 		num tangents       :  0
@@ -1359,116 +1443,25 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  SketchUp.168
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#93
-		num positions      :  71
-		num normals        :  71
-		num tangents       :  0
-		num uvs            :  142
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.169
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#94
-		num positions      :  73
-		num normals        :  73
-		num tangents       :  0
-		num uvs            :  146
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.170
-		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#95
-		num positions      :  148
-		num normals        :  148
-		num tangents       :  0
-		num uvs            :  296
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  SketchUp.171
-		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#96
-		num positions      :  80
-		num normals        :  80
-		num tangents       :  0
-		num uvs            :  160
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  32
-	processing begun of mesh:  SketchUp.172
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#97
-		num positions      :  71
-		num normals        :  71
-		num tangents       :  0
-		num uvs            :  142
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.173
-		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#98
-		num positions      :  148
-		num normals        :  148
-		num tangents       :  0
-		num uvs            :  296
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
 	processing begun of mesh:  SketchUp.174
-		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#99
-		num positions      :  77
-		num normals        :  77
-		num tangents       :  0
-		num uvs            :  154
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  32
-	processing begun of mesh:  SketchUp.175
 		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#100
-		num positions      :  64
-		num normals        :  64
+		processing begun of multimaterial:  schodiste.Multimaterial#101
+		num positions      :  69
+		num normals        :  69
 		num tangents       :  0
-		num uvs            :  128
+		num uvs            :  138
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
-	processing begun of mesh:  SketchUp.176
+	processing begun of mesh:  SketchUp.175
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#101
+		processing begun of multimaterial:  schodiste.Multimaterial#102
 		num positions      :  148
 		num normals        :  148
 		num tangents       :  0
@@ -1476,24 +1469,11 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  60
-	processing begun of mesh:  SketchUp.177
-		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
-		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#102
-		num positions      :  73
-		num normals        :  73
-		num tangents       :  0
-		num uvs            :  146
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.178
-		processing begun of material:  Wood__Floor
+	processing begun of mesh:  SketchUp.176
 		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
+		processing begun of material:  Wood__Floor
 		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
 		processing begun of multimaterial:  schodiste.Multimaterial#103
 		num positions      :  78
 		num normals        :  78
@@ -1502,90 +1482,287 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  SketchUp.179
+	processing begun of mesh:  SketchUp.177
+		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
+		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
 		processing begun of multimaterial:  schodiste.Multimaterial#104
-		num positions      :  148
-		num normals        :  148
+		num positions      :  72
+		num normals        :  72
 		num tangents       :  0
-		num uvs            :  296
+		num uvs            :  144
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  SketchUp.180
-		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.178
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  material_5
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  material_5
 		processing begun of multimaterial:  schodiste.Multimaterial#105
-		num positions      :  77
-		num normals        :  77
+		num positions      :  48
+		num normals        :  48
 		num tangents       :  0
-		num uvs            :  154
+		num uvs            :  96
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  32
-	processing begun of mesh:  SketchUp.181
+		num triangles      :  28
+	processing begun of mesh:  SketchUp.179
 		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
+		num positions      :  92
+		num normals        :  92
+		num tangents       :  0
+		num uvs            :  184
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  56
+	processing begun of mesh:  SketchUp.180
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  noir_satin
 		processing begun of multimaterial:  schodiste.Multimaterial#106
-		num positions      :  71
-		num normals        :  71
+		num positions      :  8
+		num normals        :  8
 		num tangents       :  0
-		num uvs            :  142
+		num uvs            :  16
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.182
-		processing begun of material:  Wood__Floor
-		processing begun of material:  material_4
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  material_4
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.181
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  material_5
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  material_5
 		processing begun of multimaterial:  schodiste.Multimaterial#107
-		num positions      :  148
-		num normals        :  148
+		num positions      :  76
+		num normals        :  76
 		num tangents       :  0
-		num uvs            :  296
+		num uvs            :  152
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  SketchUp.183
-		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
-		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#108
-		num positions      :  71
-		num normals        :  71
+		num triangles      :  36
+	processing begun of mesh:  SketchUp.182
+		processing begun of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Board_Cork
+		num positions      :  32
+		num normals        :  32
 		num tangents       :  0
-		num uvs            :  142
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  SketchUp.183
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  noir_satin
+		processing begun of multimaterial:  schodiste.Multimaterial#108
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.184
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#109
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.185
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#110
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  SketchUp.186
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#111
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  SketchUp.187
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  noir_satin
+		processing begun of multimaterial:  schodiste.Multimaterial#112
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  group_0
+		processing begun of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Board_Cork
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  0
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  20
+	processing begun of mesh:  group_0.001
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#113
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_0.002
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  material_5
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  schodiste.Multimaterial#114
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  SketchUp.184
+	processing begun of mesh:  group_0.003
 		processing begun of material:  Wood_Lumber_ButtJoined
-		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
-		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#109
-		num positions      :  71
-		num normals        :  71
+		num positions      :  92
+		num normals        :  92
 		num tangents       :  0
-		num uvs            :  142
+		num uvs            :  184
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  SketchUp.185
+		num triangles      :  56
+	processing begun of mesh:  group_0.004
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  material_5
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  schodiste.Multimaterial#115
+		num positions      :  56
+		num normals        :  56
+		num tangents       :  0
+		num uvs            :  112
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  36
+	processing begun of mesh:  group_0.005
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  noir_satin
+		processing begun of multimaterial:  schodiste.Multimaterial#116
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  40
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  group_0.006
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  noir_satin
+		processing begun of multimaterial:  schodiste.Multimaterial#117
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_0.007
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#118
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_0.008
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  noir_satin
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  noir_satin
+		processing begun of multimaterial:  schodiste.Multimaterial#119
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_0.009
+		processing begun of material:  Wood_Board_Cork
+		processing begun of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood_Board_Cork
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		processing begun of multimaterial:  schodiste.Multimaterial#120
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  group_0.010
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#121
+		num positions      :  58
+		num normals        :  58
+		num tangents       :  0
+		num uvs            :  116
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.011
 		processing begun of material:  Wood__Floor
 		processing begun of material:  material_4
 		registered as also a user of material:  Wood__Floor
 		registered as also a user of material:  material_4
-		processing begun of multimaterial:  schodiste.Multimaterial#110
+		processing begun of multimaterial:  schodiste.Multimaterial#122
 		num positions      :  148
 		num normals        :  148
 		num tangents       :  0
@@ -1593,33 +1770,487 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  60
-	processing begun of mesh:  SketchUp.186
+	processing begun of mesh:  group_0.012
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#123
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.013
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#124
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.014
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#125
+		num positions      :  47
+		num normals        :  47
+		num tangents       :  0
+		num uvs            :  94
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.015
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#126
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.016
 		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		processing begun of multimaterial:  schodiste.Multimaterial#111
-		num positions      :  64
-		num normals        :  64
+		processing begun of multimaterial:  schodiste.Multimaterial#127
+		num positions      :  42
+		num normals        :  42
 		num tangents       :  0
-		num uvs            :  128
+		num uvs            :  84
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
-	processing begun of mesh:  SketchUp.187
+	processing begun of mesh:  group_0.017
+		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Wood__Floor
-		processing begun of material:  bois1
+		registered as also a user of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood__Floor
-		registered as also a user of material:  bois1
-		processing begun of multimaterial:  schodiste.Multimaterial#112
-		num positions      :  67
-		num normals        :  67
+		processing begun of multimaterial:  schodiste.Multimaterial#128
+		num positions      :  50
+		num normals        :  50
 		num tangents       :  0
-		num uvs            :  134
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.018
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#129
+		num positions      :  54
+		num normals        :  54
+		num tangents       :  0
+		num uvs            :  108
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  group_0.019
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#130
+		num positions      :  42
+		num normals        :  42
+		num tangents       :  0
+		num uvs            :  84
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.020
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#131
+		num positions      :  56
+		num normals        :  56
+		num tangents       :  0
+		num uvs            :  112
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.021
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#132
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.022
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#133
+		num positions      :  53
+		num normals        :  53
+		num tangents       :  0
+		num uvs            :  106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.023
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#134
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.024
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#135
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.025
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#136
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  0
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.026
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#137
+		num positions      :  49
+		num normals        :  49
+		num tangents       :  0
+		num uvs            :  98
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.027
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#138
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.028
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#139
+		num positions      :  37
+		num normals        :  37
+		num tangents       :  0
+		num uvs            :  74
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.029
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#140
+		num positions      :  49
+		num normals        :  49
+		num tangents       :  0
+		num uvs            :  98
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.030
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#141
+		num positions      :  51
+		num normals        :  51
+		num tangents       :  0
+		num uvs            :  102
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.031
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#142
+		num positions      :  37
+		num normals        :  37
+		num tangents       :  0
+		num uvs            :  74
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.032
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#143
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.033
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#144
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.034
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#145
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.035
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#146
+		num positions      :  37
+		num normals        :  37
+		num tangents       :  0
+		num uvs            :  74
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.036
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#147
+		num positions      :  39
+		num normals        :  39
+		num tangents       :  0
+		num uvs            :  78
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.037
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#148
+		num positions      :  45
+		num normals        :  45
+		num tangents       :  0
+		num uvs            :  90
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.038
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#149
+		num positions      :  47
+		num normals        :  47
+		num tangents       :  0
+		num uvs            :  94
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.039
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#150
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.040
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#151
+		num positions      :  41
+		num normals        :  41
+		num tangents       :  0
+		num uvs            :  82
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.041
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#152
+		num positions      :  50
+		num normals        :  50
+		num tangents       :  0
+		num uvs            :  100
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.042
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#153
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.043
+		processing begun of material:  Wood__Floor
+		processing begun of material:  material_4
+		registered as also a user of material:  Wood__Floor
+		registered as also a user of material:  material_4
+		processing begun of multimaterial:  schodiste.Multimaterial#154
+		num positions      :  148
+		num normals        :  148
+		num tangents       :  0
+		num uvs            :  296
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  group_0.044
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#155
+		num positions      :  49
+		num normals        :  49
+		num tangents       :  0
+		num uvs            :  98
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.045
+		processing begun of material:  bois1
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  bois1
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#156
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  0
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32
+	processing begun of mesh:  group_0.046
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#157
+		num positions      :  41
+		num normals        :  41
+		num tangents       :  0
+		num uvs            :  82
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.047
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#158
+		num positions      :  43
+		num normals        :  43
+		num tangents       :  0
+		num uvs            :  86
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_0.048
+		processing begun of material:  Wood_Lumber_ButtJoined
+		processing begun of material:  Wood__Floor
+		registered as also a user of material:  Wood_Lumber_ButtJoined
+		registered as also a user of material:  Wood__Floor
+		processing begun of multimaterial:  schodiste.Multimaterial#159
+		num positions      :  43
+		num normals        :  43
+		num tangents       :  0
+		num uvs            :  86
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
 	processing begun of light (POINT):  Light
 ========= Writing of JSON file started =========
 	writing mesh:  SketchUp
@@ -1748,6 +2379,55 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  SketchUp.185
 	writing mesh:  SketchUp.186
 	writing mesh:  SketchUp.187
+	writing mesh:  group_0
+	writing mesh:  group_0.001
+	writing mesh:  group_0.002
+	writing mesh:  group_0.003
+	writing mesh:  group_0.004
+	writing mesh:  group_0.005
+	writing mesh:  group_0.006
+	writing mesh:  group_0.007
+	writing mesh:  group_0.008
+	writing mesh:  group_0.009
+	writing mesh:  group_0.010
+	writing mesh:  group_0.011
+	writing mesh:  group_0.012
+	writing mesh:  group_0.013
+	writing mesh:  group_0.014
+	writing mesh:  group_0.015
+	writing mesh:  group_0.016
+	writing mesh:  group_0.017
+	writing mesh:  group_0.018
+	writing mesh:  group_0.019
+	writing mesh:  group_0.020
+	writing mesh:  group_0.021
+	writing mesh:  group_0.022
+	writing mesh:  group_0.023
+	writing mesh:  group_0.024
+	writing mesh:  group_0.025
+	writing mesh:  group_0.026
+	writing mesh:  group_0.027
+	writing mesh:  group_0.028
+	writing mesh:  group_0.029
+	writing mesh:  group_0.030
+	writing mesh:  group_0.031
+	writing mesh:  group_0.032
+	writing mesh:  group_0.033
+	writing mesh:  group_0.034
+	writing mesh:  group_0.035
+	writing mesh:  group_0.036
+	writing mesh:  group_0.037
+	writing mesh:  group_0.038
+	writing mesh:  group_0.039
+	writing mesh:  group_0.040
+	writing mesh:  group_0.041
+	writing mesh:  group_0.042
+	writing mesh:  group_0.043
+	writing mesh:  group_0.044
+	writing mesh:  group_0.045
+	writing mesh:  group_0.046
+	writing mesh:  group_0.047
+	writing mesh:  group_0.048
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.444 secs
+elapsed time:  0 min, 0.5467 secs

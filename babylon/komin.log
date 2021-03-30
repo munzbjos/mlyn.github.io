@@ -9,13 +9,13 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti_nove\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  SketchUp
 		processing begun of material:  Cladding_Stucco_White_0
 			processing texture Cladding_Stucco_White_0
-				texture type:  diffuseTexture, mapped using: "ID43"
+				texture type:  diffuseTexture, mapped using: "ID42"
 		num positions      :  90
 		num normals        :  90
 		num tangents       :  0
@@ -27,7 +27,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  instance_0
 		processing begun of material:  Cladding_Stucco_White
 			processing texture Cladding_Stucco_White
-				texture type:  diffuseTexture, mapped using: "ID14"
+				texture type:  diffuseTexture, mapped using: "ID13"
 		num positions      :  110
 		num normals        :  110
 		num tangents       :  0
@@ -63,4 +63,4 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  instance_0.002
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.0369 secs
+elapsed time:  0 min, 0.0239 secs

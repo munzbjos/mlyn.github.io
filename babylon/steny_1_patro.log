@@ -9,13 +9,13 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti_nove\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  SketchUp
 		processing begun of material:  Cladding_Stucco_White
 			processing texture Cladding_Stucco_White
-				texture type:  diffuseTexture, mapped using: "ID1436"
+				texture type:  diffuseTexture, mapped using: "ID1435"
 		num positions      :  2927
 		num normals        :  2927
 		num tangents       :  0
@@ -27,7 +27,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Wood_Lumber_ButtJoined
 		processing begun of material:  Cladding_Stucco_White
 			processing texture Wood_Lumber_ButtJoined
-				texture type:  diffuseTexture, mapped using: "ID1444"
+				texture type:  diffuseTexture, mapped using: "ID1443"
 		registered as also a user of material:  Cladding_Stucco_White
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#0
 		num positions      :  387
@@ -93,7 +93,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  __Wood_Lumber_ButtJoined_3
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 			processing texture Wood_Lumber_ButtJoined_3
-				texture type:  diffuseTexture, mapped using: "ID1489"
+				texture type:  diffuseTexture, mapped using: "ID1488"
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#5
 		num positions      :  20
 		num normals        :  20
@@ -582,7 +582,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  material_5
 		registered as also a user of material:  Cladding_Stucco_White
 			processing texture material_5
-				texture type:  diffuseTexture, mapped using: "ID1794"
+				texture type:  diffuseTexture, mapped using: "ID1793"
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#39
 		num positions      :  10
 		num normals        :  10
@@ -795,7 +795,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  strecha
 		registered as also a user of material:  Cladding_Stucco_White
 			processing texture strecha
-				texture type:  diffuseTexture, mapped using: "ID1930"
+				texture type:  diffuseTexture, mapped using: "ID1929"
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#53
 		num positions      :  8
 		num normals        :  8
@@ -1374,7 +1374,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 			processing texture Modern_Siding
-				texture type:  diffuseTexture, mapped using: "ID14"
+				texture type:  diffuseTexture, mapped using: "ID13"
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#86
 		num positions      :  3385
@@ -1507,7 +1507,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  Modern_Siding
 			processing texture Modern_Siding_0
-				texture type:  diffuseTexture, mapped using: "ID107"
+				texture type:  diffuseTexture, mapped using: "ID106"
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#93
 		num positions      :  33
 		num normals        :  33
@@ -2114,7 +2114,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.064
+	processing begun of mesh:  instance_0.179
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2127,7 +2127,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.065
+	processing begun of mesh:  instance_0.180
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2140,7 +2140,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.066
+	processing begun of mesh:  instance_0.181
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2153,7 +2153,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.067
+	processing begun of mesh:  instance_0.182
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -2163,7 +2163,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.068
+	processing begun of mesh:  instance_0.183
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -2176,7 +2176,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.069
+	processing begun of mesh:  instance_0.184
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2189,7 +2189,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.070
+	processing begun of mesh:  instance_0.185
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -2199,7 +2199,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.071
+	processing begun of mesh:  instance_0.186
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  10
@@ -2209,7 +2209,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.072
+	processing begun of mesh:  instance_0.187
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2222,7 +2222,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.073
+	processing begun of mesh:  instance_0.188
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -2232,7 +2232,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.074
+	processing begun of mesh:  instance_0.189
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2245,7 +2245,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.075
+	processing begun of mesh:  instance_0.190
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2258,7 +2258,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.076
+	processing begun of mesh:  instance_0.191
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2271,7 +2271,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.077
+	processing begun of mesh:  instance_0.192
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2284,7 +2284,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.078
+	processing begun of mesh:  instance_0.193
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2297,7 +2297,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  30
-	processing begun of mesh:  instance_0.079
+	processing begun of mesh:  instance_0.194
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2310,7 +2310,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.080
+	processing begun of mesh:  instance_0.195
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Color_B08_1
 		registered as also a user of material:  Modern_Siding
@@ -2323,7 +2323,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.081
+	processing begun of mesh:  instance_0.196
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2336,7 +2336,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.082
+	processing begun of mesh:  instance_0.197
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2349,7 +2349,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.083
+	processing begun of mesh:  instance_0.198
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2362,7 +2362,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.084
+	processing begun of mesh:  instance_0.199
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2375,7 +2375,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.085
+	processing begun of mesh:  instance_0.200
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2388,7 +2388,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.086
+	processing begun of mesh:  instance_0.201
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2401,7 +2401,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.087
+	processing begun of mesh:  instance_0.202
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2414,7 +2414,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.088
+	processing begun of mesh:  instance_0.203
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  6
@@ -2424,7 +2424,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  instance_0.089
+	processing begun of mesh:  instance_0.204
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2437,7 +2437,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.090
+	processing begun of mesh:  instance_0.205
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2450,7 +2450,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.091
+	processing begun of mesh:  instance_0.206
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2463,7 +2463,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.092
+	processing begun of mesh:  instance_0.207
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2476,7 +2476,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.093
+	processing begun of mesh:  instance_0.208
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2489,7 +2489,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.094
+	processing begun of mesh:  instance_0.209
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2502,7 +2502,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.095
+	processing begun of mesh:  instance_0.210
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2515,7 +2515,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.096
+	processing begun of mesh:  instance_0.211
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2528,7 +2528,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.097
+	processing begun of mesh:  instance_0.212
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  6
@@ -2538,7 +2538,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  instance_0.098
+	processing begun of mesh:  instance_0.213
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  16
@@ -2548,7 +2548,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
-	processing begun of mesh:  instance_0.099
+	processing begun of mesh:  instance_0.214
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  26
@@ -2558,7 +2558,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  18
-	processing begun of mesh:  instance_0.100
+	processing begun of mesh:  instance_0.215
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2571,7 +2571,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.101
+	processing begun of mesh:  instance_0.216
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -2581,7 +2581,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.102
+	processing begun of mesh:  instance_0.217
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2594,7 +2594,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.103
+	processing begun of mesh:  instance_0.218
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -2604,7 +2604,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.104
+	processing begun of mesh:  instance_0.219
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  10
@@ -2614,7 +2614,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.105
+	processing begun of mesh:  instance_0.220
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2627,7 +2627,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.106
+	processing begun of mesh:  instance_0.221
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2640,7 +2640,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.107
+	processing begun of mesh:  instance_0.222
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  Modern_Siding
@@ -2653,7 +2653,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  30
-	processing begun of mesh:  instance_0.108
+	processing begun of mesh:  instance_0.223
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  268
@@ -2663,7 +2663,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  136
-	processing begun of mesh:  instance_0.109
+	processing begun of mesh:  instance_0.224
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2676,7 +2676,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.110
+	processing begun of mesh:  instance_0.225
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2689,7 +2689,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.111
+	processing begun of mesh:  instance_0.226
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2702,7 +2702,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
-	processing begun of mesh:  instance_0.112
+	processing begun of mesh:  instance_0.227
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2715,12 +2715,12 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  instance_0.113
+	processing begun of mesh:  instance_0.228
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  __Wood_Fence_2
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 			processing texture Wood_Fence_2
-				texture type:  diffuseTexture, mapped using: "ID909"
+				texture type:  diffuseTexture, mapped using: "ID908"
 		processing begun of multimaterial:  steny_1_patro.Multimaterial#157
 		num positions      :  8
 		num normals        :  8
@@ -2729,7 +2729,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.114
+	processing begun of mesh:  instance_0.229
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2742,7 +2742,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  162
-	processing begun of mesh:  instance_0.115
+	processing begun of mesh:  instance_0.230
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2755,7 +2755,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.116
+	processing begun of mesh:  instance_0.231
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2768,7 +2768,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.117
+	processing begun of mesh:  instance_0.232
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  8
@@ -2778,7 +2778,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.118
+	processing begun of mesh:  instance_0.233
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  8
@@ -2788,7 +2788,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.119
+	processing begun of mesh:  instance_0.234
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2801,7 +2801,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.120
+	processing begun of mesh:  instance_0.235
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2814,7 +2814,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.121
+	processing begun of mesh:  instance_0.236
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -2827,7 +2827,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  46
-	processing begun of mesh:  instance_0.122
+	processing begun of mesh:  instance_0.237
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2840,7 +2840,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  18
-	processing begun of mesh:  instance_0.123
+	processing begun of mesh:  instance_0.238
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  21
@@ -2850,7 +2850,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.124
+	processing begun of mesh:  instance_0.239
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2863,7 +2863,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.125
+	processing begun of mesh:  instance_0.240
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
 		num positions      :  16
@@ -2873,7 +2873,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
-	processing begun of mesh:  instance_0.126
+	processing begun of mesh:  instance_0.241
 		processing begun of material:  Modern_Siding_0
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding_0
@@ -2886,7 +2886,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  68
-	processing begun of mesh:  instance_0.127
+	processing begun of mesh:  instance_0.242
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2899,7 +2899,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.128
+	processing begun of mesh:  instance_0.243
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2912,7 +2912,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  22
-	processing begun of mesh:  instance_0.129
+	processing begun of mesh:  instance_0.244
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2925,7 +2925,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.130
+	processing begun of mesh:  instance_0.245
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2938,7 +2938,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  26
-	processing begun of mesh:  instance_0.131
+	processing begun of mesh:  instance_0.246
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2951,7 +2951,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.132
+	processing begun of mesh:  instance_0.247
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -2964,7 +2964,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.133
+	processing begun of mesh:  instance_0.248
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2977,7 +2977,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  74
-	processing begun of mesh:  instance_0.134
+	processing begun of mesh:  instance_0.249
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -2990,7 +2990,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.135
+	processing begun of mesh:  instance_0.250
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -3003,7 +3003,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.136
+	processing begun of mesh:  instance_0.251
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3016,7 +3016,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  30
-	processing begun of mesh:  instance_0.137
+	processing begun of mesh:  instance_0.252
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  30
@@ -3026,7 +3026,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.138
+	processing begun of mesh:  instance_0.253
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  Modern_Siding_0
 		num positions      :  28
@@ -3036,7 +3036,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  16
-	processing begun of mesh:  instance_0.139
+	processing begun of mesh:  instance_0.254
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3049,7 +3049,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.140
+	processing begun of mesh:  instance_0.255
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3062,7 +3062,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.141
+	processing begun of mesh:  instance_0.256
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3075,7 +3075,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.142
+	processing begun of mesh:  instance_0.257
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3088,7 +3088,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.143
+	processing begun of mesh:  instance_0.258
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  30
@@ -3098,7 +3098,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.144
+	processing begun of mesh:  instance_0.259
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -3111,7 +3111,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.145
+	processing begun of mesh:  instance_0.260
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3124,7 +3124,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
-	processing begun of mesh:  instance_0.146
+	processing begun of mesh:  instance_0.261
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3137,7 +3137,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  48
-	processing begun of mesh:  instance_0.147
+	processing begun of mesh:  instance_0.262
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3150,7 +3150,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.148
+	processing begun of mesh:  instance_0.263
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -3160,7 +3160,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.149
+	processing begun of mesh:  instance_0.264
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  18
@@ -3170,7 +3170,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.150
+	processing begun of mesh:  instance_0.265
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  8
@@ -3180,7 +3180,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.151
+	processing begun of mesh:  instance_0.266
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3193,7 +3193,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.152
+	processing begun of mesh:  instance_0.267
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  14
@@ -3203,7 +3203,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.153
+	processing begun of mesh:  instance_0.268
 		processing begun of material:  Modern_Siding_0
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding_0
@@ -3216,7 +3216,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  46
-	processing begun of mesh:  instance_0.154
+	processing begun of mesh:  instance_0.269
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3229,7 +3229,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.155
+	processing begun of mesh:  instance_0.270
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  8
@@ -3239,7 +3239,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.156
+	processing begun of mesh:  instance_0.271
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3252,7 +3252,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  28
-	processing begun of mesh:  instance_0.157
+	processing begun of mesh:  instance_0.272
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  31
@@ -3262,7 +3262,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  14
-	processing begun of mesh:  instance_0.158
+	processing begun of mesh:  instance_0.273
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3275,7 +3275,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.159
+	processing begun of mesh:  instance_0.274
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  8
@@ -3285,7 +3285,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.160
+	processing begun of mesh:  instance_0.275
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3298,7 +3298,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.161
+	processing begun of mesh:  instance_0.276
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3311,7 +3311,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
-	processing begun of mesh:  instance_0.162
+	processing begun of mesh:  instance_0.277
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3324,7 +3324,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.163
+	processing begun of mesh:  instance_0.278
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3337,7 +3337,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  instance_0.164
+	processing begun of mesh:  instance_0.279
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3350,7 +3350,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  46
-	processing begun of mesh:  instance_0.165
+	processing begun of mesh:  instance_0.280
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  8
@@ -3360,7 +3360,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.166
+	processing begun of mesh:  instance_0.281
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Wood_Lumber_ButtJoined
 		num positions      :  48
@@ -3370,7 +3370,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  24
-	processing begun of mesh:  instance_0.167
+	processing begun of mesh:  instance_0.282
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  28
@@ -3380,7 +3380,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  12
-	processing begun of mesh:  instance_0.168
+	processing begun of mesh:  instance_0.283
 		processing begun of material:  Modern_Siding_0
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding_0
@@ -3393,7 +3393,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  20
-	processing begun of mesh:  instance_0.169
+	processing begun of mesh:  instance_0.284
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  Modern_Siding
 		num positions      :  23
@@ -3403,7 +3403,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10
-	processing begun of mesh:  instance_0.170
+	processing begun of mesh:  instance_0.285
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3416,7 +3416,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.171
+	processing begun of mesh:  instance_0.286
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		registered as also a user of material:  Modern_Siding
@@ -3429,7 +3429,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  8
-	processing begun of mesh:  instance_0.172
+	processing begun of mesh:  instance_0.287
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3442,7 +3442,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4
-	processing begun of mesh:  instance_0.173
+	processing begun of mesh:  instance_0.288
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3455,7 +3455,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  6
-	processing begun of mesh:  instance_0.174
+	processing begun of mesh:  instance_0.289
 		processing begun of material:  Modern_Siding
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding
@@ -3468,7 +3468,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2
-	processing begun of mesh:  instance_0.175
+	processing begun of mesh:  instance_0.290
 		processing begun of material:  Modern_Siding_0
 		processing begun of material:  Wood_Lumber_ButtJoined
 		registered as also a user of material:  Modern_Siding_0
@@ -3481,7 +3481,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32
-	processing begun of mesh:  instance_0.176
+	processing begun of mesh:  instance_0.291
 		processing begun of material:  Modern_Siding
 		processing begun of material:  __Wood_Fence_2
 		registered as also a user of material:  Modern_Siding
@@ -3494,7 +3494,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  36
-	processing begun of mesh:  instance_0.177
+	processing begun of mesh:  instance_0.292
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  Modern_Siding_0
 		num positions      :  236
@@ -3504,7 +3504,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  140
-	processing begun of mesh:  instance_0.178
+	processing begun of mesh:  instance_0.293
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  Modern_Siding_0
 		registered as also a user of material:  __Wood_Lumber_ButtJoined_1
@@ -3693,121 +3693,121 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  instance_0.061
 	writing mesh:  instance_0.062
 	writing mesh:  instance_0.063
-	writing mesh:  instance_0.064
-	writing mesh:  instance_0.065
-	writing mesh:  instance_0.066
-	writing mesh:  instance_0.067
-	writing mesh:  instance_0.068
-	writing mesh:  instance_0.069
-	writing mesh:  instance_0.070
-	writing mesh:  instance_0.071
-	writing mesh:  instance_0.072
-	writing mesh:  instance_0.073
-	writing mesh:  instance_0.074
-	writing mesh:  instance_0.075
-	writing mesh:  instance_0.076
-	writing mesh:  instance_0.077
-	writing mesh:  instance_0.078
-	writing mesh:  instance_0.079
-	writing mesh:  instance_0.080
-	writing mesh:  instance_0.081
-	writing mesh:  instance_0.082
-	writing mesh:  instance_0.083
-	writing mesh:  instance_0.084
-	writing mesh:  instance_0.085
-	writing mesh:  instance_0.086
-	writing mesh:  instance_0.087
-	writing mesh:  instance_0.088
-	writing mesh:  instance_0.089
-	writing mesh:  instance_0.090
-	writing mesh:  instance_0.091
-	writing mesh:  instance_0.092
-	writing mesh:  instance_0.093
-	writing mesh:  instance_0.094
-	writing mesh:  instance_0.095
-	writing mesh:  instance_0.096
-	writing mesh:  instance_0.097
-	writing mesh:  instance_0.098
-	writing mesh:  instance_0.099
-	writing mesh:  instance_0.100
-	writing mesh:  instance_0.101
-	writing mesh:  instance_0.102
-	writing mesh:  instance_0.103
-	writing mesh:  instance_0.104
-	writing mesh:  instance_0.105
-	writing mesh:  instance_0.106
-	writing mesh:  instance_0.107
-	writing mesh:  instance_0.108
-	writing mesh:  instance_0.109
-	writing mesh:  instance_0.110
-	writing mesh:  instance_0.111
-	writing mesh:  instance_0.112
-	writing mesh:  instance_0.113
-	writing mesh:  instance_0.114
-	writing mesh:  instance_0.115
-	writing mesh:  instance_0.116
-	writing mesh:  instance_0.117
-	writing mesh:  instance_0.118
-	writing mesh:  instance_0.119
-	writing mesh:  instance_0.120
-	writing mesh:  instance_0.121
-	writing mesh:  instance_0.122
-	writing mesh:  instance_0.123
-	writing mesh:  instance_0.124
-	writing mesh:  instance_0.125
-	writing mesh:  instance_0.126
-	writing mesh:  instance_0.127
-	writing mesh:  instance_0.128
-	writing mesh:  instance_0.129
-	writing mesh:  instance_0.130
-	writing mesh:  instance_0.131
-	writing mesh:  instance_0.132
-	writing mesh:  instance_0.133
-	writing mesh:  instance_0.134
-	writing mesh:  instance_0.135
-	writing mesh:  instance_0.136
-	writing mesh:  instance_0.137
-	writing mesh:  instance_0.138
-	writing mesh:  instance_0.139
-	writing mesh:  instance_0.140
-	writing mesh:  instance_0.141
-	writing mesh:  instance_0.142
-	writing mesh:  instance_0.143
-	writing mesh:  instance_0.144
-	writing mesh:  instance_0.145
-	writing mesh:  instance_0.146
-	writing mesh:  instance_0.147
-	writing mesh:  instance_0.148
-	writing mesh:  instance_0.149
-	writing mesh:  instance_0.150
-	writing mesh:  instance_0.151
-	writing mesh:  instance_0.152
-	writing mesh:  instance_0.153
-	writing mesh:  instance_0.154
-	writing mesh:  instance_0.155
-	writing mesh:  instance_0.156
-	writing mesh:  instance_0.157
-	writing mesh:  instance_0.158
-	writing mesh:  instance_0.159
-	writing mesh:  instance_0.160
-	writing mesh:  instance_0.161
-	writing mesh:  instance_0.162
-	writing mesh:  instance_0.163
-	writing mesh:  instance_0.164
-	writing mesh:  instance_0.165
-	writing mesh:  instance_0.166
-	writing mesh:  instance_0.167
-	writing mesh:  instance_0.168
-	writing mesh:  instance_0.169
-	writing mesh:  instance_0.170
-	writing mesh:  instance_0.171
-	writing mesh:  instance_0.172
-	writing mesh:  instance_0.173
-	writing mesh:  instance_0.174
-	writing mesh:  instance_0.175
-	writing mesh:  instance_0.176
-	writing mesh:  instance_0.177
-	writing mesh:  instance_0.178
+	writing mesh:  instance_0.179
+	writing mesh:  instance_0.180
+	writing mesh:  instance_0.181
+	writing mesh:  instance_0.182
+	writing mesh:  instance_0.183
+	writing mesh:  instance_0.184
+	writing mesh:  instance_0.185
+	writing mesh:  instance_0.186
+	writing mesh:  instance_0.187
+	writing mesh:  instance_0.188
+	writing mesh:  instance_0.189
+	writing mesh:  instance_0.190
+	writing mesh:  instance_0.191
+	writing mesh:  instance_0.192
+	writing mesh:  instance_0.193
+	writing mesh:  instance_0.194
+	writing mesh:  instance_0.195
+	writing mesh:  instance_0.196
+	writing mesh:  instance_0.197
+	writing mesh:  instance_0.198
+	writing mesh:  instance_0.199
+	writing mesh:  instance_0.200
+	writing mesh:  instance_0.201
+	writing mesh:  instance_0.202
+	writing mesh:  instance_0.203
+	writing mesh:  instance_0.204
+	writing mesh:  instance_0.205
+	writing mesh:  instance_0.206
+	writing mesh:  instance_0.207
+	writing mesh:  instance_0.208
+	writing mesh:  instance_0.209
+	writing mesh:  instance_0.210
+	writing mesh:  instance_0.211
+	writing mesh:  instance_0.212
+	writing mesh:  instance_0.213
+	writing mesh:  instance_0.214
+	writing mesh:  instance_0.215
+	writing mesh:  instance_0.216
+	writing mesh:  instance_0.217
+	writing mesh:  instance_0.218
+	writing mesh:  instance_0.219
+	writing mesh:  instance_0.220
+	writing mesh:  instance_0.221
+	writing mesh:  instance_0.222
+	writing mesh:  instance_0.223
+	writing mesh:  instance_0.224
+	writing mesh:  instance_0.225
+	writing mesh:  instance_0.226
+	writing mesh:  instance_0.227
+	writing mesh:  instance_0.228
+	writing mesh:  instance_0.229
+	writing mesh:  instance_0.230
+	writing mesh:  instance_0.231
+	writing mesh:  instance_0.232
+	writing mesh:  instance_0.233
+	writing mesh:  instance_0.234
+	writing mesh:  instance_0.235
+	writing mesh:  instance_0.236
+	writing mesh:  instance_0.237
+	writing mesh:  instance_0.238
+	writing mesh:  instance_0.239
+	writing mesh:  instance_0.240
+	writing mesh:  instance_0.241
+	writing mesh:  instance_0.242
+	writing mesh:  instance_0.243
+	writing mesh:  instance_0.244
+	writing mesh:  instance_0.245
+	writing mesh:  instance_0.246
+	writing mesh:  instance_0.247
+	writing mesh:  instance_0.248
+	writing mesh:  instance_0.249
+	writing mesh:  instance_0.250
+	writing mesh:  instance_0.251
+	writing mesh:  instance_0.252
+	writing mesh:  instance_0.253
+	writing mesh:  instance_0.254
+	writing mesh:  instance_0.255
+	writing mesh:  instance_0.256
+	writing mesh:  instance_0.257
+	writing mesh:  instance_0.258
+	writing mesh:  instance_0.259
+	writing mesh:  instance_0.260
+	writing mesh:  instance_0.261
+	writing mesh:  instance_0.262
+	writing mesh:  instance_0.263
+	writing mesh:  instance_0.264
+	writing mesh:  instance_0.265
+	writing mesh:  instance_0.266
+	writing mesh:  instance_0.267
+	writing mesh:  instance_0.268
+	writing mesh:  instance_0.269
+	writing mesh:  instance_0.270
+	writing mesh:  instance_0.271
+	writing mesh:  instance_0.272
+	writing mesh:  instance_0.273
+	writing mesh:  instance_0.274
+	writing mesh:  instance_0.275
+	writing mesh:  instance_0.276
+	writing mesh:  instance_0.277
+	writing mesh:  instance_0.278
+	writing mesh:  instance_0.279
+	writing mesh:  instance_0.280
+	writing mesh:  instance_0.281
+	writing mesh:  instance_0.282
+	writing mesh:  instance_0.283
+	writing mesh:  instance_0.284
+	writing mesh:  instance_0.285
+	writing mesh:  instance_0.286
+	writing mesh:  instance_0.287
+	writing mesh:  instance_0.288
+	writing mesh:  instance_0.289
+	writing mesh:  instance_0.290
+	writing mesh:  instance_0.291
+	writing mesh:  instance_0.292
+	writing mesh:  instance_0.293
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.608 secs
+elapsed time:  0 min, 0.6307 secs

@@ -4045,7 +4045,7 @@
 ,"instances":[]}
 ],
 "morphTargetManagers":[],
-"cameras":[{"name":"Camera","id":"Camera","position":[7.3589,4.9583,-6.9258],"rotation":[0.4615,-0.8149,0],"fov":0.6911,"minZ":0.1,"maxZ":100,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera"},{"name":"skp_camera_Last_Saved_SketchUp_View","id":"skp_camera_Last_Saved_SketchUp_View","position":[2580.49,1211.557,-385.1732],"rotation":[0.2937,-1.4573,0],"fov":0,"minZ":0.1,"maxZ":2,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera","parentId":"SketchUp"}],"activeCameraID":"Camera",
+"cameras":[{"name":"Camera","id":"Camera","position":[7.3589,4.9583,-6.9258],"rotation":[0.4615,-0.8149,0],"fov":0.6911,"minZ":0.1,"maxZ":100,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera"},{"name":"skp_camera_Last_Saved_SketchUp_View","id":"skp_camera_Last_Saved_SketchUp_View","position":[-1224.218,389.8895,698.4556],"rotation":[0.2619,1.9099,0],"fov":0,"minZ":0.1,"maxZ":2,"speed":1,"inertia":0.9,"checkCollisions":false,"applyGravity":false,"ellipsoid":[0.2,0.9,0.2],"cameraRigMode":0,"interaxial_distance":0.0637,"type":"UniversalCamera","parentId":"SketchUp"}],"activeCameraID":"Camera",
 "lights":[{"name":"Light","id":"Light","type":0,"position":[4.0762,5.9039,1.0055],"range":40,"intensityMode":0,"intensity":1,"diffuse":[1,1,1],"specular":[1,1,1],"radius":0.1}],
 "shadowGenerators":[]
 }

@@ -9,13 +9,13 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti_nove\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  SketchUp
 		processing begun of material:  Cladding_Stucco_White_2
 			processing texture Cladding_Stucco_White_2
-				texture type:  diffuseTexture, mapped using: "ID358"
+				texture type:  diffuseTexture, mapped using: "ID401"
 		num positions      :  92
 		num normals        :  92
 		num tangents       :  0
@@ -38,7 +38,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  SketchUp.002
 		processing begun of material:  Wood_Lumber_ButtJoined_3
 			processing texture Wood_Lumber_ButtJoined_3
-				texture type:  diffuseTexture, mapped using: "ID381"
+				texture type:  diffuseTexture, mapped using: "ID424"
 		num positions      :  68
 		num normals        :  68
 		num tangents       :  0
@@ -76,7 +76,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  __Wood_Lumber_ButtJoined_1
 		processing begun of material:  material_4_4
 			processing texture material_4_4
-				texture type:  diffuseTexture, mapped using: "ID412"
+				texture type:  diffuseTexture, mapped using: "ID455"
 		processing begun of multimaterial:  pec.Multimaterial#3
 		num positions      :  8
 		num normals        :  8
@@ -100,7 +100,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Granite_Dark_Gray
 		registered as also a user of material:  Cladding_Stucco_White_2
 			processing texture Granite_Dark_Gray
-				texture type:  diffuseTexture, mapped using: "ID433"
+				texture type:  diffuseTexture, mapped using: "ID476"
 		processing begun of multimaterial:  pec.Multimaterial#4
 		num positions      :  125
 		num normals        :  125
@@ -114,7 +114,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  __Wood_Lumber_ButtJoined_3
 		registered as also a user of material:  material_4_4
 			processing texture Wood_Lumber_ButtJoined_3
-				texture type:  diffuseTexture, mapped using: "ID441"
+				texture type:  diffuseTexture, mapped using: "ID484"
 		processing begun of multimaterial:  pec.Multimaterial#5
 		num positions      :  8
 		num normals        :  8
@@ -307,7 +307,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  material_20
 		registered as also a user of material:  Cladding_Stucco_White_2
 			processing texture material_20
-				texture type:  diffuseTexture, mapped using: "ID582"
+				texture type:  diffuseTexture, mapped using: "ID625"
 		processing begun of multimaterial:  pec.Multimaterial#13
 		num positions      :  8
 		num normals        :  8
@@ -661,7 +661,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Metal_Seamed
 		registered as also a user of material:  Cladding_Stucco_White_2
 			processing texture Metal_Seamed
-				texture type:  diffuseTexture, mapped using: "ID818"
+				texture type:  diffuseTexture, mapped using: "ID861"
 		processing begun of multimaterial:  pec.Multimaterial#34
 		num positions      :  16
 		num normals        :  16
@@ -1077,7 +1077,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  SketchUp.164
 		processing begun of material:  __Wood_Fence_2
 			processing texture Wood_Fence_2
-				texture type:  diffuseTexture, mapped using: "ID1091"
+				texture type:  diffuseTexture, mapped using: "ID1134"
 		num positions      :  8
 		num normals        :  8
 		num tangents       :  0
@@ -1090,7 +1090,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Modern_Siding
 		registered as also a user of material:  __Wood_Fence_2
 			processing texture Modern_Siding
-				texture type:  diffuseTexture, mapped using: "ID1104"
+				texture type:  diffuseTexture, mapped using: "ID1147"
 		processing begun of multimaterial:  pec.Multimaterial#60
 		num positions      :  94
 		num normals        :  94
@@ -1159,7 +1159,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark_0
 		processing begun of material:  Cladding_Stucco_White_2
 			processing texture Formica_Laminate_Dark_0
-				texture type:  diffuseTexture, mapped using: "ID1152"
+				texture type:  diffuseTexture, mapped using: "ID1195"
 		registered as also a user of material:  Cladding_Stucco_White_2
 		processing begun of multimaterial:  pec.Multimaterial#63
 		num positions      :  40
@@ -1285,7 +1285,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Crushed_Rock_Gravel
 		registered as also a user of material:  Cladding_Stucco_White_2
 			processing texture Crushed_Rock_Gravel
-				texture type:  diffuseTexture, mapped using: "ID1237"
+				texture type:  diffuseTexture, mapped using: "ID1280"
 		processing begun of multimaterial:  pec.Multimaterial#71
 		num positions      :  8
 		num normals        :  8
@@ -1312,7 +1312,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Location_Snapshot
 		registered as also a user of material:  Cladding_Stucco_White_2
 			processing texture Location_Snapshot
-				texture type:  diffuseTexture, mapped using: "ID1258"
+				texture type:  diffuseTexture, mapped using: "ID1301"
 		processing begun of multimaterial:  pec.Multimaterial#73
 		num positions      :  8
 		num normals        :  8
@@ -1728,7 +1728,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  group_3
 		processing begun of material:  Metal_Aluminum_Anodized
 			processing texture Metal_Aluminum_Anodized
-				texture type:  diffuseTexture, mapped using: "ID94"
+				texture type:  diffuseTexture, mapped using: "ID93"
 		num positions      :  2018
 		num normals        :  2018
 		num tangents       :  0
@@ -1752,7 +1752,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Vegetation_Bark_Maple
 		processing begun of material:  Metal_Aluminum_Anodized
 			processing texture Vegetation_Bark_Maple
-				texture type:  diffuseTexture, mapped using: "ID53"
+				texture type:  diffuseTexture, mapped using: "ID52"
 		registered as also a user of material:  Metal_Aluminum_Anodized
 		processing begun of multimaterial:  pec.Multimaterial#93
 		num positions      :  11410
@@ -1812,13 +1812,24 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  instance_0.001
-		mesh is an instance of :  instance_0.  Processing halted.
+		processing begun of material:  Vegetation_Bark_Maple
+		processing begun of material:  Metal_Aluminum_Anodized
+		registered as also a user of material:  Vegetation_Bark_Maple
+		registered as also a user of material:  Metal_Aluminum_Anodized
+		processing begun of multimaterial:  pec.Multimaterial#97
+		num positions      :  11410
+		num normals        :  11410
+		num tangents       :  0
+		num uvs            :  22820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4080
 	processing begun of mesh:  group_5.001
 		processing begun of material:  Metal_Aluminum_Anodized
 		processing begun of material:  __auto_2
 		registered as also a user of material:  Metal_Aluminum_Anodized
 		registered as also a user of material:  __auto_2
-		processing begun of multimaterial:  pec.Multimaterial#97
+		processing begun of multimaterial:  pec.Multimaterial#98
 		num positions      :  335
 		num normals        :  335
 		num tangents       :  0
@@ -1831,7 +1842,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  __auto_2
 		registered as also a user of material:  Metal_Aluminum_Anodized
 		registered as also a user of material:  __auto_2
-		processing begun of multimaterial:  pec.Multimaterial#98
+		processing begun of multimaterial:  pec.Multimaterial#99
 		num positions      :  335
 		num normals        :  335
 		num tangents       :  0
@@ -1864,7 +1875,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark_0
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  Formica_Laminate_Dark_0
-		processing begun of multimaterial:  pec.Multimaterial#99
+		processing begun of multimaterial:  pec.Multimaterial#100
 		num positions      :  56
 		num normals        :  56
 		num tangents       :  0
@@ -1875,7 +1886,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  group_11
 		processing begun of material:  Formica_Laminate_Dark
 			processing texture Formica_Laminate_Dark
-				texture type:  diffuseTexture, mapped using: "ID174"
+				texture type:  diffuseTexture, mapped using: "ID180"
 		num positions      :  48
 		num normals        :  48
 		num tangents       :  0
@@ -1888,7 +1899,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark
 		registered as also a user of material:  Vegetation_Bark_Maple
 		registered as also a user of material:  Formica_Laminate_Dark
-		processing begun of multimaterial:  pec.Multimaterial#100
+		processing begun of multimaterial:  pec.Multimaterial#101
 		num positions      :  11410
 		num normals        :  11410
 		num tangents       :  0
@@ -1907,13 +1918,24 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  instance_1.001
-		mesh is an instance of :  instance_1.  Processing halted.
+		processing begun of material:  Vegetation_Bark_Maple
+		processing begun of material:  Formica_Laminate_Dark
+		registered as also a user of material:  Vegetation_Bark_Maple
+		registered as also a user of material:  Formica_Laminate_Dark
+		processing begun of multimaterial:  pec.Multimaterial#102
+		num positions      :  11410
+		num normals        :  11410
+		num tangents       :  0
+		num uvs            :  22820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4080
 	processing begun of mesh:  group_13
 		processing begun of material:  Cladding_Stucco_White
 		processing begun of material:  __auto_2
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  __auto_2
-		processing begun of multimaterial:  pec.Multimaterial#101
+		processing begun of multimaterial:  pec.Multimaterial#103
 		num positions      :  48
 		num normals        :  48
 		num tangents       :  0
@@ -1926,7 +1948,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Vegetation_Bark_Maple
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  Vegetation_Bark_Maple
-		processing begun of multimaterial:  pec.Multimaterial#102
+		processing begun of multimaterial:  pec.Multimaterial#104
 		num positions      :  11410
 		num normals        :  11410
 		num tangents       :  0
@@ -1939,7 +1961,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark_0
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  Formica_Laminate_Dark_0
-		processing begun of multimaterial:  pec.Multimaterial#103
+		processing begun of multimaterial:  pec.Multimaterial#105
 		num positions      :  56
 		num normals        :  56
 		num tangents       :  0
@@ -1958,13 +1980,24 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  instance_1.002
-		mesh is an instance of :  instance_1.  Processing halted.
+		processing begun of material:  Vegetation_Bark_Maple
+		processing begun of material:  Formica_Laminate_Dark
+		registered as also a user of material:  Vegetation_Bark_Maple
+		registered as also a user of material:  Formica_Laminate_Dark
+		processing begun of multimaterial:  pec.Multimaterial#106
+		num positions      :  11410
+		num normals        :  11410
+		num tangents       :  0
+		num uvs            :  22820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4080
 	processing begun of mesh:  group_15
 		processing begun of material:  Cladding_Stucco_White
 		processing begun of material:  Formica_Laminate_Dark_0
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  Formica_Laminate_Dark_0
-		processing begun of multimaterial:  pec.Multimaterial#104
+		processing begun of multimaterial:  pec.Multimaterial#107
 		num positions      :  56
 		num normals        :  56
 		num tangents       :  0
@@ -1983,13 +2016,24 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  instance_1.003
-		mesh is an instance of :  instance_1.  Processing halted.
+		processing begun of material:  Vegetation_Bark_Maple
+		processing begun of material:  Formica_Laminate_Dark
+		registered as also a user of material:  Vegetation_Bark_Maple
+		registered as also a user of material:  Formica_Laminate_Dark
+		processing begun of multimaterial:  pec.Multimaterial#108
+		num positions      :  11410
+		num normals        :  11410
+		num tangents       :  0
+		num uvs            :  22820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4080
 	processing begun of mesh:  group_16
 		processing begun of material:  Cladding_Stucco_White
 		processing begun of material:  __auto_2
 		registered as also a user of material:  Cladding_Stucco_White
 		registered as also a user of material:  __auto_2
-		processing begun of multimaterial:  pec.Multimaterial#105
+		processing begun of multimaterial:  pec.Multimaterial#109
 		num positions      :  48
 		num normals        :  48
 		num tangents       :  0
@@ -1998,11 +2042,22 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  28
 	processing begun of mesh:  instance_3
-		mesh is an instance of :  instance_2.  Processing halted.
+		processing begun of material:  Cladding_Stucco_White
+		processing begun of material:  Vegetation_Bark_Maple
+		registered as also a user of material:  Cladding_Stucco_White
+		registered as also a user of material:  Vegetation_Bark_Maple
+		processing begun of multimaterial:  pec.Multimaterial#110
+		num positions      :  11410
+		num normals        :  11410
+		num tangents       :  0
+		num uvs            :  22820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4080
 	processing begun of mesh:  group_17
 		processing begun of material:  Wood_Square_Tile_02
 			processing texture Wood_Square_Tile_02
-				texture type:  diffuseTexture, mapped using: "ID296"
+				texture type:  diffuseTexture, mapped using: "ID333"
 		num positions      :  90
 		num normals        :  90
 		num tangents       :  0
@@ -2015,8 +2070,8 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Wood_Square_Tile_02_1
 		registered as also a user of material:  Wood_Square_Tile_02
 			processing texture Wood_Square_Tile_02_1
-				texture type:  diffuseTexture, mapped using: "ID309"
-		processing begun of multimaterial:  pec.Multimaterial#106
+				texture type:  diffuseTexture, mapped using: "ID346"
+		processing begun of multimaterial:  pec.Multimaterial#111
 		num positions      :  10
 		num normals        :  10
 		num tangents       :  0
@@ -2029,7 +2084,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Color_M08
 		registered as also a user of material:  Wood_Square_Tile_02
 		registered as also a user of material:  Color_M08
-		processing begun of multimaterial:  pec.Multimaterial#107
+		processing begun of multimaterial:  pec.Multimaterial#112
 		num positions      :  8
 		num normals        :  8
 		num tangents       :  0
@@ -2052,7 +2107,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark_0
 		registered as also a user of material:  Formica_Laminate_Dark
 		registered as also a user of material:  Formica_Laminate_Dark_0
-		processing begun of multimaterial:  pec.Multimaterial#108
+		processing begun of multimaterial:  pec.Multimaterial#113
 		num positions      :  40
 		num normals        :  40
 		num tangents       :  0
@@ -2065,7 +2120,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		processing begun of material:  Formica_Laminate_Dark_0
 		registered as also a user of material:  Formica_Laminate_Dark
 		registered as also a user of material:  Formica_Laminate_Dark_0
-		processing begun of multimaterial:  pec.Multimaterial#109
+		processing begun of multimaterial:  pec.Multimaterial#114
 		num positions      :  40
 		num normals        :  40
 		num tangents       :  0
@@ -2077,7 +2132,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	processing begun of mesh:  instance_5
 		processing begun of material:  material_4
 			processing texture material_4
-				texture type:  diffuseTexture, mapped using: "ID344"
+				texture type:  diffuseTexture, mapped using: "ID379"
 		num positions      :  238
 		num normals        :  238
 		num tangents       :  0
@@ -2086,7 +2141,15 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		num colors         :  0
 		num triangles      :  234
 	processing begun of mesh:  instance_6
-		mesh is an instance of :  instance_5.  Processing halted.
+		processing begun of material:  material_4
+		registered as also a user of material:  material_4
+		num positions      :  238
+		num normals        :  238
+		num tangents       :  0
+		num uvs            :  476
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  234
 	processing begun of light (POINT):  Light
 ========= Writing of JSON file started =========
 	writing mesh:  SketchUp
@@ -2239,6 +2302,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  group_6
 	writing mesh:  group_7
 	writing mesh:  group_4.001
+	writing mesh:  instance_0.001
 	writing mesh:  group_5.001
 	writing mesh:  group_6.001
 	writing mesh:  group_8
@@ -2247,13 +2311,17 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  group_11
 	writing mesh:  instance_1
 	writing mesh:  group_12
+	writing mesh:  instance_1.001
 	writing mesh:  group_13
 	writing mesh:  instance_2
 	writing mesh:  group_14
 	writing mesh:  group_11.001
+	writing mesh:  instance_1.002
 	writing mesh:  group_15
 	writing mesh:  group_11.002
+	writing mesh:  instance_1.003
 	writing mesh:  group_16
+	writing mesh:  instance_3
 	writing mesh:  group_17
 	writing mesh:  group_17.001
 	writing mesh:  group_17.002
@@ -2261,6 +2329,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  group_18
 	writing mesh:  group_19
 	writing mesh:  instance_5
+	writing mesh:  instance_6
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 2.5003 secs
+elapsed time:  0 min, 4.2261 secs

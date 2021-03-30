@@ -9,7 +9,7 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti\
+		Texture directory   :  C:\Users\frommeltova\Documents\Model\model\mlyn_verze_10\babylon_casti_nove\
 	Python World class constructor completed
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of mesh:  SketchUp
@@ -945,4 +945,4 @@ Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
 	writing mesh:  SketchUp.077
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.54 secs
+elapsed time:  0 min, 0.5416 secs
