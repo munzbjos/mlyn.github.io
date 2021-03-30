@@ -166,10 +166,14 @@
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
-						for (mesh of myMeshesOne){
-							mesh.setEnabled((mesh.isEnabled() ? false : true));
-							BT1.style.backgroundColor = enable ? "red" : "green"							
-                          }}
+                          let enable
+                          for (mesh of myMeshesTwo) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT1.style.backgroundColor = enable ? "red" : "green"
+                          }                          
+                        }
+						
 
                          
                         
@@ -188,9 +192,10 @@
                           for (mesh of myMeshesTwo) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT2.style.backgroundColor = enable ? "red" : "green"
                           }
 
-                          BT2.style.backgroundColor = enable ? "red" : "green"
+                          
                         }
 						
 						var BT3 = document.createElement("button")
@@ -207,9 +212,10 @@
                           for (mesh of myMeshesThree) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT3.style.backgroundColor = enable ? "red" : "green"
                           }
 
-                          BT3.style.backgroundColor = enable ? "red" : "green"
+                          
                         }
 						
 						var BT4 = document.createElement("button")
@@ -226,9 +232,10 @@
                           for (mesh of myMeshesFour) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT4.style.backgroundColor = enable ? "red" : "green"
                           }
 
-                          BT4.style.backgroundColor = enable ? "red" : "green"
+                          
                         }
 						
 						var BT5 = document.createElement("button")
@@ -245,9 +252,8 @@
                           for (mesh of myMeshesFive) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT5.style.backgroundColor = enable ? "red" : "green"
+							BT5.style.backgroundColor = enable ? "red" : "green"
+                          }                          
                         }
 						
 						var BT6 = document.createElement("button")
@@ -264,9 +270,10 @@
                           for (mesh of myMeshesSix) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT6.style.backgroundColor = enable ? "red" : "green"
                           }
 
-                          BT6.style.backgroundColor = enable ? "red" : "green"
+                          
                         }
 						
 						var BT7 = document.createElement("button")
@@ -283,9 +290,8 @@
                           for (mesh of myMeshesSeven) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT7.style.backgroundColor = enable ? "red" : "green"
+							BT7.style.backgroundColor = enable ? "red" : "green"
+                          }                          
                         }
 						
 						var BT8 = document.createElement("button")
@@ -302,9 +308,8 @@
                           for (mesh of myMeshesEight) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT8.style.backgroundColor = enable ? "red" : "green"
+							BT8.style.backgroundColor = enable ? "red" : "green"
+                          }                          
                         }
 						
 						var BT9 = document.createElement("button")
@@ -321,9 +326,8 @@
                           for (mesh of myMeshesNine) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT9.style.backgroundColor = enable ? "red" : "green"
+							BT9.style.backgroundColor = enable ? "red" : "green"
+                          }                          
                         }
 						
 						var BT10 = document.createElement("button")
@@ -340,9 +344,8 @@
                           for (mesh of myMeshesTen) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT10.style.backgroundColor = enable ? "red" : "green"
+							BT10.style.backgroundColor = enable ? "red" : "green"
+                          }                        
                         }
 						
 						var BT11 = document.createElement("button")
@@ -359,9 +362,8 @@
                           for (mesh of myMeshesEleven) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT11.style.backgroundColor = enable ? "red" : "green"
+							BT11.style.backgroundColor = enable ? "red" : "green"
+                          }                         
                         }
 						
 						var BT12 = document.createElement("button")
@@ -378,9 +380,8 @@
                           for (mesh of myMeshesTwelve) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
-                          }
-
-                          BT12.style.backgroundColor = enable ? "red" : "green"
+							BT12.style.backgroundColor = enable ? "red" : "green"
+                          }                         
                         }
 							});
 							});
