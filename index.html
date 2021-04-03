@@ -30,13 +30,43 @@
   </div>
 </div>
 
-<img src="./img/mlyn.PNG" alt="Mlýn" style="width:100%">
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="./img/mlyn.png" style="width:100%;max-width:400px">
+  <img class="mySlides" src="./img/18947.jpg" style="width:100%;max-width:400px">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 <div class="w3-container">
   <p>Webová stránka vznikla v rámci diplomové práce.</p>    
 
 
 <footer class="w3-container w3-blue w3-margin-top">
+  <img src="./img/cvut_white.png" alt="logo_cvut" />
   <p>© 2021 Eva Frommeltová</p>
 </footer>
 
