@@ -35,6 +35,31 @@
   <img class="mySlides" src="./img/mlyn.PNG" style="width:100%">
   <img class="mySlides" src="./img/18947.jpg" style="width:100%">
 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 <div class="w3-container">
   <p>Objekt roubeného mlýna je situován do písmene L. Skládá se z přízemního hlavního stavení orientovaného štítovou stranou k východu a patrového hospodářského stavení orientovaného štítovou stranou k jihu. Podoba mlýna vyobrazená v plánech patrně pochází dle datace na překladu vstupu do chléva z roku 1783.
 Dobová podoba mlýnu byla vymodelována díky plánům, které vytvořil Ing. Vodseďálek. Dále byla využit Evidenční list nemovité kulturní památky pořadové číslo 2652. K dispozici bylo dále pár dobových fotografií.

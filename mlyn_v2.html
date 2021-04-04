@@ -4,13 +4,43 @@
 	<script type="text/javascript" src="copperlichtdata/copperlicht.js"></script>
 </head>
 <body>
+<header class="w3-container w3-blue w3-center">
+  <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
+</h1>
+</header>
+
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Hlavní stránka</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Kundratice 60</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/info_mlyn.html" class="w3-bar-item w3-button">Informace</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/dae_casti.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/mlyn_v2.html" class="w3-bar-item w3-button">CopperCube</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/virtual.html" class="w3-bar-item w3-button">Virtuální prohlídka</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Dropdown</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<header class="w3-container w3-center">
+    <h2>Vizualizace modelu ve formátu DAE vytvpřené v programu CopperCube</h2>
+	</header>
+	
 	<div align="center">
 		<canvas id="3darea" width="1200" height="1000" style="background-color:#"#000000"">
 		</canvas>
 	</div>
 	<script type="text/javascript">
 	<!--
-			startCopperLichtFromFile('3darea', 'copperlichtdata/mlyn_v2.ccbz', 'Loading $PROGRESS$...<br/><br/><img style="max-width:50%" src="copperlichtdata/coppercubeloadinglogo.png" />', 'Error: This browser does not support WebGL (or it is disabled).<br/>See <a href=\"http://www.ambiera.com/copperlicht/browsersupport.html\">here</a> for details.', true, false, "#000000");
+			startCopperLichtFromFile('3darea', 'copperlichtdata/mlyn_v2.ccbz', 'Loading $PROGRESS$...<br/><br/><img style="max-width:50%" src="copperlichtdata/coppercubeloadinglogo.png" />', 'Error: This browser does not support WebGL (or it is disabled).<br/>See <a href=\"http://www.ambiera.com/copperlicht/browsersupport.html\">here</a> for details.', false, false, "#000000");
 	-->
 	</script>
 	<br/>
