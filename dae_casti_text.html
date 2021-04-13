@@ -88,17 +88,19 @@
 		var fontLoader = new THREE.FontLoader();
 			fontLoader.load("./js/helvetiker_regular.typeface.json",function(tex){ 
 			var  textGeo = new THREE.TextGeometry('Test', {
-            size: 10,
-            height: 5,
-            curveSegments: 6,
+            size: 5,
+            height: 2,
+            curveSegments: 0,
             font: tex,
-    });
-    var  color = new THREE.Color();
-    color.setRGB(255, 250, 250);
-    var  textMaterial = new THREE.MeshBasicMaterial({ color: color });
-    var  text = new THREE.Mesh(textGeo , textMaterial);
-    scene.add(text);
-})	
+			});
+			
+			var  color = new THREE.Color();
+			color.setRGB(255, 255, 255);
+			var  textMaterial = new THREE.MeshBasicMaterial({ color: color });
+			var  text = new THREE.Mesh(textGeo , textMaterial);
+			scene.add(tex);
+			})	
+			
 		var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
