@@ -55,7 +55,7 @@
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 
 						BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
-						BABYLON.SceneLoader.Load("./obj/", "model_Kundratice_v12_clean.obj", engine, function (scene) { 
+						BABYLON.SceneLoader.ImportMesh("","./obj/", "model_Kundratice_v12_clean.obj", engine, function (scene) { 
 						// do something with the scene
 						});
 							
