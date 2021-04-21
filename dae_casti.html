@@ -62,7 +62,6 @@
 
 			var container, stats, clock, controls;
 			var camera, scene, renderer;
-			var ob1,ob2,ob3,ob4,ob5,ob6,ob7;
 			init();
 			animate();
 
@@ -183,7 +182,7 @@
                         buttonbox.appendChild(BT13)
                         BT13.onclick = function() {
                           // Show/Hide myMeshThree
-                        (ob13.visible)?ob13.visible=false:ob4.visible=true
+                        (ob13.visible)?ob13.visible=false:ob13.visible=true
                                          enable=ob13.visible
                           BT13.style.backgroundColor = enable ? "limegreen" : "red"
                         }		
@@ -470,10 +469,16 @@
 						
         //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-        renderer.setClearColor( 0xffffff  );
+				renderer.setClearColor( 0xffffff  );
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth-80, window.innerHeight );
 				container.appendChild( renderer.domElement );
+				
+				// VR Button
+				document.body.appendChild( VRButton.createButton( renderer ) );		
+				renderer.xr.enabled = true;		
+				renderer.setAnimationLoop( function () {
+				renderer.render( scene, camera );
 
         //seting controls orbit
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
@@ -500,14 +505,7 @@
 				renderer.render( scene, camera );
 			}
 			
-		// VR Button
-		document.body.appendChild( VRButton.createButton( renderer ) );
 		
-		renderer.xr.enabled = true;
-		
-		renderer.setAnimationLoop( function () {
-
-			renderer.render( scene, camera );
 
 		} );
 		</script>
