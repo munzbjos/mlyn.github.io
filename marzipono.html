@@ -4,10 +4,17 @@
 <title>Project Title</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
+<style> @-ms-viewport { width: device-width; } 
+#obsah {position: absolute; width: 500px; top: 120px; left: 150px}
+#hlavicka {position: absolute; width: 760px; height: 120px; top: 0px; left: 0px}
+</style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
+
+<div id="hlavicka">Hlavička</div>
+
+<div id="obsah">
 <body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
@@ -86,6 +93,7 @@
   </ul>
 </div>
 
+
 <div id="titleBar">
   <h1 class="sceneName"></h1>
 </div>
@@ -123,6 +131,7 @@
 <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
   <img class="icon" src="img/minus.png">
 </a>
+</div>
 
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>
