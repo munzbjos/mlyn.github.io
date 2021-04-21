@@ -490,14 +490,14 @@
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				controls.update();
-
+			}
 
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
 				renderer.setSize( window.innerWidth-80, window.innerHeight );
 			}
-			}
+			
 			
 
 			//
