@@ -471,10 +471,17 @@
 						
 				//rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff  );
+				//renderer.setClearColor( 0xffffff  );
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );				
+				renderer.xr.enabled = true;
+				renderer.xr.setReferenceSpaceType( 'local' );
+				
 				container.appendChild( renderer.domElement );
+				
+				container.body.appendChild( VRButton.createButton( renderer ) );
+
+
 
         //seting controls orbit
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
