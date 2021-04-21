@@ -87,20 +87,7 @@
 				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
 				directionalLight.position.set( 1, 1, 1 ).normalize();
 				camera.add( directionalLight ); 
-        
-		//rendering 
-				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff );
-				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
-				container.appendChild( renderer.domElement );
-				
-				// VR Button
-				document.body.appendChild( VRButton.createButton( renderer ) );		
-
-			
-
-			
+  			
 		var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
@@ -482,14 +469,21 @@
 					scene.add(avatar);
 				} );
 						
-        
-				
+				//rendering 
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer.setClearColor( 0xffffff  );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				container.appendChild( renderer.domElement );
 
-
-				//seting controls orbit
+        //seting controls orbit
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				controls.update();
+
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
 			}
 
 			function onWindowResize() {
@@ -497,21 +491,15 @@
 				camera.updateProjectionMatrix();
 				renderer.setSize( window.innerWidth-80, window.innerHeight );
 			}
-			
-			
-
-			//
 
 			function animate() {
-
-				renderer.setAnimationLoop( render );
-
+				requestAnimationFrame( animate );
+				render();
 			}
 
 			function render() {
-	        	renderer.render( scene, camera );
+				renderer.render( scene, camera );
 			}
-
 		
 		</script>
   </body>
