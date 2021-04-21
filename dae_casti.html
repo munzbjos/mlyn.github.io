@@ -500,8 +500,8 @@
 			}
 
 			function animate() {
-				requestAnimationLoop( animate );
-				render();
+				renderer.setAnimationLoop( render );
+				
 			}
 
 			function render() {
