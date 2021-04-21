@@ -90,7 +90,7 @@
         
 		//rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff  );
+				renderer.setClearColor( 0xffffff );
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth-80, window.innerHeight );
 				container.appendChild( renderer.domElement );
@@ -98,7 +98,7 @@
 				// VR Button
 				document.body.appendChild( VRButton.createButton( renderer ) );		
 
-			}
+			
 
 			
 		var buttonbox = document.createElement("div")
@@ -497,7 +497,7 @@
 				camera.updateProjectionMatrix();
 				renderer.setSize( window.innerWidth-80, window.innerHeight );
 			}
-
+			}
 			
 
 			//
