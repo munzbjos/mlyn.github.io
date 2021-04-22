@@ -227,13 +227,13 @@
            
 				// add layers of model 
 				new THREE.MTLLoader()
-					.setPath( './dae/' )
+					.setPath( './obj/' )
 					.load( 'hlinsko.mtl', function ( materials ) 
           {      
 						materials.preload();
 						new THREE.OBJLoader()
 							.setMaterials( materials )
-							.setPath( './dae/' )
+							.setPath( './obj/' )
 							.load( 'hlinsko.obj', function ( object ) 
               {
 								object.position.y = 0;

@@ -6,7 +6,7 @@ newmtl M06_Zem
 Ka 0.000000 0.000000 0.000000
 Kd 0.466667 0.341176 0.203922
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M06_Zem.jpg
+map_Kd hlinsko/M06_Zem.jpg
 
 newmtl BackColor
 Ka 0.000000 0.000000 0.000000
@@ -22,19 +22,19 @@ newmtl M_04_RightYZ_2_crop
 Ka 0.000000 0.000000 0.000000
 Kd 0.945098 0.937255 0.921569
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_04_RightYZ_2_crop.jpg
+map_Kd hlinsko/M_04_RightYZ_2_crop.jpg
 
 newmtl M_02_FrontXZ_2
 Ka 0.000000 0.000000 0.000000
 Kd 0.674510 0.580392 0.474510
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_02_FrontXZ_2.jpg
+map_Kd hlinsko/M_02_FrontXZ_2.jpg
 
 newmtl M_03_BackXZ_2
 Ka 0.000000 0.000000 0.000000
 Kd 0.654902 0.588235 0.490196
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_03_BackXZ_2.jpg
+map_Kd hlinsko/M_03_BackXZ_2.jpg
 
 newmtl FrontColor
 Ka 0.000000 0.000000 0.000000
@@ -45,35 +45,35 @@ newmtl M_04_RightYZ_2
 Ka 0.000000 0.000000 0.000000
 Kd 0.737255 0.666667 0.584314
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_04_RightYZ_2.jpg
+map_Kd hlinsko/M_04_RightYZ_2.jpg
 
 newmtl M_05_LeftYZ_2
 Ka 0.000000 0.000000 0.000000
 Kd 0.811765 0.721569 0.615686
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_05_LeftYZ_2.jpg
+map_Kd hlinsko/M_05_LeftYZ_2.jpg
 
 newmtl M_00_BottomXY_2
 Ka 0.000000 0.000000 0.000000
 Kd 0.890196 0.858824 0.827451
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_00_BottomXY_2.jpg
+map_Kd hlinsko/M_00_BottomXY_2.jpg
 
 newmtl M_03_BackXZ_2_crop
 Ka 0.000000 0.000000 0.000000
 Kd 0.933333 0.921569 0.909804
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_03_BackXZ_2_crop.jpg
+map_Kd hlinsko/M_03_BackXZ_2_crop.jpg
 
 newmtl M_02_FrontXZ_2_1_
 Ka 0.000000 0.000000 0.000000
 Kd 0.674510 0.580392 0.474510
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_02_FrontXZ_2_1_.jpg
+map_Kd hlinsko/M_02_FrontXZ_2_1_.jpg
 
 newmtl M_02_FrontXZ_2_2_
 Ka 0.000000 0.000000 0.000000
 Kd 0.674510 0.580392 0.474510
 Ks 0.330000 0.330000 0.330000
-map_Kd Model-SketchUp/M_02_FrontXZ_2_2_.jpg
+map_Kd hlinsko/M_02_FrontXZ_2_2_.jpg
 
