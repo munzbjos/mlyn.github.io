@@ -1,497 +1,124 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Vizualizace objektu</title>
-    <script type="application/x-javascript">
-      addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false);
-      function hideURLbar() {window.scrollTo(0,1);}
-    </script>
-    
-    
-        <script src="./js/three.js"></script>
-		<script src="./js/ColladaLoader2.js"></script>
-		<script src="./js/OrbitControls.js"></script>
-		<script src="./js/VRButton.js"></script>
-		
-  
-    
-  </head>
-  <body>
-<header class="w3-container w3-blue w3-center">
-  <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
-</h1>
-</header>
-    
-	<div class="w3-bar w3-black">
-  <a href="https://evafrommeltova.github.io/mlyn.github.io/index.html" class="w3-bar-item w3-button">Hlavní stránka</a>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button">Kundratice 60</button>
-    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-	  <a href="https://evafrommeltova.github.io/mlyn.github.io/info_mlyn.html" class="w3-bar-item w3-button">Informace</a>
-      <a href="https://evafrommeltova.github.io/mlyn.github.io/dae_casti.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
-      <a href="https://evafrommeltova.github.io/mlyn.github.io/mlyn_v2.html" class="w3-bar-item w3-button">CopperCube</a>
-	  <a href="https://evafrommeltova.github.io/mlyn.github.io/virtual.html" class="w3-bar-item w3-button">Virtuální prohlídka</a>
-	  <a href="https://evafrommeltova.github.io/mlyn.github.io/modelo.html" class="w3-bar-item w3-button">Aplikace Modelo</a>
-    </div>
-  </div>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button">Chalupa - Hlinsko</button>
-    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="#" class="w3-bar-item w3-button">Rozhraní Three.js</a>
-      <a href="#" class="w3-bar-item w3-button">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button">Link 3</a>
-    </div>
-  </div>
-</div>
-	<header class="w3-container w3-center">
-    <h2>Vizualizace modelu ve formátu DAE v rozhraní Three.js</h2>
-	<h3>Kundratice 60</h3>
-	</header>
-   
-		<div id="container"></div> 
+<html lang="en">
+	<head>
+		<title>three.js vr - panorama</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<script src="js/three.js"></script>
+		<script src="js/ColladaLoader2.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/VRButton.js"></script>
+	</head>
+	<body>
+		<script type="module">
 
-    <div class="footer w3-container w3-blue w3-margin-top">
-      <img src="./pictures/cvut_white.png" alt="logo_cvut" />
-      <p>© 2021 Eva Frommeltová</p>
-    </div>
-    		<script>
-			var container, stats, clock, controls;
-			let camera, scene, renderer;
+			//import * as THREE from '../build/three.module.js';
+			//import { VRButton } from './jsm/webxr/VRButton.js';
+
+			let camera;
+			let renderer;
+			let scene;
+
 			init();
 			animate();
 
 			function init() {
-				//container = document.getElementById( 'container' );
-        
-        //scene
-      	scene = new THREE.Scene();  
-        
-        //camera
-				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
-				camera.position.set( 80, 30, -150 );
-				scene.add(camera);
 
-        //lights   
-     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
-				scene.add( ambientLight );
-
-				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
-				directionalLight.position.set( 1, 1, 1 ).normalize();
-				camera.add( directionalLight ); 
-  			
-		var buttonbox = document.createElement("div")
-                        buttonbox.id = "buttonbox"
-                        buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "150px"
-                        buttonbox.style.left = "80%"
-                        //buttonbox.style.border = "5pt inset black"
-                        buttonbox.style.padding = "2pt"
-                        buttonbox.style.paddingRight = "10pt"
-                        buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "15em"
-                        buttonbox.style.display = "inline-block"	
-                        document.body.appendChild(buttonbox)
-
-               var tTag = document.createElement("div")
-                        tTag.id = "choose"
-                        tTag.textContent = "Zobrazit/Skrýt"
-                        tTag.style.textAlign = "center"
-                        tTag.style.border = "2pt inset black"
-                        tTag.style.marginTop = "5pt"
-                        tTag.style.marginBottom = "8pt"
-                        tTag.style.backgroundColor = "antiquewhite"
-						tTag.style.width = "100%"
-                        tTag.style.fontSize = "1.5em"
-                        tTag.style.color = "black"
-						tTag.style.borderradius = "30%"
-                        buttonbox.appendChild(tTag)
-
-               var BT1 = document.createElement("button")
-                        BT1.id = "ShowHidemyMeshesOne"
-                        BT1.textContent = "Střecha"
-                        BT1.style.backgroundColor = "limegreen"
-                        BT1.style.width = "100%"
-                        BT1.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT1)
-                        BT1.onclick = function() {
-                          // Show/Hide myMeshThree
-                          (ob1.visible)?ob1.visible=false:ob1.visible=true
-                                         enable=ob1.visible
-                          BT1.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-
-                var BT2 = document.createElement("button")
-                        BT2.id = "ShowHidemyMeshesTwo"
-                        BT2.textContent = "Komín"
-                        BT2.style.backgroundColor = "limegreen"
-                        BT2.style.display = "round"
-                        BT2.style.width = "100%"
-                        BT2.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT2.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob2.visible)?ob2.visible=false:ob2.visible=true
-                                         enable=ob2.visible
-                          BT2.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT3 = document.createElement("button")
-                        BT3.id = "ShowHidemyMeshesThree"
-                        BT3.textContent = "Krovy"
-                        BT3.style.backgroundColor = "red"
-                        BT3.style.display = "round"
-                        BT3.style.width = "100%"
-                        BT3.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT3)
-                        BT3.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob3.visible)?ob3.visible=false:ob3.visible=true
-                                         enable=ob3.visible
-                          BT3.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-				
-				var BT4 = document.createElement("button")
-                        BT4.id = "ShowHidemyMeshesFour"
-                        BT4.textContent = "Podlahy půd"
-                        BT4.style.backgroundColor = "limegreen"
-                        BT4.style.display = "round"
-                        BT4.style.width = "100%"
-                        BT4.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT4)
-                        BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob4.visible)?ob4.visible=false:ob4.visible=true
-                                         enable=ob4.visible
-                          BT4.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT13 = document.createElement("button")
-                        BT13.id = "ShowHidemyMeshesFour"
-                        BT13.textContent = "Podlaha 1. patro"
-                        BT13.style.backgroundColor = "limegreen"
-                        BT13.style.display = "round"
-                        BT13.style.width = "100%"
-                        BT13.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT13)
-                        BT13.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob13.visible)?ob13.visible=false:ob13.visible=true
-                                         enable=ob13.visible
-                          BT13.style.backgroundColor = enable ? "limegreen" : "red"
-                        }		
-						
-				var BT5 = document.createElement("button")
-                        BT5.id = "ShowHidemyMeshesFive"
-                        BT5.textContent = "Stěny 1. patro"
-                        BT5.style.backgroundColor = "limegreen"
-                        BT5.style.display = "round"
-                        BT5.style.width = "100%"
-                        BT5.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT5)
-                        BT5.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob12.visible)?ob12.visible=false:ob12.visible=true
-                                         enable=ob12.visible
-                          BT5.style.backgroundColor = enable ? "limegreen" : "red"
-                        }		
-				
-				var BT6 = document.createElement("button")
-                        BT6.id = "ShowHidemyMeshesSix"
-                        BT6.textContent = "Schodiště"
-                        BT6.style.backgroundColor = "red"
-                        BT6.style.display = "round"
-                        BT6.style.width = "100%"
-                        BT6.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT6)
-                        BT6.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob9.visible)?ob9.visible=false:ob9.visible=true
-                                         enable=ob9.visible
-                          BT6.style.backgroundColor = enable ? "limegreen" : "red"
-                        }	
-						
-				var BT7 = document.createElement("button")
-                        BT7.id = "ShowHidemyMeshesSeven"
-                        BT7.textContent = "Strop ve světnici"
-                        BT7.style.backgroundColor = "red"
-                        BT7.style.display = "round"
-                        BT7.style.width = "100%"
-                        BT7.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT7)
-                        BT7.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob8.visible)?ob8.visible=false:ob8.visible=true
-                                         enable=ob8.visible
-                          BT7.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT8 = document.createElement("button")
-                        BT8.id = "ShowHidemyMeshesEight"
-                        BT8.textContent = "Stěny obvodové"
-                        BT8.style.backgroundColor = "limegreen"
-                        BT8.style.display = "round"
-                        BT8.style.width = "100%"
-                        BT8.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT8)
-                        BT8.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob5.visible)?ob5.visible=false:ob5.visible=true
-                                         enable=ob5.visible
-                          BT8.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-
-					var BT9 = document.createElement("button")
-                        BT9.id = "ShowHidemyMeshesNine"
-                        BT9.textContent = "Stěny vnitřní"
-                        BT9.style.backgroundColor = "red"
-                        BT9.style.display = "round"
-                        BT9.style.width = "100%"
-                        BT9.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT9)
-                        BT9.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob7.visible)?ob7.visible=false:ob7.visible=true
-                                         enable=ob7.visible
-                          BT9.style.backgroundColor = enable ? "limegreen" : "red"
-                        }			
-						
-					var BT10 = document.createElement("button")
-                        BT10.id = "ShowHidemyMeshesTen"
-                        BT10.textContent = "Pec a patro mlýnice"
-                        BT10.style.backgroundColor = "red"
-                        BT10.style.display = "round"
-                        BT10.style.width = "100%"
-                        BT10.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT10)
-                        BT10.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob10.visible)?ob10.visible=false:ob10.visible=true
-                                         enable=ob10.visible
-                          BT10.style.backgroundColor = enable ? "limegreen" : "red"
-                        }	
-						
-						var BT11 = document.createElement("button")
-                        BT11.id = "ShowHidemyMeshesEleven"
-                        BT11.textContent = "Podlahy přízemí"
-                        BT11.style.backgroundColor = "limegreen"
-                        BT11.style.display = "round"
-                        BT11.style.width = "100%"
-                        BT11.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT11)
-                        BT11.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob11.visible)?ob11.visible=false:ob11.visible=true
-                                         enable=ob11.visible
-                          BT11.style.backgroundColor = enable ? "limegreen" : "red"
-                        }	
-						
-						var BT12 = document.createElement("button")
-                        BT12.id = "ShowHidemyMeshesTwelve"
-                        BT12.textContent = "Terén"
-                        BT12.style.backgroundColor = "limegreen"
-                        BT12.style.display = "round"
-                        BT12.style.width = "100%"
-                        BT12.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT12)
-                        BT12.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob6.visible)?ob6.visible=false:ob6.visible=true
-                                         enable=ob6.visible
-                          BT12.style.backgroundColor = enable ? "limegreen" : "red"
-                        }	
-						
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-							"./dae/krytiny.dae", function (collada) 
-					{
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob1=avatar;
-					scene.add(avatar);
-					} );
-
-        //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/komin.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob2=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/krovy.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob3=avatar;
-					ob3.visible=false;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/podlahy_pud.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob4=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_obvodove.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob5=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/teren.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob6=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_vnitrni.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob7=avatar;
-					ob7.visible=false;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/strop_svetnice.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob8=avatar;
-					ob8.visible=false;
-					scene.add(avatar);
-				} );	
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/schodiste.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob9=avatar;
-					ob9.visible=false;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/pec.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob10=avatar;
-					ob10.visible=false;
-					scene.add(avatar);
-				} );
-				
-							//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/podlahy_prizemi.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob11=avatar;
-					scene.add(avatar);
-				} );
-				
-										//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/steny_1_patro.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob12=avatar;
-					scene.add(avatar);
-				} );
-				
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./dae/podlaha_1_patro.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob13=avatar;
-					scene.add(avatar);
-				} );
-						
-        //rendering 
-				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff  );
+				renderer = new THREE.WebGLRenderer();
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 				renderer.xr.enabled = true;
-				
+				renderer.xr.setReferenceSpaceType( 'local' );
 				document.body.appendChild( renderer.domElement );
 
 				document.body.appendChild( VRButton.createButton( renderer ) );
-				
-              //seting controls orbit
-				controls = new THREE.OrbitControls( camera, renderer.domElement );
-				controls.target.set( 0, 0, 0 );
-				controls.update();
+
+				//
+
+				scene = new THREE.Scene();
+
+				camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
+				camera.layers.enable( 1 );
+
+				const geometry = new THREE.BoxGeometry( 100, 100, 100 );
+				geometry.scale( 1, 1, - 1 );
+
+				const textures = getTexturesFromAtlasFile( "textures/cube/sun_temple_stripe_stereo.jpg", 12 );
+
+				const materials = [];
+
+				for ( let i = 0; i < 6; i ++ ) {
+
+					materials.push( new THREE.MeshBasicMaterial( { map: textures[ i ] } ) );
+
+				}
+
+				const skyBox = new THREE.Mesh( geometry, materials );
+				skyBox.layers.set( 1 );
+				scene.add( skyBox );
 
 
-				window.addEventListener( 'resize', onWindowResize, false );
+				const materialsR = [];
+
+				for ( let i = 6; i < 12; i ++ ) {
+
+					materialsR.push( new THREE.MeshBasicMaterial( { map: textures[ i ] } ) );
+
+				}
+
+				const skyBoxR = new THREE.Mesh( geometry, materialsR );
+				skyBoxR.layers.set( 2 );
+				scene.add( skyBoxR );
+
+				window.addEventListener( 'resize', onWindowResize );
+
+			}
+
+			function getTexturesFromAtlasFile( atlasImgUrl, tilesNum ) {
+
+				const textures = [];
+
+				for ( let i = 0; i < tilesNum; i ++ ) {
+
+					textures[ i ] = new THREE.Texture();
+
+				}
+
+				const loader = new THREE.ImageLoader();
+				loader.load( atlasImgUrl, function ( imageObj ) {
+
+					let canvas, context;
+					const tileWidth = imageObj.height;
+
+					for ( let i = 0; i < textures.length; i ++ ) {
+
+						canvas = document.createElement( 'canvas' );
+						context = canvas.getContext( '2d' );
+						canvas.height = tileWidth;
+						canvas.width = tileWidth;
+						context.drawImage( imageObj, tileWidth * i, 0, tileWidth, tileWidth, 0, 0, tileWidth, tileWidth );
+						textures[ i ].image = canvas;
+						textures[ i ].needsUpdate = true;
+
+					}
+
+				} );
+
+				return textures;
 
 			}
 
 			function onWindowResize() {
+
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+
 			}
 
-			
 			function animate() {
 
 				renderer.setAnimationLoop( render );
@@ -504,7 +131,6 @@
 
 			}
 
-		
 		</script>
-  </body>
+	</body>
 </html>
