@@ -471,7 +471,7 @@
 						
 				//rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				//renderer.setClearColor( 0xffffff  );
+				renderer.setClearColor( 0xffffff  );
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth-80, window.innerHeight );				
 				renderer.xr.enabled = true;
@@ -479,7 +479,7 @@
 				
 				container.appendChild( renderer.domElement );
 				
-				container.body.appendChild( VRButton.createButton( renderer ) );
+				container.appendChild( VRButton.createButton( renderer ) );
 
 
 
@@ -500,7 +500,8 @@
 			}
 
 			function animate() {
-				renderer.requestAnimationFrame( render );
+				renderer.setAnimationLoop( render);
+				//render();
 				
 			}
 
