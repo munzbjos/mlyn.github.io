@@ -90,15 +90,15 @@
 				container = document.getElementById( 'container' );
         
         //scene
-      	scene = new THREE.Scene();  
+				scene = new THREE.Scene();  
         
         //camera
-				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
 				camera.position.set( 80, 30, -150 );
 				scene.add(camera);
 
         //lights   
-     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
 				scene.add( ambientLight );
 
 				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
@@ -506,7 +506,7 @@
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 			}
 
 			function animate() {
