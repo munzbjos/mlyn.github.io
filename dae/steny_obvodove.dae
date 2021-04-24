@@ -4,8 +4,8 @@
         <contributor>
             <authoring_tool>SketchUp 20.2.172</authoring_tool>
         </contributor>
-        <created>2021-04-24T06:11:26Z</created>
-        <modified>2021-04-24T06:11:26Z</modified>
+        <created>2021-04-24T06:21:48Z</created>
+        <modified>2021-04-24T06:21:48Z</modified>
         <unit meter="0.0254" name="inch" />
         <up_axis>Z_UP</up_axis>
     </asset>
@@ -3912,11 +3912,11 @@
                     </bind_material>
                 </instance_geometry>
                 <node name="skp_camera_Last_Saved_SketchUp_View">
-                    <matrix>-0.4857992 -0.2997906 0.821051 784.8415 0.8740704 -0.1666205 0.4563316 661.6926 2.775558e-17 0.9393419 0.3429822 366.566 0 0 0 1</matrix>
+                    <matrix>0.06186977 -0.3132447 0.947655 1622.31 0.9980842 0.01941758 -0.05874373 -59.42195 -3.469447e-18 0.9494739 0.3138459 589.1904 0 0 0 1</matrix>
                     <instance_camera url="#ID1" />
                 </node>
                 <node id="ID3" name="group_0">
-                    <matrix>-0.7193399 0.009006461 0.6945998 192.0056 -0.6945888 0.004809519 -0.7193909 217.8159 -0.009819857 -0.9999479 0.002796108 134.3164 0 0 0 1</matrix>
+                    <matrix>-0.7193399 0.009006461 0.6945998 192.1642 -0.6945888 0.004809519 -0.7193909 217.3171 -0.009819857 -0.9999479 0.002796108 133.8177 0 0 0 1</matrix>
                     <node id="ID4" name="group_1">
                         <matrix>-1 5.742714e-16 -4.163336e-17 26.77165 2.602085e-17 -4.149089e-08 -1.015297 35.43307 -2.626597e-08 0.6716 -6.272421e-08 5.880243 0 0 0 1</matrix>
                         <instance_geometry url="#ID5">
@@ -4381,7 +4381,7 @@
                     </node>
                 </node>
                 <node id="ID256" name="group_3">
-                    <matrix>-0.7193399 0.009006461 0.6945998 157.0466 -0.6945888 0.004809519 -0.7193909 457.1524 -0.009819857 -0.9999479 0.002796108 135.1527 0 0 0 1</matrix>
+                    <matrix>-0.7193399 0.009006461 0.6945998 158.6304 -0.6945888 0.004809519 -0.7193909 458.9128 -0.009819857 -0.9999479 0.002796108 135.1754 0 0 0 1</matrix>
                     <node id="ID257" name="group_4">
                         <matrix>-2.626597e-08 0.6716 1.585537e-15 2.362205 -6.177917e-08 1.052977e-15 -1.015297 35.43307 1 -2.920332e-16 -6.272421e-08 0.1662468 0 0 0 1</matrix>
                         <instance_geometry url="#ID258">
@@ -4822,7 +4822,7 @@
                     </node>
                 </node>
                 <node id="ID487" name="group_6">
-                    <matrix>-0.7193399 0.009006461 0.6945998 248.7493 -0.6945888 0.004809519 -0.7193909 272.0599 -0.009819857 -0.9999479 0.002796108 135.0884 0 0 0 1</matrix>
+                    <matrix>-0.7193399 0.009006461 0.6945998 249.5718 -0.6945888 0.004809519 -0.7193909 271.2123 -0.009819857 -0.9999479 0.002796108 135.0917 0 0 0 1</matrix>
                     <node id="ID488" name="group_7">
                         <matrix>-1 7.408082e-16 -4.163336e-17 26.77165 2.602085e-17 -4.149089e-08 -1.015297 35.43307 -2.626597e-08 0.6716 -6.272421e-08 2.892209e-06 0 0 0 1</matrix>
                         <instance_geometry url="#ID489">
@@ -5533,7 +5533,7 @@
                     </instance_geometry>
                 </node>
                 <node id="ID858" name="group_11">
-                    <matrix>-0.7193399 0.009006461 0.6945998 135.5012 -0.6945888 0.004809519 -0.7193909 162.6408 -0.009819857 -0.9999479 0.002796108 133.5421 0 0 0 1</matrix>
+                    <matrix>-0.7193399 0.009006461 0.6945998 136.3216 -0.6945888 0.004809519 -0.7193909 161.7911 -0.009819857 -0.9999479 0.002796108 133.5454 0 0 0 1</matrix>
                     <node id="ID859" name="group_12">
                         <matrix>-1 1.01835e-15 -3.989864e-17 26.77165 6.071532e-17 -4.149089e-08 -1.015297 35.43307 -2.626598e-08 0.6716 -6.272421e-08 2.892209e-06 0 0 0 1</matrix>
                         <instance_geometry url="#ID860">
@@ -6186,7 +6186,7 @@
                 <node id="ID1214" name="group_15">
                     <matrix>-0.7193399 0.009006461 0.6945998 200.1761 -0.6945888 0.004809519 -0.7193909 407.9494 -0.009819857 -0.9999479 0.002796108 135.3045 0 0 0 1</matrix>
                     <node id="ID1215" name="group_16">
-                        <matrix>-2.626597e-08 0.6716 1.590741e-15 3.198238 -6.177917e-08 1.059916e-15 -1.015297 35.43307 1 -5.696161e-16 -6.272421e-08 2.681586e-06 0 0 0 1</matrix>
+                        <matrix>-2.626597e-08 0.6716 1.590741e-15 3.198238 -6.177917e-08 1.059916e-15 -1.015297 35.43307 1 -5.696263e-16 -6.272421e-08 2.681586e-06 0 0 0 1</matrix>
                         <instance_geometry url="#ID1216">
                             <bind_material>
                                 <technique_common>
@@ -6381,7 +6381,7 @@
                         </instance_geometry>
                     </node>
                     <node id="ID1318" name="group_17">
-                        <matrix>-2.626597e-08 0.6716 1.587272e-15 7.031834e-07 -6.177917e-08 1.054712e-15 -1.015297 35.43307 1 -3.475613e-16 -6.272421e-08 2.189026e-06 0 0 0 1</matrix>
+                        <matrix>-2.626597e-08 0.6716 1.585537e-15 -3.149606 -6.177917e-08 1.054712e-15 -1.015297 35.43307 1 -3.475681e-16 -6.272421e-08 1.860651e-06 0 0 0 1</matrix>
                         <instance_geometry url="#ID1319">
                             <bind_material>
                                 <technique_common>
@@ -6873,7 +6873,7 @@
                 <node id="ID1573" name="group_20">
                     <matrix>-0.7193399 0.009006461 0.6945998 246.4678 -0.6945888 0.004809519 -0.7193909 361.8013 -0.009819857 -0.9999479 0.002796108 135.4995 0 0 0 1</matrix>
                     <node id="ID1574" name="group_21">
-                        <matrix>-2.626597e-08 0.6716 1.592476e-15 7.031834e-07 -6.177917e-08 1.055579e-15 -1.015297 35.43307 1 -3.475546e-16 -6.272421e-08 2.189026e-06 0 0 0 1</matrix>
+                        <matrix>-2.626597e-08 0.6716 1.592476e-15 -1.9022 -6.177917e-08 1.056447e-15 -1.015297 35.07874 1 -4.030725e-16 -6.272421e-08 0.0009771763 0 0 0 1</matrix>
                         <instance_geometry url="#ID1575">
                             <bind_material>
                                 <technique_common>
@@ -7128,7 +7128,7 @@
                         </instance_geometry>
                     </node>
                     <node id="ID1707" name="group_22">
-                        <matrix>-2.626597e-08 0.6716 1.590741e-15 5.166742 -6.177917e-08 1.074661e-15 -1.015297 35.43307 1 -5.141388e-16 -6.272421e-08 2.927866e-06 0 0 0 1</matrix>
+                        <matrix>-2.626597e-08 0.6716 1.590741e-15 5.166742 -6.177917e-08 1.074661e-15 -1.015297 35.43307 1 -5.141422e-16 -6.272421e-08 2.927866e-06 0 0 0 1</matrix>
                         <instance_geometry url="#ID1708">
                             <bind_material>
                                 <technique_common>
@@ -33918,43 +33918,43 @@
     </library_nodes>
     <library_images>
         <image id="ID1833">
-            <init_from>steny_obvodove/Cladding_Stucco_White.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Cladding_Stucco_White.jpg</init_from>
         </image>
         <image id="ID1884">
-            <init_from>steny_obvodove/Cladding_Stucco_White_0.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Cladding_Stucco_White_0.jpg</init_from>
         </image>
         <image id="ID1905">
-            <init_from>steny_obvodove/Wood_Lumber_ButtJoined.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Wood_Lumber_ButtJoined.jpg</init_from>
         </image>
         <image id="ID1918">
-            <init_from>steny_obvodove/Stone_Coursed_Rough.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Stone_Coursed_Rough.jpg</init_from>
         </image>
         <image id="ID1963">
-            <init_from>steny_obvodove/Modern_Siding.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Modern_Siding.jpg</init_from>
         </image>
         <image id="ID1984">
-            <init_from>steny_obvodove/material_3.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/material_3.jpg</init_from>
         </image>
         <image id="ID2008">
-            <init_from>steny_obvodove/Translucent_Glass_Sky_Reflection.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Translucent_Glass_Sky_Reflection.jpg</init_from>
         </image>
         <image id="ID2286">
-            <init_from>steny_obvodove/Metal_Seamed.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Metal_Seamed.jpg</init_from>
         </image>
         <image id="ID2411">
-            <init_from>steny_obvodove/__Wood_Lumber_ButtJoined_3.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/__Wood_Lumber_ButtJoined_3.jpg</init_from>
         </image>
         <image id="ID3146">
-            <init_from>steny_obvodove/Metal_Aluminum_Anodized.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Metal_Aluminum_Anodized.jpg</init_from>
         </image>
         <image id="ID3389">
-            <init_from>steny_obvodove/Location_Snapshot.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Location_Snapshot.jpg</init_from>
         </image>
         <image id="ID3490">
-            <init_from>steny_obvodove/Crushed_Rock_Gravel.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/Crushed_Rock_Gravel.jpg</init_from>
         </image>
         <image id="ID4297">
-            <init_from>steny_obvodove/__Wood_Lumber_ButtJoined_4.jpg</init_from>
+            <init_from>model_Kundratice_final_web1/__Wood_Lumber_ButtJoined_4.jpg</init_from>
         </image>
     </library_images>
     <scene>
