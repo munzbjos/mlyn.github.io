@@ -29,7 +29,7 @@
 
         // Make a camera. note that far is set to 100, which is better for realworld sized environments
         let camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
-        camera.position.set(0, 1.6, 3);
+        camera.position.set(80, 30, -150);
         scene.add(camera);
 
         // Add some lights
@@ -38,14 +38,7 @@
         scene.add(light);
         scene.add(new THREE.AmbientLight(0xffffff,0.5))
 
-        // Make a red cube
-        let cube = new THREE.Mesh(
-            new THREE.BoxBufferGeometry(1,1,1),
-            new THREE.MeshLambertMaterial({color:'red'})
-        );
-        cube.position.set(0, 1.5, -10);
-        scene.add(cube);
-		
+	
 		var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load('./dae/krytiny.dae', function ( collada ) {
@@ -84,7 +77,7 @@
 
         function render(time) {
             // Rotate the cube
-            cube.rotation.y = time / 1000;
+			//cube.rotation.y = time / 1000;
             // Draw everything
             renderer.render(scene, camera);
         }
