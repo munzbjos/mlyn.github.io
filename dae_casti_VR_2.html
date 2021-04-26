@@ -19,6 +19,8 @@
         import * as THREE from 'https://unpkg.com/three/build/three.module.js';
         // Import the default VRButton
         import { VRButton } from 'https://unpkg.com/three/examples/jsm/webxr/VRButton.js';
+		
+		import { ColladaLoader } from './js/ColladaLoader2.js';
 
         // Make a new scene
         let scene = new THREE.Scene();
@@ -43,7 +45,15 @@
         );
         cube.position.set(0, 1.5, -10);
         scene.add(cube);
-
+		
+		var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load('./dae/krytiny.dae', function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+				
         // Make a renderer that fills the screen
         let renderer = new THREE.WebGLRenderer({antialias: true});
         renderer.setPixelRatio(window.devicePixelRatio);
