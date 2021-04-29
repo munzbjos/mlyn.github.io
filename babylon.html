@@ -103,14 +103,10 @@
                         BT1.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesOne) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-							BT1.style.backgroundColor = enable ? "red" : "green"
-                          }                          
-                        }
+							// Show/Hide myMeshThree
+							for (mesh of myMeshesOne)
+							mesh.setEnabled((mesh.isEnabled() ? false : true)); 
+							}
 						
 
                          
