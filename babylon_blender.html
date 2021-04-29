@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Babylon Template</title>
+
+      <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+
+        <script src="https://cdn.babylonjs.com/babylon.js"></script>
+        <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+        <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+
+
+
+   </head>
+
+   <body>
+
+    <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
+
+    <script>
+
+            <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var engine = new BABYLON.Engine(canvas, true);
+        var scene = new BABYLON.Scene(engine);
+        // ArcRotateCamera doc, you can use FreeCamera if you prefer:
+        // http://doc.babylonjs.com/api/classes/babylon.arcrotatecamera#constructor
+        var arcRotCam = new BABYLON.ArcRotateCamera(
+            "arcRotateCamera", 1, 1, 4,
+            new BABYLON.Vector3(0, 1, 0),
+            scene
+        );
+        arcRotCam.attachControl(canvas, true);
+
+        // SceneLoader doc :
+        // http://doc.babylonjs.com/api/classes/babylon.sceneloader#append
+        BABYLON.SceneLoader.Append(
+            "mlyn.github.io/babylon/",
+            "mlyn.babylon",
+            scene
+        );
+
+        engine.runRenderLoop(function () {
+            scene.render();
+        });
+
+        window.addEventListener("resize", function () {
+            engine.resize();
+        });
+    </script>
+</body>
+</html>
