@@ -64,7 +64,7 @@
 						BABYLON.SceneLoader.Append("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {});
 						BABYLON.SceneLoader.Append("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {});
 						BABYLON.SceneLoader.Append("./glb/", "pec.gltf", scene, function (myMeshesEleven) {});
-						BABYLON.SceneLoader.Append("./glb/", "podlahy_prizemi.gltf", scene, function (myMeshesTwelve) {});
+						BABYLON.SceneLoader.Append("./glb/", "podlaha_prizemi.gltf", scene, function (myMeshesTwelve) {});
 						BABYLON.SceneLoader.Append("./glb/", "teren.gltf", scene, function (myMeshesThirteen) {});
 																																				
 							
@@ -72,14 +72,14 @@
                         var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "300px"
-                        buttonbox.style.left = "83%"
-                        buttonbox.style.border = "5pt inset black"
+                        buttonbox.style.top = "150px"
+                        buttonbox.style.left = "80%"
+                        //buttonbox.style.border = "5pt inset black"
                         buttonbox.style.padding = "2pt"
                         buttonbox.style.paddingRight = "10pt"
                         buttonbox.style.paddingLeft = "10pt"
                         buttonbox.style.width = "10em"
-                        buttonbox.style.display = "block"
+                        buttonbox.style.display = "inline-block"
                         document.body.appendChild(buttonbox)
 
                         var tTag = document.createElement("div")
@@ -87,11 +87,11 @@
                         tTag.textContent = "Zobrazit/Skrýt"
                         tTag.style.textAlign = "center"
                         tTag.style.border = "3pt solid gold"
-                        tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
-                        tTag.style.backgroundColor = "grey"
-                        tTag.style.fontSize = "1.0em"
-                        tTag.style.color = "white"
+                        tTag.style.marginTop = "5pt"
+                        tTag.style.marginBottom = "8pt"
+                        tTag.style.backgroundColor = "antiquewhite"
+                        tTag.style.fontSize = "1.5em"
+                        tTag.style.color = "black"
                         buttonbox.appendChild(tTag)
 
                         var BT1 = document.createElement("button")
@@ -105,15 +105,11 @@
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
                           let enable
-                          for (mesh of myMeshesTwo) {
+                          for (mesh of myMeshesOne) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
 							BT1.style.backgroundColor = enable ? "red" : "green"
                           }                          
-                        }
-						
-
-                         
                         
 
                         var BT2 = document.createElement("button")
@@ -158,7 +154,7 @@
 						
 						var BT4 = document.createElement("button")
                         BT4.id = "ShowHidemyMeshesFour"
-                        BT4.textContent = "Podlahy"
+                        BT4.textContent = "Podlahy půd"
                         BT4.style.backgroundColor = "green"
                         BT4.style.display = "block"
                         BT4.style.width = "100%"
@@ -178,7 +174,7 @@
 						
 						var BT5 = document.createElement("button")
                         BT5.id = "ShowHidemyMeshesFive"
-                        BT5.textContent = "Stěny 1. patro"
+                        BT5.textContent = "Podlaha 1. patro"
                         BT5.style.backgroundColor = "green"
                         BT5.style.display = "block"
                         BT5.style.width = "100%"
@@ -196,7 +192,7 @@
 						
 						var BT6 = document.createElement("button")
                         BT6.id = "ShowHidemyMeshesSix"
-                        BT6.textContent = "Schodiště"
+                        BT6.textContent = "Stěny 1.patro"
                         BT6.style.backgroundColor = "green"
                         BT6.style.display = "block"
                         BT6.style.width = "100%"
@@ -216,7 +212,7 @@
 						
 						var BT7 = document.createElement("button")
                         BT7.id = "ShowHidemyMeshesSeven"
-                        BT7.textContent = "Strop ve světnici"
+                        BT7.textContent = "Schodiště"
                         BT7.style.backgroundColor = "green"
                         BT7.style.display = "block"
                         BT7.style.width = "100%"
@@ -234,7 +230,7 @@
 						
 						var BT8 = document.createElement("button")
                         BT8.id = "ShowHidemyMeshesEight"
-                        BT8.textContent = "Stěny obvodové"
+                        BT8.textContent = "Strop ve světnici"
                         BT8.style.backgroundColor = "green"
                         BT8.style.display = "block"
                         BT8.style.width = "100%"
@@ -252,7 +248,7 @@
 						
 						var BT9 = document.createElement("button")
                         BT9.id = "ShowHidemyMesheNine"
-                        BT9.textContent = "Stěny vnitřní"
+                        BT9.textContent = "Stěny obvodové"
                         BT9.style.backgroundColor = "green"
                         BT9.style.display = "block"
                         BT9.style.width = "100%"
@@ -270,7 +266,7 @@
 						
 						var BT10 = document.createElement("button")
                         BT10.id = "ShowHidemyMesheTen"
-                        BT10.textContent = "Pec a patro mlýnice"
+                        BT10.textContent = "Stěny vnitřní"
                         BT10.style.backgroundColor = "green"
                         BT10.style.display = "block"
                         BT10.style.width = "100%"
@@ -288,7 +284,7 @@
 						
 						var BT11 = document.createElement("button")
                         BT11.id = "ShowHidemyMesheEleven"
-                        BT11.textContent = "Podlahy přízemí"
+                        BT11.textContent = "Pec a patro mlýnice"
                         BT11.style.backgroundColor = "green"
                         BT11.style.display = "block"
                         BT11.style.width = "100%"
@@ -306,7 +302,7 @@
 						
 						var BT12 = document.createElement("button")
                         BT12.id = "ShowHidemyMesheTwelve"
-                        BT12.textContent = "Terén"
+                        BT12.textContent = "Podlahy přízemí"
                         BT12.style.backgroundColor = "green"
                         BT12.style.display = "block"
                         BT12.style.width = "100%"
@@ -322,7 +318,23 @@
                           }                         
                         }
 
-
+						var BT13 = document.createElement("button")
+                        BT13.id = "ShowHidemyMesheThirteen"
+                        BT13.textContent = "Terén"
+                        BT13.style.backgroundColor = "green"
+                        BT13.style.display = "block"
+                        BT13.style.width = "100%"
+                        BT13.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT13)
+                        BT13.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesThirteen) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT13.style.backgroundColor = enable ? "red" : "green"
+                          }                         
+                        }
                         return scene;
 
                 };
