@@ -53,23 +53,23 @@
                         var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 						
-						BABYLON.SceneLoader.Load("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
-							BABYLON.SceneLoader.Load("./glb/", "krovy.gltf", scene, function (myMeshesTwo) {
-								BABYLON.SceneLoader.Load("./glb/", "komin.gltf", scene, function (myMeshesThree) {
-									BABYLON.SceneLoader.Load("./glb/", "podlahy_pud.gltf", scene, function (myMeshesFour) {
-										BABYLON.SceneLoader.Load("./glb/", "podlaha_1_patro.gltf", scene, function (myMeshesFive) {
-											BABYLON.SceneLoader.Load("./glb/", "steny_1_patro.gltf", scene, function (myMeshesSix) {
-												BABYLON.SceneLoader.Load("./glb/", "schodiste.gltf", scene, function (myMeshesSeven) {
-													BABYLON.SceneLoader.Load("./glb/", "strop_svetnice.gltf", scene, function (myMeshesEight) {
-														BABYLON.SceneLoader.Load("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {
-															BABYLON.SceneLoader.Load("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {
-																BABYLON.SceneLoader.Load("./glb/", "pec.gltf", scene, function (myMeshesEleven) {
-																	BABYLON.SceneLoader.Load("./glb/", "podlahy_prizemi.gltf", scene, function (myMeshesTwelve) {
-																		BABYLON.SceneLoader.Load("./glb/", "teren.gltf", scene, function (myMeshesThirteen) {
+						BABYLON.SceneLoader.Load("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {});
+							BABYLON.SceneLoader.Load("./glb/", "krovy.gltf", scene, function (myMeshesTwo) {});
+								BABYLON.SceneLoader.Load("./glb/", "komin.gltf", scene, function (myMeshesThree) {});
+									BABYLON.SceneLoader.Load("./glb/", "podlahy_pud.gltf", scene, function (myMeshesFour) {});
+										BABYLON.SceneLoader.Load("./glb/", "podlaha_1_patro.gltf", scene, function (myMeshesFive) {});
+											BABYLON.SceneLoader.Load("./glb/", "steny_1_patro.gltf", scene, function (myMeshesSix) {});
+												BABYLON.SceneLoader.Load("./glb/", "schodiste.gltf", scene, function (myMeshesSeven) {});
+													BABYLON.SceneLoader.Load("./glb/", "strop_svetnice.gltf", scene, function (myMeshesEight) {});
+														BABYLON.SceneLoader.Load("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {});
+															BABYLON.SceneLoader.Load("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {});
+																BABYLON.SceneLoader.Load("./glb/", "pec.gltf", scene, function (myMeshesEleven) {});
+																	BABYLON.SceneLoader.Load("./glb/", "podlahy_prizemi.gltf", scene, function (myMeshesTwelve) {});
+																		BABYLON.SceneLoader.Load("./glb/", "teren.gltf", scene, function (myMeshesThirteen) {});
 																	
 
 															
-																			console.log(myMeshesThirteen)
+																			
 							
 							 // add buttons
                         var buttonbox = document.createElement("div")
@@ -324,19 +324,7 @@
 							BT12.style.backgroundColor = enable ? "red" : "green"
                           }                         
                         }
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
-							});
+
 
                         return scene;
 
