@@ -33,25 +33,34 @@
     <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
 
     <script>
+       var canvas = document.getElementById("renderCanvas"); 
+        
+        
+       // scene 
+        var createScene = function () {
+        engine.enableOfflineSupport = false;
+        var scene = new BABYLON.Scene(engine);
+        scene.clearColor = new BABYLON.Color3(1, 1, 1); 
+    
+      
+            // camera
+            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(0, 0, 0.5), scene);
+            camera.attachControl(canvas, false);
+            camera.lowerRadiusLimit = 15;
+            camera.upperRadiusLimit = 100;
+            camera.wheelDeltaPercentage = 0.01; 
+            camera.setTarget(BABYLON.Vector3.Zero());    
 
-            var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
+            
+            // light  
+            		var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
+                light.intensity = 1.35;
+            	  light.specular = new BABYLON.Color3(.0, .0, .0);    
+                       
+               	var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
+                light2.intensity = 0.9;
+            	  light2.specular = new BABYLON.Color3(0,0,0); 
 
-            var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
-			var ob1,ob2,ob3
-
-            /******* Add the create scene function ******/
-            var createScene = function () {
-
-                        // Create the scene space
-                        var scene = new BABYLON.Scene(engine);
-
-                        // Add a camera to the scene and attach it to the canvas
-                        var camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, 15 * Math.PI / 32, 25, BABYLON.Vector3.Zero(), scene);
-                        camera.attachControl(canvas, true);
-
-                        // Add lights to the scene
-                        var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
-                        var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 						
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "krovy.gltf", scene, function (myMeshesTwo) {
@@ -361,7 +370,7 @@
 
                 /******* End of the create scene function ******/    
 
-             var engine = new BABYLON.Engine(canvas, true, {
+            var engine = new BABYLON.Engine(canvas, true, {
 			preserveDrawingBuffer: true,
 			stencil: true
 					})
