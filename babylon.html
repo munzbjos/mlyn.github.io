@@ -37,7 +37,7 @@
             var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
 
             var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
-
+			var ob1,ob2,ob3
 
             /******* Add the create scene function ******/
             var createScene = function () {
@@ -53,10 +53,10 @@
                         var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 						
-						BABYLON.SceneLoader.Append("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {});
+						BABYLON.SceneLoader.Append("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {ob1=myMeshesOne;});
 						BABYLON.SceneLoader.Append("./glb/", "krovy.gltf", scene, function (myMeshesTwo) {});
 						BABYLON.SceneLoader.Append("./glb/", "komin.gltf", scene, function (myMeshesThree) {});
-						BABYLON.SceneLoader.Append("./glb/", "podlahy_pud.gltf", scene, function (myMeshesFour) {});
+						BABYLON.SceneLoader.Append("./glb/", "podlaha_pud.gltf", scene, function (myMeshesFour) {});
 						BABYLON.SceneLoader.Append("./glb/", "podlaha_1_patro.gltf", scene, function (myMeshesFive) {});
 						BABYLON.SceneLoader.Append("./glb/", "steny_1_patro.gltf", scene, function (myMeshesSix) {});
 						BABYLON.SceneLoader.Append("./glb/", "schodiste.gltf", scene, function (myMeshesSeven) {});
@@ -105,7 +105,7 @@
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
                           let enable
-                          for (mesh of myMeshesone) {
+                          for (mesh of ob1) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
 							BT1.style.backgroundColor = enable ? "red" : "green"
