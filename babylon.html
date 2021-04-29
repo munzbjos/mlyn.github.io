@@ -64,7 +64,7 @@
 						BABYLON.SceneLoader.Append("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {});
 						BABYLON.SceneLoader.Append("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {});
 						BABYLON.SceneLoader.Append("./glb/", "pec.gltf", scene, function (myMeshesEleven) {});
-						BABYLON.SceneLoader.Append("./glb/", "podlahy_prizemi.gltf", scene, function (myMeshesTwelve) {});
+						BABYLON.SceneLoader.Append("./glb/", "podlaha_prizemi.gltf", scene, function (myMeshesTwelve) {});
 						BABYLON.SceneLoader.Append("./glb/", "teren.gltf", scene, function (myMeshesThirteen) {});
 																																				
 							
@@ -105,7 +105,7 @@
                         BT1.onclick = function() {
                           // Show/Hide myMeshThree
                           let enable
-                          for (mesh of myMeshesTwo) {
+                          for (mesh of myMeshesone) {
                             enable = mesh.isEnabled()
                             mesh.setEnabled(mesh.isEnabled() ? false : true)
 							BT1.style.backgroundColor = enable ? "red" : "green"
@@ -321,7 +321,24 @@
 							BT12.style.backgroundColor = enable ? "red" : "green"
                           }                         
                         }
-
+						
+						var BT13 = document.createElement("button")
+                        BT13.id = "ShowHidemyMesheThirteen"
+                        BT13.textContent = "Terén 1"
+                        BT13.style.backgroundColor = "green"
+                        BT13.style.display = "block"
+                        BT13.style.width = "100%"
+                        BT13.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT13)
+                        BT13.onclick = function() {
+                          // Show/Hide myMeshThree
+                          let enable
+                          for (mesh of myMeshesThirteen) {
+                            enable = mesh.isEnabled()
+                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							BT12.style.backgroundColor = enable ? "red" : "green"
+                          }                         
+                        }
 
                         return scene;
 
