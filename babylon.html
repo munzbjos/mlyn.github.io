@@ -53,19 +53,19 @@
                         var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
                         var light2 = new BABYLON.PointLight("Omni0", new BABYLON.Vector3(0, 1, -1), scene);
 						
-						BABYLON.SceneLoader.Append("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
-						BABYLON.SceneLoader.Append("./glb/", "krovy.gltf", scene, function (myMeshesTwo) {
-						BABYLON.SceneLoader.Append("./glb/", "komin.gltf", scene, function (myMeshesThree) {
-						BABYLON.SceneLoader.Append("./glb/", "podlaha_pud.gltf", scene, function (myMeshesFour) {
-						BABYLON.SceneLoader.Append("./glb/", "podlaha_1_patro.gltf", scene, function (myMeshesFive) {
-						BABYLON.SceneLoader.Append("./glb/", "steny_1_patro.gltf", scene, function (myMeshesSix) {
-						BABYLON.SceneLoader.Append("./glb/", "schodiste.gltf", scene, function (myMeshesSeven) {
-						BABYLON.SceneLoader.Append("./glb/", "strop_svetnice.gltf", scene, function (myMeshesEight) {
-						BABYLON.SceneLoader.Append("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {
-						BABYLON.SceneLoader.Append("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {
-						BABYLON.SceneLoader.Append("./glb/", "pec.gltf", scene, function (myMeshesEleven) {
-						BABYLON.SceneLoader.Append("./glb/", "podlaha_prizemi.gltf", scene, function (myMeshesTwelve) {
-						BABYLON.SceneLoader.Append("./glb/", "teren.gltf", scene, function (myMeshesThirteen) { console.log(myMeshesThirteen)
+						BABYLON.SceneLoader.ImportMesh("./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "krovy.gltf", scene, function (myMeshesTwo) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "komin.gltf", scene, function (myMeshesThree) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "podlaha_pud.gltf", scene, function (myMeshesFour) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "podlaha_1_patro.gltf", scene, function (myMeshesFive) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "steny_1_patro.gltf", scene, function (myMeshesSix) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "schodiste.gltf", scene, function (myMeshesSeven) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "strop_svetnice.gltf", scene, function (myMeshesEight) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "steny_obvodove.gltf", scene, function (myMeshesNine) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "steny_vnitrni.gltf", scene, function (myMeshesTen) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "pec.gltf", scene, function (myMeshesEleven) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "podlaha_prizemi.gltf", scene, function (myMeshesTwelve) {
+						BABYLON.SceneLoader.ImportMesh("./glb/", "teren.gltf", scene, function (myMeshesThirteen) { console.log(myMeshesThirteen)
 																																				
 							
 							 // add buttons
