@@ -86,47 +86,57 @@
 
 			function init() {
 				container = document.getElementById( 'container' );
-        
-        //scene
-      	scene = new THREE.Scene();  
-        
-        //camera
-				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
-				camera.position.set( 80, 30, -150 );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -60, 40, 40 );
+				scene = new THREE.Scene();
 				scene.add(camera);
+        
+        clock = new THREE.Clock();
+        
+// collada
 
-        //lights   
-     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load("./stvolinky/hlinsko.dae", function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+
+//
+//				var gridHelper = new THREE.GridHelper( 10, 20 );
+//				scene.add( gridHelper );
+
+//
+
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
 				scene.add( ambientLight );
 
 				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
 				directionalLight.position.set( 1, 1, 1 ).normalize();
-				camera.add( directionalLight ); 
-  								
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-							"./stvolinky/hlunsko.dae", function (collada) 
-					{
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob1=avatar;
-					scene.add(avatar);
-					} );
-		
-        //rendering 
+				camera.add( directionalLight );
+//        camera.add( directionalLight.target );
+
+//
+
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff  );
+renderer.setClearColor( 0xffffff );
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 				container.appendChild( renderer.domElement );
 
-        //seting controls orbit
+//
+
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				controls.update();
 
+//
+
+//				stats = new Stats();
+//				container.appendChild( stats.dom );
+
+//
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
@@ -135,17 +145,21 @@
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 			}
 
 			function animate() {
 				requestAnimationFrame( animate );
 				render();
+//				stats.update();
 			}
 
 			function render() {
+				var delta = clock.getDelta();
 				renderer.render( scene, camera );
 			}
+
+
 		
 		</script>
   </body>
