@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vizualizace objektu</title>
+    <script type="application/x-javascript">
+    </script>       
+        <script src="./js/three.js"></script>
+		<script src="./js/ColladaLoader2.js"></script>
+		<script src="./js/OrbitControls.js"></script>
+		<script src="./js/VRButton.js"></script>   
+  </head>
+  <style>
+		body {
+			background:#f8f8ff;
+			padding:0;
+			margin:0;
+			font-family:Helvetica;
+			font-size:14px;
+			text-align: center;  				
+			}
+			
+	    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;  
+      }
+
+      .footer img {
+        position: absolute;
+        height: 40px;
+        margin: 2.5px;
+        left: 0;
+      }
+</style>
+  <body>
+<header class="w3-container w3-blue w3-center">
+  <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
+</h1>
+</header>
+    
+	<div class="w3-bar w3-black">
+  <a href="https://evafrommeltova.github.io/mlyn.github.io/index.html" class="w3-bar-item w3-button">Hlavní stránka</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Kundratice 60</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/info_mlyn.html" class="w3-bar-item w3-button">Informace</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/dae_casti.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/mlyn_v2.html" class="w3-bar-item w3-button">CopperCube</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/virtual.html" class="w3-bar-item w3-button">Virtuální prohlídka</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/modelo.html" class="w3-bar-item w3-button">Aplikace Modelo</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Chalupa - Hlinsko</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+	<header class="w3-container w3-center">
+    <h2>Vizualizace modelu ve formátu DAE v rozhraní Three.js</h2>
+	<h3>Kundratice 60</h3>
+	</header>
+   
+		<div id="container"></div> 
+
+    <div class="footer w3-container w3-blue w3-margin-top">
+      <img src="./pictures/cvut_white.png" alt="logo_cvut" />
+      <p>© 2021 Eva Frommeltová</p>
+    </div>
+    		<script>
+			var container, stats, clock, controls;
+			var camera, scene, renderer;
+			init();
+			animate();
+
+			function init() {
+				container = document.getElementById( 'container' );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -25, 20, 50 );
+				scene = new THREE.Scene();
+				scene.add(camera);
+        
+        clock = new THREE.Clock();
+        
+// collada
+
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load("./stvolinky/ropice.dae", function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+
+//
+//				var gridHelper = new THREE.GridHelper( 10, 20 );
+//				scene.add( gridHelper );
+
+//
+
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				scene.add( ambientLight );
+
+				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+				directionalLight.position.set( 1, 1, 1 ).normalize();
+				camera.add( directionalLight );
+//        camera.add( directionalLight.target );
+
+//
+
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+renderer.setClearColor( 0xffffff );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+//
+
+				controls = new THREE.OrbitControls( camera, renderer.domElement );
+				controls.target.set( 0, 0, 0 );
+				controls.update();
+
+//
+
+//				stats = new Stats();
+//				container.appendChild( stats.dom );
+
+//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+//				stats.update();
+			}
+
+			function render() {
+				var delta = clock.getDelta();
+				renderer.render( scene, camera );
+			}
+
+
+		
+		</script>
+  </body>
+</html>
