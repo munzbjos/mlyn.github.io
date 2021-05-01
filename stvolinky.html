@@ -86,284 +86,57 @@
 
 			function init() {
 				container = document.getElementById( 'container' );
-        
-        //scene
-      	scene = new THREE.Scene();  
-        
-        //camera
-				camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 10000 );
-				camera.position.set( 80, 30, -150 );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.set( -60, 40, 40 );
+				scene = new THREE.Scene();
 				scene.add(camera);
+        
+        clock = new THREE.Clock();
+        
+// collada
 
-        //lights   
-     		var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load("./stvolinky/Stvolinky.dae", function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+
+//
+//				var gridHelper = new THREE.GridHelper( 10, 20 );
+//				scene.add( gridHelper );
+
+//
+
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
 				scene.add( ambientLight );
 
 				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
 				directionalLight.position.set( 1, 1, 1 ).normalize();
-				camera.add( directionalLight ); 
-  			
-		var buttonbox = document.createElement("div")
-                        buttonbox.id = "buttonbox"
-                        buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "150px"
-                        buttonbox.style.left = "80%"
-                        //buttonbox.style.border = "5pt inset black"
-                        buttonbox.style.padding = "2pt"
-                        buttonbox.style.paddingRight = "10pt"
-                        buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "15em"
-                        buttonbox.style.display = "inline-block"	
-                        document.body.appendChild(buttonbox)
+				camera.add( directionalLight );
+//        camera.add( directionalLight.target );
 
-               var tTag = document.createElement("div")
-                        tTag.id = "choose"
-                        tTag.textContent = "Zobrazit/Skrýt"
-                        tTag.style.textAlign = "center"
-                        tTag.style.border = "2pt inset black"
-                        tTag.style.marginTop = "5pt"
-                        tTag.style.marginBottom = "8pt"
-                        tTag.style.backgroundColor = "antiquewhite"
-						tTag.style.width = "100%"
-                        tTag.style.fontSize = "1.5em"
-                        tTag.style.color = "black"
-						tTag.style.borderradius = "30%"
-                        buttonbox.appendChild(tTag)
+//
 
-               var BT1 = document.createElement("button")
-                        BT1.id = "ShowHidemyMeshesOne"
-                        BT1.textContent = "Střecha"
-                        BT1.style.backgroundColor = "limegreen"
-                        BT1.style.width = "100%"
-                        BT1.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT1)
-                        BT1.onclick = function() {
-                          // Show/Hide myMeshThree
-                          (ob1.visible)?ob1.visible=false:ob1.visible=true
-                                         enable=ob1.visible
-                          BT1.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-
-                var BT2 = document.createElement("button")
-                        BT2.id = "ShowHidemyMeshesTwo"
-                        BT2.textContent = "Komín"
-                        BT2.style.backgroundColor = "limegreen"
-                        BT2.style.display = "round"
-                        BT2.style.width = "100%"
-                        BT2.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT2)
-                        BT2.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob2.visible)?ob2.visible=false:ob2.visible=true
-                                         enable=ob2.visible
-                          BT2.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT3 = document.createElement("button")
-                        BT3.id = "ShowHidemyMeshesThree"
-                        BT3.textContent = "Obvodové stěny 2. patro"
-                        BT3.style.backgroundColor = "limegreen"
-                        BT3.style.display = "round"
-                        BT3.style.width = "100%"
-                        BT3.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT3)
-                        BT3.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob3.visible)?ob3.visible=false:ob3.visible=true
-                                         enable=ob3.visible
-                          BT3.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-				
-				var BT4 = document.createElement("button")
-                        BT4.id = "ShowHidemyMeshesFour"
-                        BT4.textContent = "Obvodové stěny 1. patro"
-                        BT4.style.backgroundColor = "limegreen"
-                        BT4.style.display = "round"
-                        BT4.style.width = "100%"
-                        BT4.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT4)
-                        BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob4.visible)?ob4.visible=false:ob4.visible=true
-                                         enable=ob4.visible
-                          BT4.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT5 = document.createElement("button")
-                        BT5.id = "ShowHidemyMeshesFive"
-                        BT5.textContent = "Schodiště"
-                        BT5.style.backgroundColor = "limegreen"
-                        BT5.style.display = "round"
-                        BT5.style.width = "100%"
-                        BT5.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT5)
-                        BT5.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob5.visible)?ob5.visible=false:ob5.visible=true
-                                         enable=ob5.visible
-                          BT5.style.backgroundColor = enable ? "limegreen" : "red"
-                        }		
-				
-				var BT6 = document.createElement("button")
-                        BT6.id = "ShowHidemyMeshesSix"
-                        BT6.textContent = "Stěny obvodove přízemí"
-                        BT6.style.backgroundColor = "limegreen"
-                        BT6.style.display = "round"
-                        BT6.style.width = "100%"
-                        BT6.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT6)
-                        BT6.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob6.visible)?ob6.visible=false:ob6.visible=true
-                                         enable=ob6.visible
-                          BT6.style.backgroundColor = enable ? "limegreen" : "red"
-                        }	
-						
-				var BT7 = document.createElement("button")
-                        BT7.id = "ShowHidemyMeshesSeven"
-                        BT7.textContent = "Okna"
-                        BT7.style.backgroundColor = "limegreen"
-                        BT7.style.display = "round"
-                        BT7.style.width = "100%"
-                        BT7.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT7)
-                        BT7.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob7.visible)?ob7.visible=false:ob7.visible=true
-                                         enable=ob7.visible
-                          BT7.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-						
-				var BT8 = document.createElement("button")
-                        BT8.id = "ShowHidemyMeshesEight"
-                        BT8.textContent = "Dveře"
-                        BT8.style.backgroundColor = "limegreen"
-                        BT8.style.display = "round"
-                        BT8.style.width = "100%"
-                        BT8.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT8)
-                        BT8.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob8.visible)?ob8.visible=false:ob8.visible=true
-                                         enable=ob8.visible
-                          BT8.style.backgroundColor = enable ? "limegreen" : "red"
-                        }
-
-	
-						
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-							"./stvolinky/krytiny.dae", function (collada) 
-					{
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob1=avatar;
-					scene.add(avatar);
-					} );
-
-        //collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/komin.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob2=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/steny_1_patro.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob3=avatar;
-					ob3.visible=false;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/obvodove_steny.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob4=avatar;
-					scene.add(avatar);
-				} );
-		
-		//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/schodiste.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob5=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/obvodove_steny_prizemi.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob6=avatar;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/okna.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob7=avatar;
-					ob7.visible=false;
-					scene.add(avatar);
-				} );
-				
-				//collada loader
-				var loader = new THREE.ColladaLoader();
-				loader.options.convertUpAxis = true;
-				loader.load( 
-        "./stvolinky/dvere.dae", function (collada) 
-        {
-					var animations = collada.animations;
-					var avatar = collada.scene;
-					ob8=avatar;
-					ob8.visible=false;
-					scene.add(avatar);
-				} );	
-				
-		
-						
-        //rendering 
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setClearColor( 0xffffff  );
+renderer.setClearColor( 0xffffff );
 				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 				container.appendChild( renderer.domElement );
 
-        //seting controls orbit
+//
+
 				controls = new THREE.OrbitControls( camera, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				controls.update();
 
+//
+
+//				stats = new Stats();
+//				container.appendChild( stats.dom );
+
+//
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
@@ -372,17 +145,21 @@
 			function onWindowResize() {
 				camera.aspect = window.innerWidth / window.innerHeight;
 				camera.updateProjectionMatrix();
-				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				renderer.setSize( window.innerWidth, window.innerHeight );
 			}
 
 			function animate() {
 				requestAnimationFrame( animate );
 				render();
+//				stats.update();
 			}
 
 			function render() {
+				var delta = clock.getDelta();
 				renderer.render( scene, camera );
 			}
+
+
 		
 		</script>
   </body>
