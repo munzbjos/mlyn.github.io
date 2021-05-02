@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Babylon Template</title>
+
+      <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+
+        <script src="https://cdn.babylonjs.com/babylon.js"></script>
+		<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+		<script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+
+
+
+   </head>
+
+   <body>
+
+    <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
+
+    <script>
+             var canvas = document.getElementById("renderCanvas");
+
+
+
+var createScene = function ()
+ {
+
+    // Create the scene space
+    var scene = new BABYLON.Scene(engine);
+
+	engine.displayLoadingUI();
+			engine.loadingUIText = "Loading..."
+			scene.clearColor = new BABYLON.Color3(0, 0, 0);
+
+			scene.executeWhenReady(function () {
+				engine.hideLoadingUI();
+			})
+
+
+
+    //Adding a light
+    var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(0, 1, -1), scene);
+
+	var light1 = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 1, 0), scene);
+	light1.intensity = 3;
+
+	var dome = new BABYLON.PhotoDome(
+        "testdome",
+        "bg.jpg",
+        {
+            resolution: 32,
+            size: 8000
+        },
+        scene
+    );
+
+
+	var mat0 = new BABYLON.StandardMaterial("mat0", scene);
+	mat0.diffuseColor = new BABYLON.Color3(0.07, 0.07, 0.07);
+	mat0.opacityTexture = new BABYLON.Texture("grad.png", scene);
+	mat0.specularColor = new BABYLON.Color3(0, 0, 0);
+
+	var mat1 = new BABYLON.StandardMaterial("mat1", scene);
+	mat1.diffuseColor = new BABYLON.Color3(0, 0, 0);
+
+
+	//Plane with opacity material
+	var plane = BABYLON.MeshBuilder.CreatePlane("plane", {height:3000, width: 5000}, scene);
+	plane.material = mat0;
+	plane.rotation = new BABYLON.Vector3(Math.PI / 2, 0, 0);
+
+
+
+
+
+    // Add a camera to the scene and attach it to the canvas
+
+	var camera = new BABYLON.ArcRotateCamera("Camera", 3 * Math.PI / 2, Math.PI / 8, 50, BABYLON.Vector3.Zero(), scene);
+	camera.attachControl(canvas, true);
+	camera.setPosition(new BABYLON.Vector3(0, 2000, 4000));
+	camera.useAutoRotationBehavior = true;
+	camera.useBouncingBehavior = true;
+	camera.lowerRadiusLimit = 2600;
+	camera.upperRadiusLimit = 5000;
+	camera.upperBetaLimit = 1.5;
+	camera.lowerBetaLimit = 0.5;
+	camera.panningSensibility = 0;
+	camera.setTarget(new BABYLON.Vector3(0,150,0));
+
+
+
+    BABYLON.SceneLoader.ImportMesh("", "/stvolinky/", "krytiny.glft", scene, function (myMeshesOne) {
+        BABYLON.SceneLoader.ImportMesh("", "/stvolinky/", "krovy.glft", scene, function (myMeshesTwo) {
+            BABYLON.SceneLoader.ImportMesh("", "/stvolinky/", "dach.glft", scene, function (myMeshesThree) {
+
+                // add buttons
+                var buttonbox = document.createElement('div');
+                buttonbox.id = "buttonbox";
+                buttonbox.style.position = "absolute";
+                buttonbox.style.bottom = "5%";
+                buttonbox.style.width = "100%";
+                buttonbox.style.padding = "2pt";
+                buttonbox.style.paddingRight = "2pt";
+                buttonbox.style.display = "block";
+	            document.body.appendChild(buttonbox);
+
+
+
+
+	            var b_parter = document.createElement('buttons');
+                b_parter.id = "parter";
+                b_parter.textContent = "Parter";
+                buttonbox.appendChild(b_parter);
+                b_parter.onclick = function() {
+                    // Show/Hide myMeshOne
+                    oneEnabled = !oneEnabled;
+                    for (mesh of myMeshesOne) {
+                        mesh.setEnabled(oneEnabled);
+                    }
+
+                }
+
+	            var b_pietro = document.createElement('buttons');
+                b_pietro.id = "pietro";
+                b_pietro.textContent = "Pietro";
+                buttonbox.appendChild(b_pietro);
+                b_pietro.onclick = function() {
+                    // Show/Hide myMeshTwo
+                    twoEnabled = !twoEnabled;
+                    for (mesh of myMeshesTwo) {
+                        mesh.setEnabled(twoEnabled);
+                    }
+                }
+
+	 	        var b_elewacja = document.createElement('buttons');
+                b_elewacja.id = "elewacja";
+                b_elewacja.textContent = "Elewacja";
+                buttonbox.appendChild(b_elewacja);
+                b_elewacja.onclick = function() {
+                    // Show/Hide myMeshThree
+                    threeEnabled = !threeEnabled;
+                    for (mesh of myMeshesThree) {
+                       mesh.setEnabled(threeEnabled);
+                    }
+                }
+
+                var oneEnabled = true;
+                var twoEnabled = true;
+                var threeEnabled = true;
+
+
+
+            });  // end of MeshOne onSuccess area
+        });  // end of MeshTwo onSuccess area
+    });  // end of MeshThree onSuccess area
+
+
+
+
+
+    return scene;
+    </script>
+
+   </body>
+
+</html>
