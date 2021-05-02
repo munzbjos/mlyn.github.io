@@ -114,9 +114,11 @@
                         buttonbox.appendChild(BT1)
                         BT1.onclick = function() {
 							// Show/Hide myMeshThree
-							for (mesh of myMeshesOne)
-							mesh.setEnabled((mesh.isEnabled() ? false : true)); 
-							}
+							oneEnabled = !oneEnabled;
+							for (mesh of myMeshesOne){
+							mesh.setEnabled(oneEnabled);
+						}
+						}
 						
 
                          
@@ -345,6 +347,8 @@
 							BT12.style.backgroundColor = enable ? "red" : "green"
                           }                         
                         }
+						
+						var oneEnabled = true;
 						
 						})
 						})
