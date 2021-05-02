@@ -123,10 +123,6 @@
 							}
 						}
 						
-
-                         
-                        
-
                         var BT2 = document.createElement("button")
                         BT2.id = "ShowHidemyMeshesTwo"
                         BT2.textContent = "Krovy"
@@ -136,16 +132,15 @@
                         BT2.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT2)
                         BT2.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesTwo) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							twoEnabled = !twoEnabled;
+							for (mesh of myMeshesTwo){
+							enable = mesh.isEnabled(twoEnabled)
+							mesh.setEnabled(twoEnabled);
 							BT2.style.backgroundColor = enable ? "red" : "green"
-                          }
-
-                          
-                        }
+							}
+						}
 						
 						var BT3 = document.createElement("button")
                         BT3.id = "ShowHidemyMeshesThree"
@@ -155,17 +150,16 @@
                         BT3.style.width = "100%"
                         BT3.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT3)
-                        BT3.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesThree) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                        BT3.onclick = function()  {
+							let enable
+							// Show/Hide myMeshThree
+							threeEnabled = !threeEnabled;
+							for (mesh of myMeshesThree){
+							enable = mesh.isEnabled(threeEnabled)
+							mesh.setEnabled(threeEnabled);
 							BT3.style.backgroundColor = enable ? "red" : "green"
-                          }
-
-                          
-                        }
+							}
+						}
 						
 						var BT4 = document.createElement("button")
                         BT4.id = "ShowHidemyMeshesFour"
@@ -176,16 +170,15 @@
                         BT4.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT4)
                         BT4.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesFour) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							fourEnabled = !fourEnabled;
+							for (mesh of myMeshesThree){
+							enable = mesh.isEnabled(fourEnabled)
+							mesh.setEnabled(fourEnabled);
 							BT4.style.backgroundColor = enable ? "red" : "green"
-                          }
-
-                          
-                        }
+							}
+						}
 						
 						var BT5 = document.createElement("button")
                         BT5.id = "ShowHidemyMeshesFive"
@@ -196,14 +189,15 @@
                         BT5.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT5)
                         BT5.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesFive) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							fiveEnabled = !fiveEnabled;
+							for (mesh of myMeshesFive){
+							enable = mesh.isEnabled(fiveEnabled)
+							mesh.setEnabled(fiveEnabled);
 							BT5.style.backgroundColor = enable ? "red" : "green"
-                          }                          
-                        }
+							}
+						}
 						
 						var BT6 = document.createElement("button")
                         BT6.id = "ShowHidemyMeshesSix"
@@ -213,17 +207,16 @@
                         BT6.style.width = "100%"
                         BT6.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT6)
-                        BT6.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesSix) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                        BT6.onclick = function(){
+							let enable
+							// Show/Hide myMeshThree
+							sixEnabled = !sixEnabled;
+							for (mesh of myMeshesSix){
+							enable = mesh.isEnabled(sixEnabled)
+							mesh.setEnabled(sixEnabled);
 							BT6.style.backgroundColor = enable ? "red" : "green"
-                          }
-
-                          
-                        }
+							}
+						}
 						
 						var BT7 = document.createElement("button")
                         BT7.id = "ShowHidemyMeshesSeven"
@@ -234,14 +227,15 @@
                         BT7.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT7)
                         BT7.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesSeven) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							sevenEnabled = !sevenEnabled;
+							for (mesh of myMeshesSeven){
+							enable = mesh.isEnabled(sevenEnabled)
+							mesh.setEnabled(sevenEnabled);
 							BT7.style.backgroundColor = enable ? "red" : "green"
-                          }                          
-                        }
+							}
+						}
 						
 						var BT8 = document.createElement("button")
                         BT8.id = "ShowHidemyMeshesEight"
@@ -252,14 +246,15 @@
                         BT8.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT8)
                         BT8.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesEight) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							eightEnabled = !eightEnabled;
+							for (mesh of myMeshesEight){
+							enable = mesh.isEnabled(eightEnabled)
+							mesh.setEnabled(eightEnabled);
 							BT8.style.backgroundColor = enable ? "red" : "green"
-                          }                          
-                        }
+							}
+						}
 						
 						var BT9 = document.createElement("button")
                         BT9.id = "ShowHidemyMesheNine"
@@ -270,14 +265,15 @@
                         BT9.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT9)
                         BT9.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesNine) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							nineEnabled = !nineEnabled;
+							for (mesh of myMeshesNine){
+							enable = mesh.isEnabled(nineEnabled)
+							mesh.setEnabled(nineEnabled);
 							BT9.style.backgroundColor = enable ? "red" : "green"
-                          }                          
-                        }
+							}
+						}
 						
 						var BT10 = document.createElement("button")
                         BT10.id = "ShowHidemyMesheTen"
@@ -287,15 +283,16 @@
                         BT10.style.width = "100%"
                         BT10.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT10)
-                        BT10.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesTen) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                        BT10.onclick = function(){
+							let enable
+							// Show/Hide myMeshThree
+							tenEnabled = !tenEnabled;
+							for (mesh of myMeshesTen){
+							enable = mesh.isEnabled(tenEnabled)
+							mesh.setEnabled(tenEnabled);
 							BT10.style.backgroundColor = enable ? "red" : "green"
-                          }                        
-                        }
+							}
+						}
 						
 						var BT11 = document.createElement("button")
                         BT11.id = "ShowHidemyMesheEleven"
@@ -306,14 +303,16 @@
                         BT11.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT11)
                         BT11.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesEleven) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+							let enable
+							// Show/Hide myMeshThree
+							elevenEnabled = !elevenEnabled;
+							for (mesh of myMeshesEleven){
+							enable = mesh.isEnabled(elevenEnabled)
+							mesh.setEnabled(elevenEnabled);
 							BT11.style.backgroundColor = enable ? "red" : "green"
-                          }                         
-                        }
+							}
+						}                 
+                        
 						
 						var BT12 = document.createElement("button")
                         BT12.id = "ShowHidemyMesheTwelve"
@@ -323,15 +322,15 @@
                         BT12.style.width = "100%"
                         BT12.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT12)
-                        BT12.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesTwelve) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
+                        BT12.onclick = function(){
+							let enable
+							// Show/Hide myMeshThree
+							twelveEnabled = !twelveEnabled;
+							for (mesh of myMeshesTwelve){
+							enable = mesh.isEnabled(twelveEnabled)
+							mesh.setEnabled(twelveEnabled);
 							BT12.style.backgroundColor = enable ? "red" : "green"
-                          }                         
-                        }
+							}
 						
 						var BT13 = document.createElement("button")
                         BT13.id = "ShowHidemyMesheThirteen"
@@ -342,16 +341,28 @@
                         BT13.style.fontSize = "1.1em"
                         buttonbox.appendChild(BT13)
                         BT13.onclick = function() {
-                          // Show/Hide myMeshThree
-                          let enable
-                          for (mesh of myMeshesThirteen) {
-                            enable = mesh.isEnabled()
-                            mesh.setEnabled(mesh.isEnabled() ? false : true)
-							BT12.style.backgroundColor = enable ? "red" : "green"
-                          }                         
-                        }
+							let enable
+							// Show/Hide myMeshThree
+							thirteenEnabled = !thirteenEnabled;
+							for (mesh of myMeshesThirteen){
+							enable = mesh.isEnabled(twelveEnabled)
+							mesh.setEnabled(thirteenEnabled);
+							BT13.style.backgroundColor = enable ? "red" : "green"
+							}
 						
 						var oneEnabled = true;
+						var twoEnabled = true;
+						var threeEnabled = true;
+						var fourEnabled = true;
+						var fiveEnabled = true;
+						var sixEnabled = true;
+						var sevenEnabled = true;
+						var eightEnabled = true;
+						var nineEnabled = true;
+						var tenEnabled = true;
+						var elevenEnabled = true;
+						var twelveEnabled = true;
+						var thirteenEnabled = true;
 						
 						})
 						})
