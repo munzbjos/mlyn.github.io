@@ -117,7 +117,7 @@
 							// Show/Hide myMeshThree
 							oneEnabled = !oneEnabled;
 							for (mesh of myMeshesOne){
-							enable = mesh.isEnabled()
+							enable = mesh.isEnabled(oneEnabled)
 							mesh.setEnabled(oneEnabled);
 							BT1.style.backgroundColor = enable ? "red" : "green"
 							}
