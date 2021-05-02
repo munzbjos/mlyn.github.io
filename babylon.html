@@ -84,7 +84,7 @@
                         buttonbox.style.position = "absolute"
                         buttonbox.style.top = "300px"
                         buttonbox.style.left = "83%"
-                        buttonbox.style.border = "5pt inset black"
+                        //buttonbox.style.border = "5pt inset black"
                         buttonbox.style.padding = "2pt"
                         buttonbox.style.paddingRight = "10pt"
                         buttonbox.style.paddingLeft = "10pt"
@@ -96,12 +96,12 @@
                         tTag.id = "choose"
                         tTag.textContent = "Zobrazit/Skrýt"
                         tTag.style.textAlign = "center"
-                        tTag.style.border = "3pt solid gold"
-                        tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
-                        tTag.style.backgroundColor = "grey"
-                        tTag.style.fontSize = "1.0em"
-                        tTag.style.color = "white"
+                        tTag.style.border = "2pt inset black"
+                        tTag.style.marginTop = "5pt"
+                        tTag.style.marginBottom = "8pt"
+                        tTag.style.backgroundColor = "antiquewhit"
+                        tTag.style.fontSize = "1.5em"
+                        tTag.style.color = "black"
                         buttonbox.appendChild(tTag)
 
                         var BT1 = document.createElement("button")
@@ -385,6 +385,10 @@
 						light.position = camera.position;
 						})
 
+					// VR camera in scene
+					var vrHelper = scene.createDefaultVRExperience({createDeviceOrientationCamera:false});
+					vrHelper.enableTeleportation();
+     
                         return scene
 
                 };
