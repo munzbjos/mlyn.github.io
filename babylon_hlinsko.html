@@ -34,62 +34,26 @@
 
     <script>
 
-            var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
+    var delayCreateScene = function () {
+    // Create a scene.
+    var scene = new BABYLON.Scene(engine);
 
-    // scene 
-        var createScene = function () {
-        engine.enableOfflineSupport = false;
-        var scene = new BABYLON.Scene(engine);
-        scene.clearColor = new BABYLON.Color3(1, 1, 1); 
-    
-      
-            // camera
-            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(0, 0, 0.5), scene);
-            camera.attachControl(canvas, false);
-            camera.lowerRadiusLimit = 15;
-            camera.upperRadiusLimit = 100;
-            camera.wheelDeltaPercentage = 0.01; 
-            camera.setTarget(BABYLON.Vector3.Zero());    
+    // Create a default skybox with an environment.
+    var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("textures/environment.dds", scene);
+    var currentSkybox = scene.createDefaultSkybox(hdrTexture, true);
 
-            
-            // light  
-            		var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
-                light.intensity = 1.35;
-            	  light.specular = new BABYLON.Color3(.0, .0, .0);    
-                       
-               	var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( 0, 0, 0), scene);
-                light2.intensity = 0.9;
-            	  light2.specular = new BABYLON.Color3(0,0,0); 
+    // Append glTF model to scene.
+    BABYLON.SceneLoader.Append("/stvolinky/", "hlinsko.gltf", scene, function (scene) {
+        // Create a default arc rotate camera and light.
+        scene.createDefaultCameraOrLight(true, true, true);
 
-						BABYLON.SceneLoader.Append("./stvolinky/", "hlinsko.gltf", scene, function (scene) {
-                        // do something with the scene
-						});
-							
-						// Move the light with the camera
-						scene.registerBeforeRender(function () {
-						light.position = camera.position;
-						})
-						
-                        return scene;
+        // The default camera looks at the back of the asset.
+        // Rotate the camera by 180 degrees to the front of the asset.
+        scene.activeCamera.alpha += Math.PI;
+    });
 
-                };
-
-			/******* End of the create scene function ******/    
-
-            var engine = new BABYLON.Engine(canvas, true, {
-			preserveDrawingBuffer: true,
-			stencil: true
-					})
-			var scene = createScene()
-
-            engine.runRenderLoop(function () { // Register a render loop to repeatedly render the scene
-                    scene.render();
-            });
-
-
-            window.addEventListener("resize", function () { // Watch for browser/canvas resize events
-                    engine.resize();
-            });
+    return scene;
+	};  
     </script>
 
    </body>
