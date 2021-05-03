@@ -81,6 +81,11 @@
 </div>
 </nav>
 
+<header class="w3-container w3-center">
+    <h2>Vizualizace modelu ve formátu glTF v rozhraní Babylon.js</h2>
+	<h3>Kundratice č.p. 60</h3>
+</header>
+
 <canvas id="renderCanvas" touch-action="none"></canvas> 
 
 <body>
@@ -397,7 +402,7 @@
 							// Show/Hide myMeshThree
 							thirteenEnabled = !thirteenEnabled;
 							for (mesh of myMeshesThirteen){
-							enable = mesh.isEnabled(twelveEnabled)
+							enable = mesh.isEnabled(thirteenEnabled)
 							mesh.setEnabled(thirteenEnabled);
 							BT13.style.backgroundColor = enable ? "red" : "green"
 							}
