@@ -3,17 +3,29 @@
 
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <title>Babylon Template</title>
-
+      <title>VIRTUÁLNÍ SKANSEN</title>
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>
         html, body {
-            overflow: hidden;
-            width: 100%;
-            height: 100%;
+            overflow: hidden;           
             margin: 0;
             padding: 0;
+			font-family:Helvetica;
+			font-size:14px;
+			text-align: center;
         }
+	    .footer {
+        text-align: center;
+  	    padding: 3px;
+  		color: white;
+      }
 
+      .footer img {
+        position: absolute;
+        height: 40px;
+        margin: 2.5px;
+        left: 0;
+      }
         #renderCanvas {
             width: 100%;
             height: 100%;
@@ -24,12 +36,46 @@
         <script src="https://cdn.babylonjs.com/babylon.js"></script>
 		<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
 		<script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
-
-
-
    </head>
 
    <body>
+<header class="w3-container w3-blue w3-center">
+  <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
+</h1>
+</header>
+
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Hlavní stránka</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Kundratice 60</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/info_mlyn.html" class="w3-bar-item w3-button">Informace</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/dae_casti.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/mlyn_v2.html" class="w3-bar-item w3-button">CopperCube</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/virtual.html" class="w3-bar-item w3-button">Virtuální prohlídka - Lapendor</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/marzipano.html" class="w3-bar-item w3-button">Virtuální prohlídka - Marzipano</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/modelo.html" class="w3-bar-item w3-button">Aplikace Modelo</a>
+    </div>
+  </div>
+ <div class="w3-dropdown-hover">
+    <button class="w3-button">Chalupa - Hlinsko</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Stvolínky</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/stvolinky.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+  </div>
+    <div class="w3-dropdown-hover">
+    <button class="w3-button">Ropice</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/ropice.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+  </div>
+</div>
 
     <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
 
