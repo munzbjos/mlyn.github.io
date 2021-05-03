@@ -48,7 +48,7 @@
 
 <nav>
 <div class="w3-bar w3-black">
-  <a href="#" class="w3-bar-item w3-button">Hlavní stránka</a>
+  <a href="https://evafrommeltova.github.io/mlyn.github.io/index.html" class="w3-bar-item w3-button">Hlavní stránka</a>
   <div class="w3-dropdown-hover">
     <button class="w3-button">Kundratice 60</button>
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -82,6 +82,11 @@
 </div>
 </nav>
 
+<header class="w3-container w3-center">
+    <h2>Vizualizace modelu ve formátu glTF v rozhraní Babylon.js</h2>
+	<h3>Hlinsko</h3>
+</header>
+
 <canvas id="renderCanvas" touch-action="none"></canvas> 
 
 <body>
@@ -97,10 +102,10 @@
     
       
             // camera
-            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(0, 0, 0.5), scene);
+            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -2, new BABYLON.Vector3(0, 0, 0.5), scene);
             camera.attachControl(canvas, false);
-            camera.lowerRadiusLimit = 5;
-            camera.upperRadiusLimit = 50;
+            camera.lowerRadiusLimit = 1;
+            camera.upperRadiusLimit = 20;
             camera.wheelDeltaPercentage = 0.01; 
             camera.setTarget(BABYLON.Vector3.Zero());    
 
