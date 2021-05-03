@@ -112,12 +112,12 @@
             
             // light  
             var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
-            light.intensity = 1.35;
+            light.intensity = 1.5;
             light.specular = new BABYLON.Color3(.0, .0, .0);    
                        
-            var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
-            light2.intensity = 0.9;
-            light2.specular = new BABYLON.Color3(0,0,0); 
+            //var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
+            //light2.intensity = 0.9;
+            //light2.specular = new BABYLON.Color3(0,0,0); 
 
 						
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
