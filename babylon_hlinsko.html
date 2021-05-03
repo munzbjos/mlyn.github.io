@@ -103,10 +103,10 @@
     
       
             // camera
-            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -2, new BABYLON.Vector3(0, 0, 0.5), scene);
+            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, 2, new BABYLON.Vector3(0, 0, 0.5), scene);
             camera.attachControl(canvas, false);
             camera.lowerRadiusLimit = 1;
-            camera.upperRadiusLimit = 20;
+            camera.upperRadiusLimit = 10;
             camera.wheelDeltaPercentage = 0.01; 
             camera.setTarget(BABYLON.Vector3.Zero());    
 
