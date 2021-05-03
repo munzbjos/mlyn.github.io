@@ -6,7 +6,7 @@
       <title>VIRTUÁLNÍ SKANSEN</title>
 	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>
-        html, body {
+        body {
             overflow: hidden;           
             margin: 0;
             padding: 0;
@@ -96,7 +96,7 @@
     
       
             // camera
-            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(10, 50, 0.5), scene);
+            var camera = new BABYLON.ArcRotateCamera("Camera", 2.88*Math.PI/2, 3*Math.PI /2, -30, new BABYLON.Vector3(50, 10, 0.5), scene);
             camera.attachControl(canvas, false);
             camera.lowerRadiusLimit = 15;
             camera.upperRadiusLimit = 100;
