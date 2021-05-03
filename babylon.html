@@ -14,6 +14,8 @@
 			font-size:14px;
 			text-align: center;
         }
+		
+		
 	    .footer {
         text-align: center;
   	    padding: 3px;
@@ -38,12 +40,13 @@
 		<script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
    </head>
 
-   <body>
+   
 <header class="w3-container w3-blue w3-center">
   <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
 </h1>
 </header>
 
+</nav>
 <div class="w3-bar w3-black">
   <a href="#" class="w3-bar-item w3-button">Hlavní stránka</a>
   <div class="w3-dropdown-hover">
@@ -76,9 +79,21 @@
     </div>
   </div>
 </div>
+</nav>
 
-    <canvas id="renderCanvas" touch-action="none"></canvas> //touch-action="none" for best results from PEP
+<header class="w3-container w3-center">
+<h2>Vizualizace modelu ve formátu glTF v rozhraní Babylon.js</h2>
+<h3>Kundratice 60</h3>
+</header>
+	
+<div class="footer w3-container w3-blue w3-margin-top">
+     <img src="./pictures/cvut_white.png" alt="logo_cvut" />
+     <p>© 2021 Eva Frommeltová</p>
+</div>
 
+<canvas id="renderCanvas" touch-action="none"></canvas> 
+
+<body>
     <script>
        var canvas = document.getElementById("renderCanvas"); 
         
@@ -100,13 +115,13 @@
 
             
             // light  
-            		var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
-                light.intensity = 1.35;
-            	  light.specular = new BABYLON.Color3(.0, .0, .0);    
+            var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1), scene);
+            light.intensity = 1.35;
+            light.specular = new BABYLON.Color3(.0, .0, .0);    
                        
-               	var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
-                light2.intensity = 0.9;
-            	  light2.specular = new BABYLON.Color3(0,0,0); 
+            var light2 = new BABYLON.PointLight("light", new BABYLON.Vector3( -20, -10, -30), scene);
+            light2.intensity = 0.9;
+            light2.specular = new BABYLON.Color3(0,0,0); 
 
 						
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "krytiny.gltf", scene, function (myMeshesOne) {
@@ -128,13 +143,13 @@
                         var buttonbox = document.createElement("div")
                         buttonbox.id = "buttonbox"
                         buttonbox.style.position = "absolute"
-                        buttonbox.style.top = "300px"
-                        buttonbox.style.left = "83%"
-                        buttonbox.style.border = "5pt inset black"
+                        buttonbox.style.top = "150px"
+                        buttonbox.style.left = "80%"
+                        //buttonbox.style.border = "5pt inset black"
                         buttonbox.style.padding = "2pt"
                         buttonbox.style.paddingRight = "10pt"
                         buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "10em"
+                        buttonbox.style.width = "15em"
                         buttonbox.style.display = "block"
                         document.body.appendChild(buttonbox)
 
@@ -142,12 +157,12 @@
                         tTag.id = "choose"
                         tTag.textContent = "Zobrazit/Skrýt"
                         tTag.style.textAlign = "center"
-                        tTag.style.border = "3pt solid gold"
-                        tTag.style.marginTop = "2pt"
-                        tTag.style.marginBottom = "2pt"
-                        tTag.style.backgroundColor = "grey"
-                        tTag.style.fontSize = "1.0em"
-                        tTag.style.color = "white"
+                        tTag.style.border = "2pt inset black"
+                        tTag.style.marginTop = "5pt"
+                        tTag.style.marginBottom = "8pt"
+                        tTag.style.backgroundColor = "antiquewhite"
+                        tTag.style.fontSize = "1.5em"
+                        tTag.style.color = "black"
                         buttonbox.appendChild(tTag)
 
                         var BT1 = document.createElement("button")
