@@ -134,7 +134,7 @@
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "podlaha_prizemi.gltf", scene, function (myMeshesTwelve) {
 						BABYLON.SceneLoader.ImportMesh("","./glb/", "teren.gltf", scene, function (myMeshesThirteen){
 
-						{ console.log(myMeshesThirteen)
+						 console.log(myMeshesThirteen)
 																																				
 							
 							 // add buttons
@@ -427,6 +427,7 @@
 						var thirteenEnabled = true;
 						
 						
+						}
 						})
 						})
 						})
@@ -440,7 +441,6 @@
 						})
 						})
 						})
-
 
 						// Move the light with the camera
 						scene.registerBeforeRender(function () {
@@ -456,6 +456,7 @@
 							BABYLON.ActionManager.OnPickTrigger, 
 							function (evt) {
 							myMeshesFiveteen.setEnabled((myMeshesFiveteen.isEnabled() ? false : true)); 
+							})
 							})
 						
 						
