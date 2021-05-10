@@ -53,7 +53,7 @@
 
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
-				loader.load( 'hlinsko.dae', function ( collada ) {
+				loader.load( 'https://raw.githubusercontent.com/evafrommeltova/mlyn.github.io/master/hlinsko.dae', function ( collada ) {
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
