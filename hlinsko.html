@@ -65,6 +65,8 @@
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
 				loader.load( './dae_hlinsko/hlinsko.dae', function ( collada ) {
+					var mesh = new THREE.Mesh(collada, new THREE.MeshBasicMaterial());
+					mesh.doublesided = true;
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
