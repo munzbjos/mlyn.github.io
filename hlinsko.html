@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+        	
+    <script src="../js/three.js"></script>
+		<script src="../js/ColladaLoader2.js"></script>
+		<script src="../js/OrbitControls.js"></script>
+		<script src="../js/Detector.js"></script>
+<!--    <script src="../js/stats.min.js"></script> -->
+	<head>
+
+		<title>Chaloupka 3D model</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="venkov architektura urbanismus národní dědictví" />
+    <link href="../../css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="../../css/bootstrap-3.3.6.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!-- Custom Theme files -->
+
+    <script src="../../js/jquery-1.12.4.min.js"></script>             <!-- zmena stylu-->
+    <script src="../../js/jquery-ui.min.js"></script>          <!-- zmena stylu -->
+	</head>
+	<body>
+
+	<div class="content">
+		<div class="cha">
+			<div class="container-fluid">
+
+
+    <div class="model">
+      <h2>Chaloupka</h2>
+      <p></p>  
+    </div>
+
+  <div class="col-md-12">
+
+		<div class="cha-grid">
+
+		<div id="container"></div>
+
+		<script>
+
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			var container, stats, clock, controls;
+			var camera, scene, renderer;
+			init();
+			animate();
+
+			function init() {
+				container = document.getElementById( 'container' );
+				camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 0.0001, 10000 );
+//				camera.position.set( -32, 30, 20 );
+				camera.position.set( 0.663, 0.384, -0.973 );
+				scene = new THREE.Scene();
+				scene.add(camera);
+        
+        clock = new THREE.Clock();
+        
+// collada
+
+				var loader = new THREE.ColladaLoader();
+				loader.options.convertUpAxis = true;
+				loader.load( 'hlinsko.dae', function ( collada ) {
+					var animations = collada.animations;
+					var avatar = collada.scene;
+					scene.add( avatar );
+				} );
+
+//
+//				var gridHelper = new THREE.GridHelper( 10, 20 );
+//				scene.add( gridHelper );
+
+//
+
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.2 );
+				scene.add( ambientLight );
+
+				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
+				directionalLight.position.set( 1, 1, 1 ).normalize();
+				camera.add( directionalLight );
+//        camera.add( directionalLight.target );
+
+//
+
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+renderer.setClearColor( 0xffffff );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+//
+
+				controls = new THREE.OrbitControls( camera, renderer.domElement );
+//				controls.target.set( 20, 6, -25 );
+				controls.target.set( -0.006, 0.060, 0.019 );
+				controls.update();
+
+//
+
+//				stats = new Stats();
+//				container.appendChild( stats.dom );
+
+//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth-80, window.innerHeight );
+			}
+
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+//				stats.update();
+			}
+
+			function render() {
+				var delta = clock.getDelta();
+				renderer.render( scene, camera );
+			}
+
+		</script>
+		</div>
+      
+    <div class="cha-popisobr">
+      <p></p>
+    </div>
+
+  </div>
+  <div class="clearfix"> </div>
+
+  </div>
+  </div>
+  </div>
+
+
+	</body>
+
+</html>
