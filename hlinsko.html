@@ -6,17 +6,18 @@
 		<script src="./js/ColladaLoader2.js"></script>
 		<script src="./js/OrbitControls.js"></script>
 		<script src="./js/Detector.js"></script>
-<!--    <script src="../js/stats.min.js"></script> -->
+<!--    <script src="./js/stats.min.js"></script> -->
 	<head>
-
 		<title>Chaloupka 3D model</title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
 	</head>
 	<body>
 
-
+	<div class="content">
+		<div class="cha">
+			<div class="container-fluid">
 
 
     <div class="model">
@@ -24,8 +25,12 @@
       <p></p>  
     </div>
 
+  <div class="col-md-12">
 
- <div>
+		<div class="cha-grid">
+
+		<div id="container"></div>
+
 		<script>
 
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
@@ -48,7 +53,7 @@
 
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
-				loader.load('hlinsko.dae', function ( collada ) {
+				loader.load( 'hlinsko.dae', function ( collada ) {
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
@@ -113,6 +118,18 @@ renderer.setClearColor( 0xffffff );
 
 		</script>
 		</div>
+      
+    <div class="cha-popisobr">
+      <p></p>
+    </div>
+
+  </div>
+  <div class="clearfix"> </div>
+
+  </div>
+  </div>
+  </div>
+
 
 	</body>
 
