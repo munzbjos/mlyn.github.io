@@ -3,9 +3,9 @@
 <html lang="cs">
         	
     <script src="../js/three.js"></script>
-		<script src="../js/ColladaLoader2.js"></script>
-		<script src="../js/OrbitControls.js"></script>
-		<script src="../js/Detector.js"></script>
+		<script src="./js/ColladaLoader2.js"></script>
+		<script src="./js/OrbitControls.js"></script>
+		<script src="./js/Detector.js"></script>
 <!--    <script src="../js/stats.min.js"></script> -->
 	<head>
 
@@ -64,7 +64,7 @@
 
 				var loader = new THREE.ColladaLoader();
 				loader.options.convertUpAxis = true;
-				loader.load( 'hlinsko.dae', function ( collada ) {
+				loader.load( './dae/hlinsko.dae', function ( collada ) {
 					var animations = collada.animations;
 					var avatar = collada.scene;
 					scene.add( avatar );
