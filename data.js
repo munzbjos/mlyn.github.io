@@ -20,48 +20,48 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.07451833804373464,
-        "pitch": -0.05081553464191657,
-        "fov": 1.557758975746875
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.002089732936067179,
-          "pitch": 0.07681273800290889,
-          "rotation": 0,
-          "target": "5-svtnice"
-        },
-        {
-          "yaw": -0.2598282589251646,
-          "pitch": 0.20896278196781637,
-          "rotation": 0,
-          "target": "16-chlv-2"
-        },
-        {
-          "yaw": -0.673248794153043,
-          "pitch": 0.21600555215310813,
+          "yaw": -0.6857778089799229,
+          "pitch": 0.23013331775144152,
           "rotation": 0,
           "target": "15-chlv-1"
         },
         {
-          "yaw": -1.7117318525788612,
-          "pitch": 0.22792612955744573,
+          "yaw": -0.2699159944928855,
+          "pitch": 0.19134134631477018,
           "rotation": 0,
-          "target": "1-exterir---pohled-2"
+          "target": "16-chlv-2"
         },
         {
-          "yaw": 1.2477388116853447,
-          "pitch": 0.17919331122594784,
+          "yaw": -0.001954489336149834,
+          "pitch": 0.07596873017412875,
+          "rotation": 0,
+          "target": "4-mlnice"
+        },
+        {
+          "yaw": 1.3591745065093228,
+          "pitch": 0.23381130290675856,
           "rotation": 0,
           "target": "3-exterir---pohled-4"
+        },
+        {
+          "yaw": -1.7005100312937493,
+          "pitch": 0.23655002046595364,
+          "rotation": 0,
+          "target": "1-exterir---pohled-2"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.0521845670123966,
-          "pitch": 0.3938262332258269,
+          "yaw": -0.09935367636100878,
+          "pitch": 0.411780271149393,
           "title": "Virtuální prohlídka stavení Kundratice 60",
-          "text": "Model stavení byl vyhotoven dle plánové dokumentace z roku 1943, kterou vytvořil Ing. Vodseďálek. Pro modelaci byl použit program SketchUp a pro vytvoření panoramatických snímků program Lumion.<div><br></div><div>Vytvořila: Eva Frommeltová,</div><div>katedra geomatiky, ČVUT</div>"
+          "text": "Model stavení byl vyhotoven dle plánové dokumentace z roku 1943,kterou vytvořil Ing. Vodseďálek. Pro modelaci byl použit program SketchUp a pro vytvoření panoramatických snímků program Lumion.<div><br></div><div>Vytvořila: Eva Frommeltová</div><div>katedra geomatiky, ČVUT</div>"
         }
       ]
     },
@@ -91,14 +91,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.38025172630521453,
-          "pitch": 0.11902872681128684,
+          "yaw": 0.3231248329766778,
+          "pitch": 0.11285346784341144,
           "rotation": 0,
           "target": "0-exterir---pohled-1"
         },
         {
-          "yaw": -0.8099422234807552,
-          "pitch": 0.03673177389397253,
+          "yaw": -0.8068161936143916,
+          "pitch": 0.06367392390884774,
           "rotation": 0,
           "target": "2-exterir---pohled-3"
         }
@@ -131,14 +131,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.5953119846843684,
-          "pitch": 0.17470434695195536,
+          "yaw": 0.5951277036102223,
+          "pitch": 0.21720497950058615,
           "rotation": 0,
           "target": "1-exterir---pohled-2"
         },
         {
-          "yaw": -0.847450179375322,
-          "pitch": 0.1774291884535657,
+          "yaw": -0.818060721808747,
+          "pitch": 0.226584000113224,
           "rotation": 0,
           "target": "3-exterir---pohled-4"
         }
@@ -171,14 +171,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.5907310570655042,
-          "pitch": 0.14828893746826033,
+          "yaw": 0.6073902988501523,
+          "pitch": 0.20844291591402353,
           "rotation": 0,
-          "target": "2-exterir---pohled-3"
+          "target": "3-exterir---pohled-4"
         },
         {
-          "yaw": -0.6730240905448195,
-          "pitch": 0.1820169546403747,
+          "yaw": -0.6837922638993561,
+          "pitch": 0.21358244591719888,
           "rotation": 0,
           "target": "0-exterir---pohled-1"
         }
@@ -211,40 +211,40 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.5891977638626749,
-          "pitch": 0.23205163555970465,
+          "yaw": -0.592260998376366,
+          "pitch": 0.24377355804398704,
           "rotation": 0,
           "target": "0-exterir---pohled-1"
         },
         {
-          "yaw": -0.7322673547712224,
-          "pitch": 0.32191875819109583,
-          "rotation": 0,
-          "target": "5-svtnice"
-        },
-        {
-          "yaw": 0.3415621219007505,
-          "pitch": 0.08142460079270997,
+          "yaw": 0.38025134085180845,
+          "pitch": 0.008247681561231346,
           "rotation": 0,
           "target": "10-patro-mlnice"
         },
         {
-          "yaw": -2.399908608482182,
-          "pitch": 0.38135600348895515,
+          "yaw": -0.742182533691679,
+          "pitch": 0.26068818509931013,
+          "rotation": 4.71238898038469,
+          "target": "5-svtnice"
+        },
+        {
+          "yaw": -2.394913458798893,
+          "pitch": 0.40240646398546076,
           "rotation": 0,
           "target": "6-ern-kuchyn"
         },
         {
-          "yaw": -2.173023232222871,
-          "pitch": 0.5211652361201402,
-          "rotation": 0,
-          "target": "8-pda"
+          "yaw": -2.7880195681372495,
+          "pitch": 0.3608301464893877,
+          "rotation": 5.497787143782138,
+          "target": "3-exterir---pohled-4"
         },
         {
-          "yaw": -2.7470160199119373,
-          "pitch": 0.3840458534735216,
-          "rotation": 0,
-          "target": "2-exterir---pohled-3"
+          "yaw": -2.171550638203593,
+          "pitch": 0.4301776642789008,
+          "rotation": 1.5707963267948966,
+          "target": "8-pda"
         }
       ],
       "infoHotspots": []
@@ -275,16 +275,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.5316365262478087,
-          "pitch": 0.36508878564000113,
-          "rotation": 0,
-          "target": "4-mlnice"
+          "yaw": 0.618927777341451,
+          "pitch": 0.4172204713750727,
+          "rotation": 0.7853981633974483,
+          "target": "6-ern-kuchyn"
         },
         {
-          "yaw": 0.6318570205595719,
-          "pitch": 0.42589366032012066,
-          "rotation": 0,
-          "target": "6-ern-kuchyn"
+          "yaw": -0.5277288548215573,
+          "pitch": 0.39309587823655967,
+          "rotation": 6.283185307179586,
+          "target": "4-mlnice"
         }
       ],
       "infoHotspots": []
@@ -315,20 +315,20 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.12040093683863873,
-          "pitch": 0.4849794564416463,
+          "yaw": -0.14751172372906218,
+          "pitch": 0.5681777475677059,
           "rotation": 0.7853981633974483,
           "target": "5-svtnice"
         },
         {
-          "yaw": 1.7684904063022078,
-          "pitch": 0.5825767386661305,
+          "yaw": 1.7746628289846598,
+          "pitch": 0.5715535433061998,
           "rotation": 6.283185307179586,
           "target": "4-mlnice"
         },
         {
-          "yaw": -1.374567382489479,
-          "pitch": 0.6825257924832115,
+          "yaw": -1.375143659376512,
+          "pitch": 0.6581216671539174,
           "rotation": 0,
           "target": "7-komora"
         }
@@ -361,8 +361,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.7315722925819976,
-          "pitch": 0.6717720083802892,
+          "yaw": 2.7016284351371365,
+          "pitch": 0.6517432453400271,
           "rotation": 0,
           "target": "6-ern-kuchyn"
         }
@@ -395,14 +395,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.4915900938967237,
-          "pitch": 0.2811851308765565,
-          "rotation": 0.7853981633974483,
+          "yaw": -0.5033833681751432,
+          "pitch": 0.2348364272548622,
+          "rotation": 7.853981633974483,
           "target": "4-mlnice"
         },
         {
-          "yaw": -0.307165762710337,
-          "pitch": 0.571342282119069,
+          "yaw": 0.15420618389885554,
+          "pitch": -0.06354632148486239,
           "rotation": 0.7853981633974483,
           "target": "9-pda---1-patro"
         }
@@ -435,8 +435,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.196976958516176,
-          "pitch": 0.4043893552231044,
+          "yaw": 1.172777405814621,
+          "pitch": 0.39463364624128516,
           "rotation": 0,
           "target": "8-pda"
         }
@@ -469,14 +469,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.0410921194897895,
-          "pitch": 0.4266901953164304,
+          "yaw": -1.044367570097732,
+          "pitch": 0.38571964539945114,
           "rotation": 4.71238898038469,
           "target": "11-sklad"
         },
         {
-          "yaw": 0.2943034182962787,
-          "pitch": 0.5435944612140986,
+          "yaw": -0.14015490414756826,
+          "pitch": 0.44846543650729487,
           "rotation": 1.5707963267948966,
           "target": "4-mlnice"
         }
@@ -509,29 +509,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.376353988081238,
-          "pitch": 0.7022288627395401,
-          "rotation": 0.7853981633974483,
+          "yaw": 1.4075963277558596,
+          "pitch": 0.6020375912460878,
+          "rotation": 1.5707963267948966,
           "target": "10-patro-mlnice"
         },
         {
-          "yaw": -0.5495394317609392,
-          "pitch": 0.4923557444668383,
+          "yaw": -0.5086343720376227,
+          "pitch": 0.49103356966573486,
           "rotation": 5.497787143782138,
-          "target": "12-komora---1-patro"
+          "target": "12-komora-1-patro"
         },
         {
-          "yaw": -1.3756221946424354,
-          "pitch": -0.04731104704645972,
+          "yaw": -1.3827147057439593,
+          "pitch": -0.03150754648510912,
           "rotation": 0,
-          "target": "14-pda---hospodsk-budova"
+          "target": "9-pda---1-patro"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "12-komora---1-patro",
-      "name": "Komora - 1. patro",
+      "id": "12-komora-1-patro",
+      "name": "Komora 1. patro",
       "levels": [
         {
           "tileSize": 256,
@@ -555,14 +555,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.4814392876163964,
-          "pitch": 0.589246930861302,
-          "rotation": 7.853981633974483,
+          "yaw": 0.4887944711647094,
+          "pitch": 0.6255792689049713,
+          "rotation": 1.5707963267948966,
           "target": "11-sklad"
         },
         {
-          "yaw": -0.5859875065859761,
-          "pitch": 0.557244826646567,
+          "yaw": -0.6121228014691056,
+          "pitch": 0.557524796725426,
           "rotation": 4.71238898038469,
           "target": "13-spka"
         }
@@ -595,10 +595,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.33091860237334636,
-          "pitch": 0.36785990611230446,
+          "yaw": -0.3175256393113397,
+          "pitch": 0.3405965445018886,
           "rotation": 0.7853981633974483,
-          "target": "13-spka"
+          "target": "12-komora-1-patro"
         }
       ],
       "infoHotspots": []
@@ -629,8 +629,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.11793640588309451,
-          "pitch": 0.3632365218693856,
+          "yaw": -0.08638709771071973,
+          "pitch": 0.37896559466766,
           "rotation": 0,
           "target": "11-sklad"
         }
@@ -663,8 +663,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.0615707255674174,
-          "pitch": 0.4599810028530271,
+          "yaw": -1.0771159182351564,
+          "pitch": 0.4968907719522768,
           "rotation": 0,
           "target": "0-exterir---pohled-1"
         }
@@ -697,8 +697,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.6966337775820293,
-          "pitch": 0.6127618722913528,
+          "yaw": -2.7100538347949996,
+          "pitch": 0.6096205580719918,
           "rotation": 0,
           "target": "16-chlv-2"
         }
@@ -706,7 +706,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Kundratice 60",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
