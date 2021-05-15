@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Project Title</title>
+<title>Kundratice 60</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<style>
+		body{
+          position: relative;
+          width: 100%;
+		  height: 100%;				
+			}
+						
+	    .navbar{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;  
+      }
+	  
+	  .content
+	  {
+          position: absolute;
+          width: 100%;
+		  height: 80%;
+		  margin-top: 15px;
+		  }
+</style>	
+		
+<div class="navbar">
+<header class="w3-container w3-blue w3-center">
+  <h1>VIRTUÁLNÍ SKANSEN – PREZENTACE MODELŮ VENKOVSKÝCH STAVENÍ
+</h1>
+</header>
+
+<div class="w3-bar w3-black">
+  <a href="https://evafrommeltova.github.io/mlyn.github.io/index.html" class="w3-bar-item w3-button">Hlavní stránka</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Kundratice</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/info_mlyn.html" class="w3-bar-item w3-button">Informace</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/dae_casti.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/babylon.html" class="w3-bar-item w3-button">Rozhraní Babylon.js</a>
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/mlyn_v2.html" class="w3-bar-item w3-button">CopperCube</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/virtual.html" class="w3-bar-item w3-button">Virtuální prohlídka - Lapendor</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/marzipano.html" class="w3-bar-item w3-button">Virtuální prohlídka - Marzipano</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/ostatni.html" class="w3-bar-item w3-button">Další možnosti prezentace</a>
+	  <a href="https://evafrommeltova.github.io/mlyn.github.io/video.html" class="w3-bar-item w3-button">Ukázky z prostředí virtuální reality</a>
+    </div>
+  </div>
+ <div class="w3-dropdown-hover">
+    <button class="w3-button">Chalupa - Hlinsko</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/hlinsko.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+</div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Stvolínky</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/stvolinky.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+  </div>
+    <div class="w3-dropdown-hover">
+    <button class="w3-button">Ropice</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="https://evafrommeltova.github.io/mlyn.github.io/ropice.html" class="w3-bar-item w3-button">Rozhraní Three.js</a>
+    </div>
+  </div>
+ </div>
+</div>	
+
+<div class="content">		
 <body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
@@ -123,6 +193,7 @@
 <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
   <img class="icon" src="img/minus.png">
 </a>
+</div>	
 
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>

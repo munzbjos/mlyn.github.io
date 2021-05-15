@@ -141,6 +141,12 @@ var APP_DATA = {
           "pitch": 0.226584000113224,
           "rotation": 0,
           "target": "3-exterir---pohled-4"
+        },
+        {
+          "yaw": -0.6352797129333254,
+          "pitch": 0.24182820853104658,
+          "rotation": 0,
+          "target": "4-mlnice"
         }
       ],
       "infoHotspots": []
@@ -174,7 +180,7 @@ var APP_DATA = {
           "yaw": 0.6073902988501523,
           "pitch": 0.20844291591402353,
           "rotation": 0,
-          "target": "3-exterir---pohled-4"
+          "target": "2-exterir---pohled-3"
         },
         {
           "yaw": -0.6837922638993561,
@@ -524,7 +530,7 @@ var APP_DATA = {
           "yaw": -1.3827147057439593,
           "pitch": -0.03150754648510912,
           "rotation": 0,
-          "target": "9-pda---1-patro"
+          "target": "14-pda---hospodsk-budova"
         }
       ],
       "infoHotspots": []
