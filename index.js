@@ -30,6 +30,9 @@
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
+   // pokus
+  var limiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, 100*Math.PI/180, 120*Math.PI/180);
+
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
     var setMode = function() {
