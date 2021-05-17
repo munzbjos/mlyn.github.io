@@ -19,7 +19,7 @@
 html, body {
   width: 100%;
   min-height: 100%;
-  top: 120px;
+  top: 0;
   padding: 0;
   margin: 0;
   overflow: auto;
@@ -29,16 +29,16 @@ html, body {
   color: #fff;
 }
 
-	#navbar{
-    position: relative;
-    left: 0;
-    top:0;
-	height: 120px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;  
-     }
+#navbar{
+ position: absolute;
+ left: 0;
+ top:0;
+ height: 120px;
+ width: 100%;
+ background-color: black;
+ color: white;
+ text-align: center;  
+ }
 
 
 
